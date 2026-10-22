@@ -106,9 +106,6 @@
             <span class="price">${money(b.price)}</span>
             ${b.oldPrice ? `<span class="price-old">${money(b.oldPrice)}</span>` : ''}
           </div>
-          <div class="card__meta" style="margin:6px 0 0">
-            <span>Закупка ${money(b.cost)} · наценка ×${(b.price / b.cost).toFixed(1).replace('.', ',')}</span>
-          </div>
           <div class="card__actions">
             <button class="btn btn--dark btn--sm" data-view="${b.id}">Состав</button>
             <button class="btn btn--sm" data-add="${b.id}">В корзину</button>
@@ -137,14 +134,8 @@
           <h3>${b.title}</h3>
           <p class="lead">${b.tagline}</p>
           <ul class="contents">
-            ${b.contents.map(c => `<li><span>${c.n}${c.supplier ? ` <em style="font-style:normal;color:var(--muted-2);font-size:11.5px">· ${c.supplier}</em>` : ''}</span><b>${money(c.cost || 0)}</b></li>`).join('')}
+            ${b.contents.map(c => `<li><span>${c.n}</span><b>${c.q > 1 ? '× ' + c.q : ''}</b></li>`).join('')}
           </ul>
-          <div class="econ">
-            <div><span>Закупка наполнения</span><b>${money(b.cost)}</b></div>
-            <div><span>Цена продажи</span><b>${money(b.price)}</b></div>
-            <div><span>Наценка</span><b>×${(b.price / b.cost).toFixed(2).replace('.', ',')}</b></div>
-            <div><span>Маржа после доставки и налога</span><b class="ok">${Math.round((b.price - b.cost - 150 - 320 - b.price * 0.085 - 350) / b.price * 100)}%</b></div>
-          </div>
           <ul class="extras">
             ${b.extras.map(e => `<li>${e}</li>`).join('')}
           </ul>
@@ -178,7 +169,7 @@
           <div class="item__tile">${catIcon[i.cat] || '🍬'}</div>
           <div class="item__info">
             <div class="item__name">${i.name}</div>
-            <div class="item__sub">${i.sub} · ${i.weight} г${i.supplier ? ` · ${i.supplier}` : ''}</div>
+            <div class="item__sub">${i.sub} · ${i.weight} г</div>
             <div class="item__price">${money(i.price)}</div>
           </div>
           <div class="item__qty">
@@ -208,6 +199,15 @@
     return { count, sum, weight, drinks, lines, discount, tier, goods, shipping, total: goods + shipping };
   }
 
+  let sumOpen = false;
+
+  function plural(n, one, few, many) {
+    const m10 = n % 10, m100 = n % 100;
+    if (m10 === 1 && m100 !== 11) return one;
+    if (m10 >= 2 && m10 <= 4 && (m100 < 12 || m100 > 14)) return few;
+    return many;
+  }
+
   function renderSummary() {
     const s = builderStats();
     const r = CATALOG.rules;
@@ -228,6 +228,19 @@
     $('#sumList').innerHTML = s.lines.length
       ? s.lines.map(l => `<li><span>${l.name} × ${l.q}</span><span>${money(l.price)}</span></li>`).join('')
       : '';
+
+    const COLLAPSED = 5;
+    const list = $('#sumList');
+    const more = $('#sumMore');
+    const hiddenLines = Math.max(0, s.lines.length - COLLAPSED);
+    const isOpen = sumOpen || !hiddenLines;
+    list.classList.toggle('is-open', isOpen);
+    more.hidden = !hiddenLines;
+    if (hiddenLines) {
+      more.textContent = sumOpen
+        ? 'Свернуть состав'
+        : `Ещё ${hiddenLines} ${plural(hiddenLines, 'позиция', 'позиции', 'позиций')} — показать`;
+    }
 
     let hint;
     if (!s.count) hint = 'Пока пусто — выберите позиции слева';
@@ -550,6 +563,7 @@
     if (t.id === 'closeModal') { closeModal(); return; }
     if (t.id === 'goCheckout') { openCheckout(); return; }
     if (t.id === 'addCustom') { addCustom(); return; }
+    if (t.id === 'sumMore') { sumOpen = !sumOpen; renderSummary(); return; }
     if (t.id === 'overlay') { closeCart(); closeModal(); return; }
 
     if (t.id === 'applyPromo') {
