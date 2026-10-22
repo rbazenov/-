@@ -83,9 +83,6 @@
           <a class="btn" href="#catalog">Выбрать бокс</a>
           <a class="btn btn--ghost" href="#builder">Собрать свой →</a>
         </div>
-        <div class="hero__cta" style="margin-top:14px">
-          <a class="btn btn--dark btn--sm" href="docs/анализ-прайсов.md">Расчёт закупки на 50 000 ₽ →</a>
-        </div>
         <div class="hero__stats">
           <div><b>6</b><small>готовых сценариев</small></div>
           <div><b>27</b><small>позиций в конструкторе</small></div>
@@ -157,6 +154,7 @@
           <p class="note" id="sumProgressText">До бесплатной доставки: 2 500 ₽</p>
 
           <ul class="summary__list" id="sumList"></ul>
+          <button class="summary__more" id="sumMore" type="button" hidden></button>
 
           <div class="summary__total"><span>Итого</span><b id="sumTotal">0 ₽</b></div>
           <button class="btn btn--full" id="addCustom" style="margin-top: 18px;" disabled>Добавить бокс в корзину</button>
@@ -252,7 +250,8 @@
         </div>
         <div class="faq__item">
           <button class="faq__q">Откуда взяты цены и составы? <i>＋</i></button>
-          <div class="faq__a"><p>Из прайс-листов трёх поставщиков (ОПТ 24, «Планета Конфет», китайский производитель). В карточке каждого бокса показаны закупка по позициям, наценка и маржа. Подробный разбор — в файле <a href="docs/анализ-прайсов.md" style="color:var(--lime)">docs/анализ-прайсов.md</a>, список поставщиков со складами в Москве — в <a href="docs/поставщики-москва.md" style="color:var(--lime)">docs/поставщики-москва.md</a>. Прайс ОПТ 24 на момент разбора был не самый свежий: 13% позиций с истёкшим сроком, поэтому составы собраны только из товаров с запасом срока.</p></div>
+          <div class="faq__a"><p>Составы собраны по прайсам прямых импортёров и оптовых складов. В бокс попадают только позиции с запасом срока годности не менее 60% от исходного — близкие остатки и просрочку не берём. Точный состав с весом указан в карточке каждого бокса.</p></div>
+        </div>
         </div>
         <div class="faq__item">
           <button class="faq__q">Это демо-прототип или работающий магазин? <i>＋</i></button>
