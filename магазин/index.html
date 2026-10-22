@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0a0a0b">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="format-detection" content="telephone=no">
+<title>BOXED. — боксы импортных сладостей, снеков и напитков</title>
+<meta name="description" content="Авторские боксы с импортными сладостями, азиатскими снеками и zero-напитками. Готовая концепция подарка или свой набор в конструкторе. Маркировка «Честный ЗНАК», документы для юрлиц.">
+<meta property="og:title" content="BOXED. — гастро-боксы Азии и мира">
+<meta property="og:description" content="6 готовых боксов и конструктор своего набора. Средний чек 2 490–3 490 ₽.">
+<meta property="og:image" content="assets/hero.jpg">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%230a0a0b'/><text x='50' y='68' font-size='54' font-family='Arial' font-weight='bold' text-anchor='middle' fill='%23c9f24d'>B</text></svg>">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ================= верхняя полоса ================= -->
+<div class="topbar" aria-hidden="true">
+  <div class="topbar__track" id="topbarTrack">
+    <span>Бесплатная доставка от 2 500 ₽</span>
+    <span>Маркировка «Честный ЗНАК» на каждую позицию</span>
+    <span>Сборка и отправка за 24 часа</span>
+    <span>Подарочная упаковка включена</span>
+    <span>Документы для юрлиц и ИП</span>
+    <span>Оплата при получении в ПВЗ</span>
+    <span>Бесплатная доставка от 2 500 ₽</span>
+    <span>Маркировка «Честный ЗНАК» на каждую позицию</span>
+    <span>Сборка и отправка за 24 часа</span>
+    <span>Подарочная упаковка включена</span>
+    <span>Документы для юрлиц и ИП</span>
+    <span>Оплата при получении в ПВЗ</span>
+  </div>
+</div>
+
+<!-- ================= шапка ================= -->
+<header class="header">
+  <div class="wrap header__in">
+    <a class="logo" href="#top">BOXED<span>.</span></a>
+    <nav class="nav">
+      <a href="#catalog">Боксы</a>
+      <a href="#builder">Конструктор</a>
+      <a href="#how">Как это работает</a>
+      <a href="#corp">Юрлицам</a>
+      <a href="#faq">Вопросы</a>
+    </nav>
+    <div class="header__right">
+      <button class="btn btn--ghost btn--sm" data-scroll="#builder">Собрать свой</button>
+      <button class="cart-btn" id="openCart" aria-label="Открыть корзину">
+        <span class="cart-btn__label">Корзина</span>
+        <span class="cart-btn__count" id="cartCount">0</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- мобильная навигация -->
+<nav class="mnav" aria-label="Разделы сайта">
+  <div class="mnav__in">
+    <a href="#catalog">Боксы</a>
+    <a href="#builder">Конструктор</a>
+    <a href="#how">Как это работает</a>
+    <a href="#corp">Юрлицам</a>
+    <a href="#faq">Вопросы</a>
+  </div>
+</nav>
+
+<main id="top">
+  <!-- ================= hero ================= -->
+  <section class="hero">
+    <div class="wrap hero__grid">
+      <div>
+        <div class="eyebrow"><span class="dot"></span> Импорт · Азия · Zero</div>
+        <h1>Гастро-боксы,<br class="br-lg"> которые <em>не стыдно<br class="br-lg"> подарить</em></h1>
+        <p class="hero__lead">
+          Шесть готовых сценариев вечера — от кислого челленджа до вечера под дораму.
+          Или соберите свой бокс из 27 позиций: трюфельные бисквиты, кислый мармелад,
+          моти и Pocky, корейские напитки, zero-газировки и бьюти-уход. Всё по актуальным прайсам.
+        </p>
+        <div class="hero__cta">
+          <a class="btn" href="#catalog">Выбрать бокс</a>
+          <a class="btn btn--ghost" href="#builder">Собрать свой →</a>
+        </div>
+        <div class="hero__cta" style="margin-top:14px">
+          <a class="btn btn--dark btn--sm" href="docs/анализ-прайсов.md">Расчёт закупки на 50 000 ₽ →</a>
+        </div>
+        <div class="hero__stats">
+          <div><b>6</b><small>готовых сценариев</small></div>
+          <div><b>27</b><small>позиций в конструкторе</small></div>
+          <div><b>24 ч</b><small>сборка и отправка</small></div>
+          <div><b>0 ₽</b><small>доставка от 2 500 ₽</small></div>
+        </div>
+      </div>
+      <div class="hero__media">
+        <img src="assets/hero.jpg" alt="Импортные сладости, снеки и напитки на тёмной поверхности">
+        <div class="hero__stamp"><span class="dot"></span> 250+ брендов в матрице поставки</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= преимущества ================= -->
+  <section class="trust">
+    <div class="wrap trust__grid">
+      <div class="trust__item"><i>◈</i><b>Полный пакет документов</b><span>Декларации ТР ТС, переводы этикеток, УПД в ЭДО</span></div>
+      <div class="trust__item"><i>◈</i><b>Коды маркировки</b><span>«Честный ЗНАК» по каждой товарной группе</span></div>
+      <div class="trust__item"><i>◈</i><b>Сборка за 24 часа</b><span>Отправка СДЭК и Яндекс Доставкой</span></div>
+      <div class="trust__item"><i>◈</i><b>Бесплатно от 2 500 ₽</b><span>До ПВЗ или постамата, в 300+ городов</span></div>
+    </div>
+  </section>
+
+  <!-- ================= каталог ================= -->
+  <section class="section" id="catalog">
+    <div class="wrap">
+      <div class="section__head">
+        <div>
+          <div class="kicker">01 — Готовые боксы</div>
+          <h2>Шесть сценариев вечера</h2>
+          <p>Каждый бокс — это набор из 7–10 позиций, игровая механика и упаковка. Не «конфеты в коробке», а готовый повод собраться.</p>
+        </div>
+        <button class="btn btn--ghost btn--sm" data-scroll="#builder">Нужен свой набор →</button>
+      </div>
+
+      <div class="chips" id="chips"></div>
+      <div class="grid-boxes" id="boxesGrid"></div>
+    </div>
+  </section>
+
+  <!-- ================= конструктор ================= -->
+  <section class="section builder" id="builder">
+    <div class="wrap">
+      <div class="section__head">
+        <div>
+          <div class="kicker">02 — Конструктор</div>
+          <h2>Соберите свой бокс</h2>
+          <p>Выберите от 4 позиций — упакуем в брендированную коробку с открыткой. От 7 позиций действует скидка на объём.</p>
+        </div>
+      </div>
+
+      <div class="builder__grid">
+        <div class="builder__panel">
+          <div class="chips" id="builderChips" style="padding: 20px 20px 0; margin-bottom: 18px;"></div>
+          <div class="builder__items" id="builderItems"></div>
+        </div>
+
+        <aside class="summary" aria-live="polite">
+          <h3>Ваш бокс</h3>
+          <p class="summary__hint" id="summaryHint">Пока пусто — выберите позиции слева</p>
+
+          <div class="summary__row"><span>Наполнение</span><b id="sumFill">0 ₽</b></div>
+          <div class="summary__row"><span>Упаковка и открытка</span><b id="sumPack">190 ₽</b></div>
+          <div class="summary__row summary__row--discount" id="sumDiscountRow" hidden><span>Скидка на объём</span><b id="sumDiscount">—</b></div>
+          <div class="summary__row"><span>Доставка</span><b id="sumShip">—</b></div>
+
+          <div class="progress" aria-hidden="true"><i id="sumProgress" style="width:0%"></i></div>
+          <p class="note" id="sumProgressText">До бесплатной доставки: 2 500 ₽</p>
+
+          <ul class="summary__list" id="sumList"></ul>
+
+          <div class="summary__total"><span>Итого</span><b id="sumTotal">0 ₽</b></div>
+          <button class="btn btn--full" id="addCustom" style="margin-top: 18px;" disabled>Добавить бокс в корзину</button>
+          <p class="note">Вес собранного набора считается автоматически и не должен превышать 2,2 кг — так посылка остаётся лёгкой и дешёвой в доставке.</p>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= как это работает ================= -->
+  <section class="section" id="how">
+    <div class="wrap">
+      <div class="section__head">
+        <div>
+          <div class="kicker">03 — Процесс</div>
+          <h2>От заказа до распаковки</h2>
+        </div>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div class="step__num">ШАГ 01</div>
+          <h3>Выбираете сценарий</h3>
+          <p>Готовый бокс или своя сборка. На странице каждой позиции — состав, вес и срок годности.</p>
+        </div>
+        <div class="step">
+          <div class="step__num">ШАГ 02</div>
+          <h3>Мы собираем за 24 часа</h3>
+          <p>Комплектуем на складе в Долгопрудном, клеим маркировку, укладываем в коробку с ложементом и открыткой.</p>
+        </div>
+        <div class="step">
+          <div class="step__num">ШАГ 03</div>
+          <h3>Привозим в ПВЗ</h3>
+          <p>СДЭК или Яндекс Доставка. Трек-номер в течение суток, оплата при получении доступна.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= корпоративный блок ================= -->
+  <section class="section section--tight" id="corp">
+    <div class="wrap">
+      <div class="corp">
+        <div class="corp__media">
+          <img src="assets/box-newyear.jpg" alt="Корпоративный новогодний бокс">
+        </div>
+        <div class="corp__body">
+          <div class="kicker">04 — Юрлицам и ИП</div>
+          <h2>Новогодние боксы для команды</h2>
+          <p>Тираж от 15 наборов с логотипом компании на упаковке и открыткой от отдела. Договор, счёт, УПД и закрывающие документы — в ЭДО.</p>
+          <ul class="corp__list">
+            <li>Минимальный заказ — 15 наборов</li>
+            <li>Брендирование коробки и открытки</li>
+            <li>Срок производства тиража — 3–5 рабочих дней</li>
+            <li>Доставка по адресам сотрудников или одной партией</li>
+          </ul>
+          <div>
+            <button class="btn" data-corp="1">Запросить коммерческое предложение</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FAQ ================= -->
+  <section class="section" id="faq">
+    <div class="wrap">
+      <div class="section__head">
+        <div>
+          <div class="kicker">05 — Вопросы</div>
+          <h2>Коротко о важном</h2>
+        </div>
+      </div>
+      <div class="faq" id="faqList">
+        <div class="faq__item">
+          <button class="faq__q">Товар промаркирован? <i>＋</i></button>
+          <div class="faq__a"><p>Да. Вся матрица проходит по «Честному ЗНАКу»: напитки, снеки и кондитерские изделия. Коды принимаются по ЭДО, при продаже выводятся через онлайн-кассу. По запросу прикладываем копии деклараций ТР ТС и переводы этикеток.</p></div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__q">Какой срок годности у товаров в боксе? <i>＋</i></button>
+          <div class="faq__a"><p>На момент сборки — не менее 60% от исходного срока. Это условие прописано в договоре с поставщиком: просрочку и близкие остатки не берём.</p></div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__q">Можно собрать бокс без острого? <i>＋</i></button>
+          <div class="faq__a"><p>Да, в конструкторе есть фильтры по категориям: уберите рамен и кислое, оставьте Азию, шоколад, zero-позиции и бьюти-уход. Для аллергиков — поле «исключить» при оформлении: уберём позиции с орехами или глютеном.</p></div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__q">Как быстро приедет заказ? <i>＋</i></button>
+          <div class="faq__a"><p>Москва и МО — 1 день, города-миллионники — 2–3 дня, остальные — 3–5 дней. Отправляем на следующий рабочий день после оплаты, трек приходит на почту и в SMS.</p></div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__q">Работаете с юрлицами? <i>＋</i></button>
+          <div class="faq__a"><p>Да, от 15 наборов: договор, счёт, УПД, брендирование, доставка по списку адресов. Оплата по счёту или через ЭДО-документооборот.</p></div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__q">Откуда взяты цены и составы? <i>＋</i></button>
+          <div class="faq__a"><p>Из прайс-листов трёх поставщиков (ОПТ 24, «Планета Конфет», китайский производитель). В карточке каждого бокса показаны закупка по позициям, наценка и маржа. Подробный разбор — в файле <a href="docs/анализ-прайсов.md" style="color:var(--lime)">docs/анализ-прайсов.md</a>, список поставщиков со складами в Москве — в <a href="docs/поставщики-москва.md" style="color:var(--lime)">docs/поставщики-москва.md</a>. Прайс ОПТ 24 на момент разбора был не самый свежий: 13% позиций с истёкшим сроком, поэтому составы собраны только из товаров с запасом срока.</p></div>
+        </div>
+        <div class="faq__item">
+          <button class="faq__q">Это демо-прототип или работающий магазин? <i>＋</i></button>
+          <div class="faq__a"><p>Это прототип витрины: реальные названия товаров и сценарии, демонстрационные цены и остатки. Корзина, конструктор и оформление работают в браузере — данные сохраняются локально и никуда не отправляются. Для запуска нужно подключить оплату, доставку и учёт остатков.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ================= подвал ================= -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__grid">
+      <div>
+        <a class="logo" href="#top">BOXED<span>.</span></a>
+        <p>Авторские боксы импортных сладостей, снеков и напитков. Прототип интернет-магазина, собранный на базе матрицы прямого импортёра.</p>
+      </div>
+      <div>
+        <h4>Каталог</h4>
+        <ul>
+          <li><a href="#catalog">Готовые боксы</a></li>
+          <li><a href="#builder">Конструктор</a></li>
+          <li><a href="#corp">Корпоративные наборы</a></li>
+          <li><a href="#faq">Доставка и оплата</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Документы</h4>
+        <ul>
+          <li><a href="#faq">Маркировка и ЭДО</a></li>
+          <li><a href="#faq">Декларации ТР ТС</a></li>
+          <li><a href="#faq">Возврат и обмен</a></li>
+          <li><a href="#faq">Оферта</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Контакты</h4>
+        <ul>
+          <li><a href="mailto:hello@boxed.example">hello@boxed.example</a></li>
+          <li><a href="tel:+70000000000">+7 (000) 000-00-00</a></li>
+          <li><a href="#corp">Москва · склад Долгопрудный</a></li>
+          <li><a href="#corp">Пн–Пт, 10:00–19:00</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2026 BOXED. Демонстрационный прототип. Цены и наличие не являются публичной офертой.</span>
+      <span>Сделано в проекте «магазин»</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ================= корзина ================= -->
+<div class="overlay" id="overlay"></div>
+<aside class="drawer" id="cartDrawer" aria-label="Корзина">
+  <div class="drawer__head">
+    <h3>Корзина</h3>
+    <button class="icon-btn" id="closeCart" aria-label="Закрыть">✕</button>
+  </div>
+  <div class="drawer__body" id="cartBody"></div>
+  <div class="drawer__foot">
+    <div class="promo">
+      <input id="promoInput" placeholder="Промокод (START10)" autocomplete="off">
+      <button class="btn btn--dark btn--sm" id="applyPromo">ОК</button>
+    </div>
+    <div class="promo__msg" id="promoMsg"></div>
+    <div class="summary__row"><span>Товары</span><b id="cartSubtotal">0 ₽</b></div>
+    <div class="summary__row" id="cartDiscountRow" hidden><span>Скидка</span><b id="cartDiscount">0 ₽</b></div>
+    <div class="summary__row"><span>Доставка</span><b id="cartShipping">0 ₽</b></div>
+    <div class="summary__total"><span>Итого</span><b id="cartTotal">0 ₽</b></div>
+    <button class="btn btn--full" id="goCheckout" style="margin-top: 16px;" disabled>Оформить заказ</button>
+    <p class="note">Демо-режим: заказ не отправляется и оплата не списывается.</p>
+  </div>
+</aside>
+
+<!-- ================= модальное окно ================= -->
+<div class="modal" id="modal" role="dialog" aria-modal="true">
+  <div class="modal__head">
+    <div id="modalTitleWrap"></div>
+    <button class="icon-btn" id="closeModal" aria-label="Закрыть">✕</button>
+  </div>
+  <div class="modal__body" id="modalBody"></div>
+</div>
+
+<!-- нижняя панель на мобильных -->
+<div class="mobilebar">
+  <a class="mobilebar__btn" href="#catalog">Выбрать бокс</a>
+  <button class="mobilebar__btn mobilebar__btn--cart" id="mobileCartBtn">
+    <span>Корзина</span>
+    <b data-mobile-total>0 ₽</b>
+    <i data-mobile-count>0</i>
+  </button>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script src="js/catalog.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
