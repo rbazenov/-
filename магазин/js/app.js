@@ -360,6 +360,13 @@
     $('#cartDiscount').textContent = '−' + money(t.discount);
     $('#cartShipping').textContent = t.subtotal === 0 ? '—' : (t.shipping ? money(t.shipping) : 'бесплатно');
     $('#cartTotal').textContent = money(t.total);
+    const mcb = $('#mobileCartBtn');
+    if (mcb) {
+      const cnt = mcb.querySelector('[data-mobile-count]');
+      const tot = mcb.querySelector('[data-mobile-total]');
+      if (cnt) { cnt.textContent = cartCount(); cnt.hidden = !cartCount(); }
+      if (tot) tot.textContent = cartCount() ? money(t.total) : 'Корзина';
+    }
     $('#goCheckout').disabled = !state.cart.length;
 
     if (state.promo) {
@@ -538,6 +545,7 @@
     if (faqQ) { faqQ.parentElement.classList.toggle('open'); return; }
 
     if (t.id === 'openCart' || t.closest('#openCart')) { openCart(); return; }
+    if (t.closest('#mobileCartBtn')) { openCart(); return; }
     if (t.id === 'closeCart') { closeCart(); return; }
     if (t.id === 'closeModal') { closeModal(); return; }
     if (t.id === 'goCheckout') { openCheckout(); return; }
