@@ -204,7 +204,9 @@ const CATALOG = {
     { id: 'i22', cat: 'drink', name: 'Monster Ultra White Zero', sub: '330 мл', price: 219, cost: 104, weight: 354 },
     { id: 'i23', cat: 'drink', name: 'Coca-Cola Zero', sub: '330 мл', price: 189, cost: 91, weight: 341 },
     { id: 'i24', cat: 'zero',  name: 'Scandic без сахара, ассорти', sub: '14 г', price: 109, cost: 52, weight: 30 },
-    { id: 'i25', cat: 'zero',  name: 'Cantabile Black Americano без сахара', sub: '230 мл', price: 229, cost: 109, weight: 242 }
+    { id: 'i25', cat: 'zero',  name: 'Cantabile Black Americano без сахара', sub: '230 мл', price: 229, cost: 109, weight: 242 },
+    { id: 'i26', cat: 'asia',  name: 'Моти Kubota ассорти, 8 шт', sub: 'Япония', price: 590, cost: 298, weight: 215, supplier: 'Fuji-san' },
+    { id: 'i27', cat: 'asia',  name: 'Палочки Pocky Matcha', sub: 'Япония', price: 229, cost: 90, weight: 45, supplier: 'Fuji-san' }
   ],
 
   categories: [

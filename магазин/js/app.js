@@ -178,7 +178,7 @@
           <div class="item__tile">${catIcon[i.cat] || '🍬'}</div>
           <div class="item__info">
             <div class="item__name">${i.name}</div>
-            <div class="item__sub">${i.sub} · ${i.weight} г</div>
+            <div class="item__sub">${i.sub} · ${i.weight} г${i.supplier ? ` · ${i.supplier}` : ''}</div>
             <div class="item__price">${money(i.price)}</div>
           </div>
           <div class="item__qty">
