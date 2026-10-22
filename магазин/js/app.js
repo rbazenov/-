@@ -65,7 +65,7 @@
     { id: 'челлендж', label: 'Челлендж' },
     { id: 'свидание', label: 'Свидание' },
     { id: 'подарок', label: 'В подарок' },
-    { id: 'гейминг', label: 'Гейминг' },
+    { id: 'бьюти', label: 'Бьюти' },
     { id: 'корпоратив', label: 'Корпоратив' },
     { id: 'зож', label: 'Zero / ЗОЖ' }
   ];
@@ -106,6 +106,9 @@
             <span class="price">${money(b.price)}</span>
             ${b.oldPrice ? `<span class="price-old">${money(b.oldPrice)}</span>` : ''}
           </div>
+          <div class="card__meta" style="margin:6px 0 0">
+            <span>Закупка ${money(b.cost)} · наценка ×${(b.price / b.cost).toFixed(1).replace('.', ',')}</span>
+          </div>
           <div class="card__actions">
             <button class="btn btn--dark btn--sm" data-view="${b.id}">Состав</button>
             <button class="btn btn--sm" data-add="${b.id}">В корзину</button>
@@ -134,8 +137,14 @@
           <h3>${b.title}</h3>
           <p class="lead">${b.tagline}</p>
           <ul class="contents">
-            ${b.contents.map(c => `<li><span>${c.n}</span><b>${c.q} шт.</b></li>`).join('')}
+            ${b.contents.map(c => `<li><span>${c.n}${c.supplier ? ` <em style="font-style:normal;color:var(--muted-2);font-size:11.5px">· ${c.supplier}</em>` : ''}</span><b>${money(c.cost || 0)}</b></li>`).join('')}
           </ul>
+          <div class="econ">
+            <div><span>Закупка наполнения</span><b>${money(b.cost)}</b></div>
+            <div><span>Цена продажи</span><b>${money(b.price)}</b></div>
+            <div><span>Наценка</span><b>×${(b.price / b.cost).toFixed(2).replace('.', ',')}</b></div>
+            <div><span>Маржа после доставки и налога</span><b class="ok">${Math.round((b.price - b.cost - 150 - 320 - b.price * 0.085 - 350) / b.price * 100)}%</b></div>
+          </div>
           <ul class="extras">
             ${b.extras.map(e => `<li>${e}</li>`).join('')}
           </ul>

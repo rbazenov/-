@@ -345,6 +345,10 @@ p { margin: 0; }
 .contents { margin: 20px 0 0; padding: 0; list-style: none; display: grid; gap: 8px; }
 .contents li { font-size: 13.5px; color: var(--muted); display: flex; justify-content: space-between; gap: 12px; border-bottom: 1px dashed var(--line-soft); padding-bottom: 8px; }
 .contents li b { color: var(--text); font-weight: 600; }
+.econ { margin: 18px 0 0; border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; display: grid; gap: 8px; background: var(--surface); }
+.econ div { display: flex; justify-content: space-between; gap: 12px; font-size: 12.5px; color: var(--muted); }
+.econ b { color: var(--text); font-weight: 600; }
+.econ b.ok { color: var(--lime); }
 .extras { margin: 18px 0 0; padding: 0; list-style: none; display: grid; gap: 6px; }
 .extras li { font-size: 13px; color: var(--muted-2); }
 .extras li::before { content: '＋ '; color: var(--lime); }
