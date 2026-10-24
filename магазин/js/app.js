@@ -12,13 +12,12 @@
     ramen: '🍜', asia: '🌸', sour: '🍋', sweet: '🍫',
     snack: '🥨', drink: '🥤', zero: '💪'
   };
-  const catLabel = Object.fromEntries(CATALOG.categories.map(c => [c.id, c.label]));
-
   /* ---------------- состояние ---------------- */
   const STORE_KEY = 'boxed_cart_v1';
+  const PROMO_KEY = 'boxed_promo_v1';
   const state = {
     cart: load(),
-    promo: null,
+    promo: loadPromo(),
     builder: { cat: 'all', qty: {} },
     boxFilter: 'all'
   };
@@ -32,6 +31,46 @@
   function save() {
     try { localStorage.setItem(STORE_KEY, JSON.stringify(state.cart)); } catch {}
   }
+  function loadPromo() {
+    try {
+      const code = localStorage.getItem(PROMO_KEY);
+      return code && CATALOG.promos[code] ? code : null;
+    } catch { return null; }
+  }
+  function savePromo() {
+    try {
+      if (state.promo) localStorage.setItem(PROMO_KEY, state.promo);
+      else localStorage.removeItem(PROMO_KEY);
+    } catch {}
+  }
+
+  /* ---------------- фокус и доступность ---------------- */
+  const FOCUSABLE = 'a[href], button:not([disabled]), input:not([disabled]), select, textarea, [tabindex]:not([tabindex="-1"])';
+
+  let lastFocus = null;
+  function rememberFocus(opener) {
+    lastFocus = opener || document.activeElement;
+  }
+  function restoreFocus() {
+    if (lastFocus && document.contains(lastFocus)) {
+      try { lastFocus.focus({ preventScroll: true }); } catch {}
+    }
+    lastFocus = null;
+  }
+  function focusFirst(container) {
+    const el = container.querySelector(FOCUSABLE);
+    if (el) { try { el.focus({ preventScroll: true }); } catch {} }
+    else { container.setAttribute('tabindex', '-1'); container.focus(); }
+  }
+  /* держим Tab внутри открытого слоя */
+  function trapFocus(e, container) {
+    if (e.key !== 'Tab' || !container) return;
+    const items = $$(FOCUSABLE, container).filter(el => el.offsetParent !== null || el === document.activeElement);
+    if (!items.length) return;
+    const first = items[0], last = items[items.length - 1];
+    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+  }
 
   /* ---------------- тост ---------------- */
   let toastTimer;
@@ -44,18 +83,24 @@
   }
 
   /* ---------------- модалка ---------------- */
-  function openModal(titleHtml, bodyHtml) {
+  function openModal(titleHtml, bodyHtml, opener) {
+    rememberFocus(opener);
     $('#modalTitleWrap').innerHTML = titleHtml;
     $('#modalBody').innerHTML = bodyHtml;
     $('#modal').classList.add('show');
+    $('#modal').setAttribute('aria-hidden', 'false');
     $('#overlay').classList.add('show');
     document.body.classList.add('locked');
+    focusFirst($('#modal'));
   }
   function closeModal() {
+    const wasOpen = $('#modal').classList.contains('show');
     $('#modal').classList.remove('show');
+    $('#modal').setAttribute('aria-hidden', 'true');
     if (!$('#cartDrawer').classList.contains('show')) {
       $('#overlay').classList.remove('show');
       document.body.classList.remove('locked');
+      if (wasOpen) restoreFocus();
     }
   }
 
@@ -72,7 +117,7 @@
 
   function renderBoxFilters() {
     $('#chips').innerHTML = BOX_FILTERS.map(f =>
-      `<button class="chip ${state.boxFilter === f.id ? 'active' : ''}" data-filter="${f.id}">${f.label}</button>`
+      `<button class="chip ${state.boxFilter === f.id ? 'active' : ''}" type="button" aria-pressed="${state.boxFilter === f.id}" data-filter="${f.id}">${f.label}</button>`
     ).join('');
   }
 
@@ -92,7 +137,7 @@
         <div class="card__media">
           ${b.badge ? `<div class="card__badge">${b.badge}</div>` : ''}
           <div class="card__heat">${heatLabel(b.heat)}</div>
-          <img src="${b.img}" alt="Бокс ${b.title}" loading="lazy">
+          <img src="${b.img}" width="900" height="900" alt="Бокс ${b.title}" loading="lazy" decoding="async">
         </div>
         <div class="card__body">
           <h3 class="card__title">${b.title}</h3>
@@ -107,8 +152,8 @@
             ${b.oldPrice ? `<span class="price-old">${money(b.oldPrice)}</span>` : ''}
           </div>
           <div class="card__actions">
-            <button class="btn btn--dark btn--sm" data-view="${b.id}">Состав</button>
-            <button class="btn btn--sm" data-add="${b.id}">В корзину</button>
+            <button class="btn btn--dark btn--sm" type="button" data-view="${b.id}" aria-label="Состав бокса ${b.title}">Состав</button>
+            <button class="btn btn--sm" type="button" data-add="${b.id}" aria-label="Добавить бокс ${b.title} в корзину">В корзину</button>
           </div>
         </div>
       </article>
@@ -116,13 +161,13 @@
   }
 
   /* ---------------- карточка бокса ---------------- */
-  function openBox(id) {
+  function openBox(id, opener) {
     const b = CATALOG.boxes.find(x => x.id === id);
     if (!b) return;
     const html = `
       <div class="product-view">
         <div>
-          <img src="${b.img}" alt="Бокс ${b.title}">
+          <img src="${b.img}" width="900" height="900" alt="Бокс ${b.title}" decoding="async">
           <div class="spec">
             <span>📦 ${b.contents.length} позиций</span>
             <span>⚖ ${(b.weight / 1000).toFixed(2)} кг</span>
@@ -145,18 +190,18 @@
           <div style="display:flex; align-items:center; gap:14px; margin-top:18px;">
             <span class="price">${money(b.price)}</span>
             ${b.oldPrice ? `<span class="price-old">${money(b.oldPrice)}</span>` : ''}
-            <button class="btn" style="margin-left:auto" data-add="${b.id}">Добавить в корзину</button>
+            <button class="btn" type="button" style="margin-left:auto" data-add="${b.id}">Добавить в корзину</button>
           </div>
           <p class="note">Демонстрационный состав. При закупке позиции могут заменяться на аналоги того же вкусового профиля и стоимости.</p>
         </div>
       </div>`;
-    openModal(`<div class="kicker" style="margin:0">Готовый бокс</div>`, html);
+    openModal(`<div class="kicker" style="margin:0">Готовый бокс</div>`, html, opener);
   }
 
   /* ---------------- конструктор ---------------- */
   function renderBuilderFilters() {
     $('#builderChips').innerHTML = CATALOG.categories.map(c =>
-      `<button class="chip ${state.builder.cat === c.id ? 'active' : ''}" data-bcat="${c.id}">${c.label}</button>`
+      `<button class="chip ${state.builder.cat === c.id ? 'active' : ''}" type="button" aria-pressed="${state.builder.cat === c.id}" data-bcat="${c.id}">${c.label}</button>`
     ).join('');
   }
 
@@ -166,16 +211,16 @@
       const q = state.builder.qty[i.id] || 0;
       return `
         <div class="item ${q ? 'active' : ''}">
-          <div class="item__tile">${catIcon[i.cat] || '🍬'}</div>
+          <div class="item__tile" aria-hidden="true">${catIcon[i.cat] || '🍬'}</div>
           <div class="item__info">
             <div class="item__name">${i.name}</div>
             <div class="item__sub">${i.sub} · ${i.weight} г</div>
             <div class="item__price">${money(i.price)}</div>
           </div>
           <div class="item__qty">
-            <button class="qty-btn" data-qty="${i.id}" data-delta="-1" ${q ? '' : 'disabled'} aria-label="Убрать">−</button>
-            <span class="qty-val">${q}</span>
-            <button class="qty-btn" data-qty="${i.id}" data-delta="1" aria-label="Добавить">+</button>
+            <button class="qty-btn" type="button" data-qty="${i.id}" data-delta="-1" ${q ? '' : 'disabled'} aria-label="Убрать одну позицию: ${i.name}">−</button>
+            <span class="qty-val"><span class="visually-hidden">Количество: </span>${q}</span>
+            <button class="qty-btn" type="button" data-qty="${i.id}" data-delta="1" aria-label="Добавить одну позицию: ${i.name}">+</button>
           </div>
         </div>`;
     }).join('');
@@ -236,6 +281,7 @@
     const isOpen = sumOpen || !hiddenLines;
     list.classList.toggle('is-open', isOpen);
     more.hidden = !hiddenLines;
+    more.setAttribute('aria-expanded', String(hiddenLines ? isOpen : true));
     if (hiddenLines) {
       more.textContent = sumOpen
         ? 'Свернуть состав'
@@ -268,10 +314,19 @@
       if (s.weight + item.weight > r.maxWeight) return toast('Достигнут максимум веса бокса — 2,2 кг');
       if (item.cat === 'drink' && s.drinks + 1 > r.maxDrinks) return toast(`Напитков в боксе — не больше ${r.maxDrinks}`);
     }
+    const hadFocus = document.activeElement && document.activeElement.dataset
+      && document.activeElement.dataset.qty === id;
     state.builder.qty[id] = next;
     if (!next) delete state.builder.qty[id];
     renderBuilderItems();
     renderSummary();
+    if (hadFocus) {
+      const pressed = delta > 0 ? 1 : -1;
+      const btn = $(`#builderItems [data-qty="${id}"][data-delta="${pressed}"]`);
+      const other = $(`#builderItems [data-qty="${id}"][data-delta="${-pressed}"]`);
+      if (btn && !btn.disabled) btn.focus();
+      else if (other && !other.disabled) other.focus();
+    }
   }
 
   /* ---------------- корзина ---------------- */
@@ -287,6 +342,16 @@
     const after = Math.max(0, subtotal - discount);
     const shipping = subtotal === 0 ? 0 : (after >= CATALOG.rules.freeShippingFrom ? 0 : CATALOG.rules.shipping);
     return { subtotal, discount, after, shipping, total: after + shipping };
+  }
+
+  /* Стоимость доставки с учётом способа: ПВЗ — базовая, курьер — базовая + надбавка,
+     самовывоз — всегда бесплатно. */
+  function shippingFor(method) {
+    const r = CATALOG.rules;
+    const t = cartTotals();
+    if (method === 'pickup') return 0;
+    if (method === 'courier') return t.shipping + r.courierFee;
+    return t.shipping;
   }
 
   function addToCart(entry) {
@@ -345,7 +410,7 @@
         <div class="cart-empty">
           <b>Корзина пуста</b>
           <p>Выберите готовый бокс или соберите свой набор в конструкторе.</p>
-          <button class="btn btn--sm" style="margin-top:18px" data-scroll="#catalog" data-close-cart="1">К боксам</button>
+          <button class="btn btn--sm" type="button" style="margin-top:18px" data-scroll="#catalog" data-close-cart="1">К боксам</button>
         </div>`;
     } else {
       $('#cartBody').innerHTML = state.cart.map(i => `
@@ -358,9 +423,9 @@
             <div class="cart-item__sub">${i.sub || ''}</div>
             <div class="cart-item__row">
               <div class="item__qty">
-                <button class="qty-btn" data-cart-qty="${i.key}" data-delta="-1">−</button>
-                <span class="qty-val">${i.qty}</span>
-                <button class="qty-btn" data-cart-qty="${i.key}" data-delta="1">+</button>
+                <button class="qty-btn" type="button" data-cart-qty="${i.key}" data-delta="-1" aria-label="Убрать одну штуку: ${i.title}">−</button>
+                <span class="qty-val"><span class="visually-hidden">Количество: </span>${i.qty}</span>
+                <button class="qty-btn" type="button" data-cart-qty="${i.key}" data-delta="1" aria-label="Добавить одну штуку: ${i.title}">+</button>
               </div>
               <span class="cart-item__price">${money(i.price * i.qty)}</span>
             </div>
@@ -390,46 +455,53 @@
     }
   }
 
-  function openCart() {
+  function openCart(opener) {
+    rememberFocus(opener);
     renderCart();
     $('#cartDrawer').classList.add('show');
+    $('#cartDrawer').setAttribute('aria-hidden', 'false');
     $('#overlay').classList.add('show');
     document.body.classList.add('locked');
+    focusFirst($('#cartDrawer'));
   }
-  function closeCart() {
+  function closeCart(silent) {
+    const wasOpen = $('#cartDrawer').classList.contains('show');
     $('#cartDrawer').classList.remove('show');
+    $('#cartDrawer').setAttribute('aria-hidden', 'true');
     if (!$('#modal').classList.contains('show')) {
       $('#overlay').classList.remove('show');
       document.body.classList.remove('locked');
+      if (wasOpen && !silent) restoreFocus();
     }
   }
 
   /* ---------------- оформление ---------------- */
-  function openCheckout() {
+  function openCheckout(opener) {
     if (!state.cart.length) return;
     const t = cartTotals();
-    closeCart();
+    closeCart(true);
+    rememberFocus(opener || $('#goCheckout'));
     openModal('<div class="kicker" style="margin:0">Оформление</div>',
       `<div class="product-view checkout-grid">
         <form id="checkoutForm">
           <div class="form-grid">
-            <div class="field field--full"><label>Имя и фамилия</label><input required name="name" placeholder="Анна Смирнова"></div>
-            <div class="field"><label>Телефон</label><input required name="phone" type="tel" placeholder="+7 900 000-00-00"></div>
-            <div class="field"><label>E-mail</label><input required name="email" type="email" placeholder="anna@mail.ru"></div>
-            <div class="field field--full"><label>Город</label><input required name="city" placeholder="Москва"></div>
+            <div class="field field--full"><label for="coName">Имя и фамилия</label><input id="coName" required name="name" autocomplete="name" placeholder="Анна Смирнова"></div>
+            <div class="field"><label for="coPhone">Телефон</label><input id="coPhone" required name="phone" type="tel" autocomplete="tel" placeholder="+7 900 000-00-00"></div>
+            <div class="field"><label for="coEmail">E-mail</label><input id="coEmail" required name="email" type="email" autocomplete="email" placeholder="anna@mail.ru"></div>
+            <div class="field field--full"><label for="coCity">Город</label><input id="coCity" required name="city" autocomplete="address-level2" placeholder="Москва"></div>
             <div class="field field--full">
-              <label>Комментарий (аллергии, пожелания к открытке)</label>
-              <textarea name="note" rows="2" placeholder="Без орехов, открытка «С днём рождения, Дима!»"></textarea>
+              <label for="coNote">Комментарий (аллергии, пожелания к открытке)</label>
+              <textarea id="coNote" name="note" rows="2" placeholder="Без орехов, открытка «С днём рождения, Дима!»"></textarea>
             </div>
           </div>
           <h4 style="margin:22px 0 12px; font-size:15px">Доставка</h4>
-          <div class="radio-row" id="shipRow">
+          <div class="radio-row" id="shipRow" role="radiogroup" aria-label="Способ доставки">
             <label class="radio active"><input type="radio" name="ship" value="pvz" checked><span class="radio__text">ПВЗ СДЭК · 1–3 дня</span><span class="radio__price">${t.shipping ? money(t.shipping) : 'бесплатно'}</span></label>
-            <label class="radio"><input type="radio" name="ship" value="courier"><span class="radio__text">Курьер до двери · 1–2 дня</span><span class="radio__price">+290 ₽</span></label>
+            <label class="radio"><input type="radio" name="ship" value="courier"><span class="radio__text">Курьер до двери · 1–2 дня</span><span class="radio__price">${money(t.shipping + CATALOG.rules.courierFee)}</span></label>
             <label class="radio"><input type="radio" name="ship" value="pickup"><span class="radio__text">Самовывоз, Долгопрудный</span><span class="radio__price">бесплатно</span></label>
           </div>
           <h4 style="margin:22px 0 12px; font-size:15px">Оплата</h4>
-          <div class="radio-row">
+          <div class="radio-row" role="radiogroup" aria-label="Способ оплаты">
             <label class="radio active"><input type="radio" name="pay" value="card" checked><span class="radio__text">Картой на сайте</span></label>
             <label class="radio"><input type="radio" name="pay" value="onpay"><span class="radio__text">При получении</span></label>
             <label class="radio"><input type="radio" name="pay" value="invoice"><span class="radio__text">По счёту (юрлицо)</span></label>
@@ -458,7 +530,10 @@
       const data = new FormData(form);
       const num = 'BX-' + String(Date.now()).slice(-6);
       const total = $('#coTotal').textContent;
-      state.cart = []; state.promo = null; save(); renderCart();
+      state.cart = []; state.promo = null; save(); savePromo();
+      const pi = $('#promoInput'); if (pi) pi.value = '';
+      const pm = $('#promoMsg'); if (pm) { pm.textContent = ''; pm.className = 'promo__msg'; }
+      renderCart();
       openModal('', `
         <div class="order-done">
           <div class="order-done__icon">✓</div>
@@ -466,44 +541,44 @@
           <div class="num">${num}</div>
           <p>${data.get('name')}, спасибо! Мы отправим подтверждение на ${data.get('email')} и соберём бокс в течение 24 часов.</p>
           <p style="margin-top:12px">Сумма к оплате: <b style="color:var(--text)">${total}</b></p>
-          <button class="btn" style="margin-top:26px" id="doneClose">Вернуться в магазин</button>
+          <button class="btn" type="button" style="margin-top:26px" id="doneClose">Вернуться в магазин</button>
         </div>`);
       $('#doneClose').addEventListener('click', closeModal);
     });
   }
 
-  function openCorp() {
+  function openCorp(opener) {
     openModal('<div class="kicker" style="margin:0">Юрлицам</div>', `
       <h3 style="font-size:26px; margin-bottom:8px">Коммерческое предложение</h3>
       <p style="color:var(--muted); font-size:14.5px; max-width:560px">Соберём тираж под ваш бюджет и количество сотрудников. Ответим в течение рабочего дня с расчётом и образцами упаковки.</p>
       <form id="corpForm" style="margin-top:24px">
         <div class="form-grid">
-          <div class="field"><label>Компания</label><input required name="company" placeholder="ООО «Ромашка»"></div>
-          <div class="field"><label>Контактное лицо</label><input required name="person" placeholder="Иван Петров"></div>
-          <div class="field"><label>Телефон</label><input required name="phone" type="tel" placeholder="+7 900 000-00-00"></div>
-          <div class="field"><label>E-mail</label><input required name="email" type="email" placeholder="ivan@company.ru"></div>
-          <div class="field"><label>Количество наборов</label>
-            <select name="qty">
+          <div class="field"><label for="corpCompany">Компания</label><input id="corpCompany" required name="company" autocomplete="organization" placeholder="ООО «Ромашка»"></div>
+          <div class="field"><label for="corpPerson">Контактное лицо</label><input id="corpPerson" required name="person" autocomplete="name" placeholder="Иван Петров"></div>
+          <div class="field"><label for="corpPhone">Телефон</label><input id="corpPhone" required name="phone" type="tel" autocomplete="tel" placeholder="+7 900 000-00-00"></div>
+          <div class="field"><label for="corpEmail">E-mail</label><input id="corpEmail" required name="email" type="email" autocomplete="email" placeholder="ivan@company.ru"></div>
+          <div class="field"><label for="corpQty">Количество наборов</label>
+            <select id="corpQty" name="qty">
               <option>15–30</option><option>30–100</option><option>100–300</option><option>300+</option>
             </select>
           </div>
-          <div class="field"><label>Бюджет на набор</label>
-            <select name="budget">
+          <div class="field"><label for="corpBudget">Бюджет на набор</label>
+            <select id="corpBudget" name="budget">
               <option>до 3 000 ₽</option><option>3 000–4 500 ₽</option><option>4 500–7 000 ₽</option><option>7 000 ₽+</option>
             </select>
           </div>
-          <div class="field field--full"><label>Пожелания</label><textarea name="note" rows="2" placeholder="Логотип на коробке, доставка по адресам сотрудников"></textarea></div>
+          <div class="field field--full"><label for="corpNote">Пожелания</label><textarea id="corpNote" name="note" rows="2" placeholder="Логотип на коробке, доставка по адресам сотрудников"></textarea></div>
         </div>
         <button class="btn" style="margin-top:20px" type="submit">Отправить запрос</button>
         <p class="note">Демо-режим: форма не отправляет данные.</p>
-      </form>`);
+      </form>`, opener);
     $('#corpForm').addEventListener('submit', e => {
       e.preventDefault();
       openModal('', `<div class="order-done">
         <div class="order-done__icon">✓</div>
         <h3>Запрос отправлен</h3>
         <p>Менеджер свяжется с вами в течение рабочего дня и пришлёт расчёт с вариантами упаковки.</p>
-        <button class="btn" style="margin-top:26px" id="corpClose">Понятно</button>
+        <button class="btn" type="button" style="margin-top:26px" id="corpClose">Понятно</button>
       </div>`);
       $('#corpClose').addEventListener('click', closeModal);
     });
@@ -526,7 +601,7 @@
     }
 
     const view = t.closest('[data-view]');
-    if (view) { openBox(view.dataset.view); return; }
+    if (view) { openBox(view.dataset.view, view); return; }
 
     const add = t.closest('[data-add]');
     if (add) { addBox(add.dataset.add); return; }
@@ -538,9 +613,19 @@
     if (cq) {
       const item = state.cart.find(i => i.key === cq.dataset.cartQty);
       if (!item) return;
+      const key = item.key;
+      const pressed = Number(cq.dataset.delta) > 0 ? 1 : -1;
       item.qty += Number(cq.dataset.delta);
       if (item.qty <= 0) state.cart = state.cart.filter(i => i.key !== item.key);
-      save(); renderCart(); return;
+      save(); renderCart();
+      if ($('#cartDrawer').classList.contains('show')) {
+        const btn = $(`#cartBody [data-cart-qty="${key}"][data-delta="${pressed}"]`);
+        const other = $(`#cartBody [data-cart-qty="${key}"][data-delta="${-pressed}"]`);
+        if (btn) btn.focus();
+        else if (other) other.focus();
+        else focusFirst($('#cartDrawer'));
+      }
+      return;
     }
 
     const scrollEl = t.closest('[data-scroll]');
@@ -552,16 +637,20 @@
       return;
     }
 
-    if (t.closest('[data-corp]')) { openCorp(); return; }
+    if (t.closest('[data-corp]')) { openCorp(t.closest('[data-corp]')); return; }
 
     const faqQ = t.closest('.faq__q');
-    if (faqQ) { faqQ.parentElement.classList.toggle('open'); return; }
+    if (faqQ) {
+      const open = faqQ.parentElement.classList.toggle('open');
+      faqQ.setAttribute('aria-expanded', String(open));
+      return;
+    }
 
-    if (t.id === 'openCart' || t.closest('#openCart')) { openCart(); return; }
-    if (t.closest('#mobileCartBtn')) { openCart(); return; }
+    if (t.closest('#openCart')) { openCart(t.closest('#openCart')); return; }
+    if (t.closest('#mobileCartBtn')) { openCart(t.closest('#mobileCartBtn')); return; }
     if (t.id === 'closeCart') { closeCart(); return; }
     if (t.id === 'closeModal') { closeModal(); return; }
-    if (t.id === 'goCheckout') { openCheckout(); return; }
+    if (t.id === 'goCheckout') { openCheckout(t.closest('#goCheckout')); return; }
     if (t.id === 'addCustom') { addCustom(); return; }
     if (t.id === 'sumMore') { sumOpen = !sumOpen; renderSummary(); return; }
     if (t.id === 'overlay') { closeCart(); closeModal(); return; }
@@ -572,10 +661,12 @@
       if (!code) return;
       if (!CATALOG.promos[code]) {
         state.promo = null;
+        savePromo();
         msg.textContent = 'Промокод не найден';
         msg.className = 'promo__msg err';
       } else {
         state.promo = code;
+        savePromo();
         renderCart();
         return;
       }
@@ -592,9 +683,8 @@
       });
 
       if (radio.name === 'ship' && $('#coShip')) {
-        const extra = radio.value === 'courier' ? 290 : 0;
+        const ship = shippingFor(radio.value);
         const base = cartTotals();
-        const ship = base.subtotal && base.after < CATALOG.rules.freeShippingFrom ? CATALOG.rules.shipping + extra : extra;
         $('#coShip').textContent = ship ? money(ship) : 'бесплатно';
         $('#coTotal').textContent = money(base.after + ship);
       }
@@ -602,7 +692,13 @@
   });
 
   document.addEventListener('keydown', e => {
-    if (e.key === 'Escape') { closeCart(); closeModal(); }
+    if (e.key === 'Escape') { closeCart(); closeModal(); return; }
+    if (e.key === 'Tab') {
+      const modal = $('#modal');
+      const drawer = $('#cartDrawer');
+      if (modal.classList.contains('show')) trapFocus(e, modal);
+      else if (drawer.classList.contains('show')) trapFocus(e, drawer);
+    }
   });
 
   /* ---------------- старт ---------------- */
