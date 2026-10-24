@@ -1,0 +1,14 @@
+{
+  "name": "boxed-shop-tests",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Проверки витрины BOXED.: корзина, конструктор, доступность, сборка",
+  "scripts": {
+    "test": "node test.js",
+    "a11y": "node axe-audit.js"
+  },
+  "devDependencies": {
+    "jsdom": "^24.1.3",
+    "axe-core": "^4.10.2"
+  }
+}

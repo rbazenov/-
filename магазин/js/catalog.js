@@ -217,7 +217,8 @@ const CATALOG = {
   /* ---------- правила конструктора ---------- */
   rules: {    basePrice: 190,          // брендированная коробка + ложемент + открытка
     freeShippingFrom: 2500,
-    shipping: 320,
+    shipping: 320,             // ПВЗ СДЭК
+    courierFee: 290,           // надбавка за курьера до двери
     minItems: 4,
     maxDrinks: 2,
     maxWeight: 2200,
