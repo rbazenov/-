@@ -98,6 +98,21 @@ button:disabled { opacity: .5; cursor: not-allowed; }
 .subject-intro-text h2 { margin: 0 0 8px; }
 .subject-intro-text p { margin: 0; color: var(--muted); font-size: 14px; line-height: 1.55; }
 .subject-intro-back { margin: 0; white-space: nowrap; }
+/* Экран предмета: список тем тянется до края кнопки «Начать» и прокручивается внутри. */
+.app-home { min-height: 100vh; min-height: 100dvh; }
+.screen-home { display: flex; flex-direction: column; flex: 1 1 auto; min-height: 0; }
+/* Правый отступ убран, полоса прокрутки скрыта: список совпадает по ширине с кнопкой. */
+.screen-home .list.scroll { padding-right: 0; align-content: start; scrollbar-width: none; }
+.screen-home .list.scroll::-webkit-scrollbar { width: 0; height: 0; }
+/* Кнопка уходит к нижней границе, подпись под ней не сжимается. */
+.screen-home > button.primary { margin-top: auto; flex-shrink: 0; }
+.attribution-slot { flex-shrink: 0; }
+/* Высокое окно: экран занимает его целиком, а свободную высоту забирает список.
+   На низком окне (ландшафт телефона) остаётся прежняя раскладка: короткий список и прокрутка страницы. */
+@media (min-height: 620px) {
+  .app-home { height: 100vh; height: 100dvh; }
+  .screen-home .list.scroll { flex: 1 1 auto; min-height: 0; max-height: none; }
+}
 /* Список тем в две колонки. */
 .topic-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: stretch; }
 .topic-grid li { height: 100%; overflow-wrap: break-word; hyphens: auto; padding-bottom: 10px; border-bottom: 1px solid var(--line); }

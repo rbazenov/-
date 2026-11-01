@@ -230,7 +230,7 @@ export default function App() {
   };
 
   return (
-    <div className="app">
+    <div className={state.screen === 'home' ? 'app app-home' : 'app'}>
       <header className="top">
         <div>
           <p className="eyebrow">{state.screen === 'landing' ? 'Учебный проект' : subject.title}</p>
@@ -298,7 +298,7 @@ export default function App() {
             </div>
             <button className="ghost subject-intro-back" onClick={() => dispatch({ type: 'GO_LANDING' })}>← Главная</button>
           </section>
-          <main className="screen">
+          <main className="screen screen-home">
           <ul className="list scroll topic-grid">
             {cards.map((c) => (
               <li key={c.card_id}>
