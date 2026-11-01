@@ -1,0 +1,302 @@
+[
+  {
+    "question_id": "d-tour-01-v1",
+    "learning_objective_id": "TOUR-01",
+    "card_id": "card-tour-01-v1",
+    "prompt_ru": "Через неделю группа вспоминает поход: маршрут был посильным, но один участок чуть не привёл к перегрузке. Какой вывод лучше всего переносится на следующий план?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "В следующий раз идти ещё быстрее",
+        "is_correct": false,
+        "explanation_ru": "Скорость не устраняет причину перегрузки.",
+        "hint_ru": "Что вызвало риск?"
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Заранее учитывать слабые места группы и запасной вариант",
+        "is_correct": true,
+        "explanation_ru": "Перенести опыт — значит планировать по возможностям группы и заранее готовить выход.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Отказаться от любого планирования",
+        "is_correct": false,
+        "explanation_ru": "Планирование снижает риск повторения ошибки.",
+        "hint_ru": "Как не повторить ошибку?"
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Считать разряд главной целью",
+        "is_correct": false,
+        "explanation_ru": "В оздоровительном модуле важнее посильность и безопасность.",
+        "hint_ru": "Какова цель модуля?"
+      }
+    ],
+    "correct_option_id": "b",
+    "explanation_correct_ru": "Перенести опыт — значит планировать по возможностям группы и заранее готовить выход.",
+    "difficulty": "transfer",
+    "assessment_role": "delayed_check",
+    "misconception_tags": [
+      "goal_transfer"
+    ],
+    "source_id": "nps_wilderness_safety",
+    "source_refs": [
+      {
+        "source_id": "nps_wilderness_safety",
+        "url": "https://www.nps.gov/olym/planyourvisit/wilderness-safety.htm",
+        "title": "Wilderness Safety — Olympic National Park",
+        "locator": "lessons learned, weakest member"
+      }
+    ],
+    "license": "Public domain (U.S. government work)",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Wilderness Safety — Olympic National Park",
+      "editor": null,
+      "publisher": "U.S. National Park Service",
+      "year": 2026,
+      "source_url": "https://www.nps.gov/olym/planyourvisit/wilderness-safety.htm",
+      "chapter_url": "https://www.nps.gov/olym/planyourvisit/wilderness-safety.htm",
+      "locator": "Wilderness Safety: itinerary, weakest member, turn back, bad weather; проверено 01.11.2026",
+      "copyright_notice": "Служебные материалы NPS обычно находятся в общественном достоянии США, если не указано иное; сторонние материалы и логотипы исключены. Парковые рекомендации не выдаются за нормы РФ.",
+      "license": "Public domain (U.S. government work)",
+      "license_url": "https://www.nps.gov/aboutus/disclaimer.htm",
+      "required_notice": "Источник: U.S. National Park Service. Материал подготовлен сотрудниками NPS и находится в общественном достоянии США; логотипы и сторонние изображения не использованы.",
+      "changes_ru": "Оригинальный отложенный вопрос на перенос принципа посильности.",
+      "no_endorsement_ru": "Источник не проверял и не одобрял эту учебную адаптацию. Материал остаётся черновиком до предметной редактуры."
+    }
+  },
+  {
+    "question_id": "d-tour-02-v1",
+    "learning_objective_id": "TOUR-02",
+    "card_id": "card-tour-02-v1",
+    "prompt_ru": "Группа подала уведомление в МЧС, но маршрут изменился до старта. Что лучше сделать?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Ничего: старая заявка всё равно действует",
+        "is_correct": false,
+        "explanation_ru": "При изменении маршрута нужно обновить сведения.",
+        "hint_ru": "Что знают спасатели о новом плане?"
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Обновить сведения и сообщить доверенному контакту",
+        "is_correct": true,
+        "explanation_ru": "Актуальный маршрут и контакты важны для контроля и поиска.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Сообщить только после возвращения",
+        "is_correct": false,
+        "explanation_ru": "До выхода службы должны знать актуальный план.",
+        "hint_ru": "Когда информация нужна?"
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Удалить заявку",
+        "is_correct": false,
+        "explanation_ru": "Удаление не заменяет корректное уведомление.",
+        "hint_ru": "Как сохранить контроль?"
+      }
+    ],
+    "correct_option_id": "b",
+    "explanation_correct_ru": "Актуальный маршрут и контакты важны для контроля и поиска.",
+    "difficulty": "transfer",
+    "assessment_role": "delayed_check",
+    "misconception_tags": [
+      "registration_update"
+    ],
+    "source_id": "mchs_33_registration",
+    "source_refs": [
+      {
+        "source_id": "mchs_33_registration",
+        "url": "https://33.mchs.gov.ru/deyatelnost/press-centr/novosti/5540927",
+        "title": "МЧС России напоминает о необходимости регистрации туристов и туристических групп",
+        "locator": "состав заявки"
+      },
+      {
+        "source_id": "nps_trip_planning",
+        "url": "https://www.nps.gov/subjects/healthandsafety/upload/Trip-Planning-Guide-Package-508c.pdf",
+        "title": "NPS Trip Planning Guide",
+        "locator": "notify changes"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "МЧС России напоминает о необходимости регистрации туристов и туристических групп",
+      "editor": null,
+      "publisher": "ГУ МЧС России по Владимирской области",
+      "year": 2025,
+      "source_url": "https://33.mchs.gov.ru/deyatelnost/press-centr/novosti/5540927",
+      "chapter_url": "https://33.mchs.gov.ru/deyatelnost/press-centr/novosti/5540927",
+      "locator": "19.06.2025: 10 рабочих дней, состав заявки, подтверждение регистрации, уведомление о возвращении; проверено 01.11.2026",
+      "copyright_notice": "В футере сайта МЧС России указано: все материалы сайта доступны по лицензии Creative Commons Attribution 4.0. Срок и форму подачи нужно сверять с актуальным порядком МЧС.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Источник: ГУ МЧС России по Владимирской области, 19.06.2025. Адаптация: учебный проект, 2026. Материалы сайта МЧС России доступны по CC BY 4.0 (указано в футере сайта).",
+      "changes_ru": "Оригинальный отложенный вопрос об актуализации плана.",
+      "no_endorsement_ru": "Источник не проверял и не одобрял эту учебную адаптацию. Материал остаётся черновиком до предметной редактуры."
+    }
+  },
+  {
+    "question_id": "d-tour-03-v1",
+    "learning_objective_id": "TOUR-03",
+    "card_id": "card-tour-03-v1",
+    "prompt_ru": "В походе разрядился телефон с единственной картой. Какая подготовка заранее снизила бы риск?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Взять только внешний аккумулятор без карты",
+        "is_correct": false,
+        "explanation_ru": "Аккумулятор полезен, но бумажная карта не зависит от питания.",
+        "hint_ru": "Есть ли способ, который работает без питания?"
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Иметь бумажную карту, компас и запас питания",
+        "is_correct": true,
+        "explanation_ru": "Резерв навигации и питания снижает зависимость от одного устройства.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Надеяться на связь в любой точке",
+        "is_correct": false,
+        "explanation_ru": "Связь может отсутствовать.",
+        "hint_ru": "Можно ли гарантировать связь?"
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Оставить карту дома для облегчения рюкзака",
+        "is_correct": false,
+        "explanation_ru": "Экономия веса не должна убирать карту и компас.",
+        "hint_ru": "Какая функция важна?"
+      }
+    ],
+    "correct_option_id": "b",
+    "explanation_correct_ru": "Резерв навигации и питания снижает зависимость от одного устройства.",
+    "difficulty": "transfer",
+    "assessment_role": "delayed_check",
+    "misconception_tags": [
+      "gear_transfer"
+    ],
+    "source_id": "nps_ten_essentials",
+    "source_refs": [
+      {
+        "source_id": "nps_ten_essentials",
+        "url": "https://www.nps.gov/articles/10essentials.htm",
+        "title": "Ten Essentials",
+        "locator": "navigation, extra battery"
+      }
+    ],
+    "license": "Public domain (U.S. government work)",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Ten Essentials",
+      "editor": null,
+      "publisher": "U.S. National Park Service",
+      "year": 2026,
+      "source_url": "https://www.nps.gov/articles/10essentials.htm",
+      "chapter_url": "https://www.nps.gov/articles/10essentials.htm",
+      "locator": "Ten Essentials: ten categories/systems; проверено 01.11.2026",
+      "copyright_notice": "Служебные материалы NPS обычно находятся в общественном достоянии США, если не указано иное; сторонние материалы и логотипы исключены.",
+      "license": "Public domain (U.S. government work)",
+      "license_url": "https://www.nps.gov/aboutus/disclaimer.htm",
+      "required_notice": "Источник: U.S. National Park Service. Материал подготовлен сотрудниками NPS и находится в общественном достоянии США; логотипы и сторонние изображения не использованы.",
+      "changes_ru": "Оригинальный отложенный вопрос о резерве навигации.",
+      "no_endorsement_ru": "Источник не проверял и не одобрял эту учебную адаптацию. Материал остаётся черновиком до предметной редактуры."
+    }
+  },
+  {
+    "question_id": "d-tour-04-v1",
+    "learning_objective_id": "TOUR-04",
+    "card_id": "card-tour-04-v1",
+    "prompt_ru": "На обратном пути группа отстаёт от контрольного времени, погода ухудшается. Какое решение наиболее разумно?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Разделиться, чтобы сильные ушли быстрее",
+        "is_correct": false,
+        "explanation_ru": "Разделение повышает риск и усложняет поиск.",
+        "hint_ru": "Что важнее скорости?"
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Оценить состояние, укрыться или повернуть и связаться по плану",
+        "is_correct": true,
+        "explanation_ru": "Безопасность и связь важнее соблюдения графика любой ценой.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Идти ночью без света",
+        "is_correct": false,
+        "explanation_ru": "Темнота без света резко повышает риск.",
+        "hint_ru": "Что нужно при темноте?"
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Скрыть задержку от контактов",
+        "is_correct": false,
+        "explanation_ru": "Контрольное время существует, чтобы сообщить о проблеме.",
+        "hint_ru": "Кто должен знать о задержке?"
+      }
+    ],
+    "correct_option_id": "b",
+    "explanation_correct_ru": "Безопасность и связь важнее соблюдения графика любой ценой.",
+    "difficulty": "transfer",
+    "assessment_role": "delayed_check",
+    "misconception_tags": [
+      "group_transfer"
+    ],
+    "source_id": "mchs_51_recommendations",
+    "source_refs": [
+      {
+        "source_id": "mchs_51_recommendations",
+        "url": "https://51.mchs.gov.ru/deyatelnost/poleznaya-informaciya/registraciya-turistskih-grupp/rekomendacii-turistskim-i-alpinistskim-gruppam",
+        "title": "Рекомендации туристским и альпинистским группам",
+        "locator": "пункты 7, 9, 11"
+      },
+      {
+        "source_id": "nps_trip_planning",
+        "url": "https://www.nps.gov/subjects/healthandsafety/upload/Trip-Planning-Guide-Package-508c.pdf",
+        "title": "NPS Trip Planning Guide",
+        "locator": "control time"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Рекомендации туристским и альпинистским группам",
+      "editor": null,
+      "publisher": "ГУ МЧС России по Мурманской области",
+      "year": 2026,
+      "source_url": "https://51.mchs.gov.ru/deyatelnost/poleznaya-informaciya/registraciya-turistskih-grupp/rekomendacii-turistskim-i-alpinistskim-gruppam",
+      "chapter_url": "https://51.mchs.gov.ru/deyatelnost/poleznaya-informaciya/registraciya-turistskih-grupp/rekomendacii-turistskim-i-alpinistskim-gruppam",
+      "locator": "Пункты 1–13: безопасный маршрут, темп по слабейшему, видимость, усталость, регистрация; проверено 01.11.2026",
+      "copyright_notice": "В футере сайта МЧС России указано: все материалы сайта доступны по лицензии Creative Commons Attribution 4.0.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Источник: ГУ МЧС России по Мурманской области. Адаптация: учебный проект, 2026. Материалы сайта МЧС России доступны по CC BY 4.0 (указано в футере сайта).",
+      "changes_ru": "Оригинальный отложенный вопрос о решении группы при задержке.",
+      "no_endorsement_ru": "Источник не проверял и не одобрял эту учебную адаптацию. Материал остаётся черновиком до предметной редактуры."
+    }
+  }
+]

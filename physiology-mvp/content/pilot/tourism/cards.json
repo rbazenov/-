@@ -1,0 +1,202 @@
+[
+  {
+    "card_id": "card-tour-01-v1",
+    "topic_id": "tour",
+    "learning_objective_id": "TOUR-01",
+    "title": "Спортивно-оздоровительный туризм: цель и границы",
+    "body_ru": "Спортивно-оздоровительный туризм в этом модуле — учебные походы и активный отдых, где важны посильная нагрузка, туристские навыки и безопасность, а не спортивный разряд. Маршрут выбирают по подготовке участников, погоде и наличию безопасных выходов. Оздоровительный эффект не возникает автоматически: перегрузка, неподходящее снаряжение и игнорирование условий могут навредить. Поэтому план строят от возможностей группы, а не от желания пройти дистанцию любой ценой.",
+    "key_chain_ru": [
+      "Цель похода",
+      "Возможности группы",
+      "Посильный маршрут",
+      "Безопасное возвращение"
+    ],
+    "source_refs": [
+      {
+        "source_id": "nps_wilderness_safety",
+        "url": "https://www.nps.gov/olym/planyourvisit/wilderness-safety.htm",
+        "title": "Wilderness Safety — Olympic National Park",
+        "locator": "itinerary, weakest member, turn back"
+      },
+      {
+        "source_id": "mchs_51_recommendations",
+        "url": "https://51.mchs.gov.ru/deyatelnost/poleznaya-informaciya/registraciya-turistskih-grupp/rekomendacii-turistskim-i-alpinistskim-gruppam",
+        "title": "Рекомендации туристским и альпинистским группам",
+        "locator": "пункты 1–7"
+      }
+    ],
+    "source_locator": "Wilderness Safety: itinerary, weakest member, turn back, bad weather; проверено 01.11.2026",
+    "asset_refs": [],
+    "license": "Public domain (U.S. government work)",
+    "adaptation_type": "original_russian_summary_from_verified_source",
+    "change_note_ru": "Оригинальное русское резюме: цель и границы учебного модуля сформулированы через безопасность и посильность; парковые советы США не выдаются за нормы РФ.",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Wilderness Safety — Olympic National Park",
+      "editor": null,
+      "publisher": "U.S. National Park Service",
+      "year": 2026,
+      "source_url": "https://www.nps.gov/olym/planyourvisit/wilderness-safety.htm",
+      "chapter_url": "https://www.nps.gov/olym/planyourvisit/wilderness-safety.htm",
+      "locator": "Wilderness Safety: itinerary, weakest member, turn back, bad weather; проверено 01.11.2026",
+      "copyright_notice": "Служебные материалы NPS обычно находятся в общественном достоянии США, если не указано иное; сторонние материалы и логотипы исключены. Парковые рекомендации не выдаются за нормы РФ.",
+      "license": "Public domain (U.S. government work)",
+      "license_url": "https://www.nps.gov/aboutus/disclaimer.htm",
+      "required_notice": "Источник: U.S. National Park Service. Материал подготовлен сотрудниками NPS и находится в общественном достоянии США; логотипы и сторонние изображения не использованы.",
+      "changes_ru": "Оригинальное русское резюме: цель и границы учебного модуля сформулированы через безопасность и посильность; парковые советы США не выдаются за нормы РФ.",
+      "no_endorsement_ru": "Источник не проверял и не одобрял эту учебную адаптацию. Материал остаётся черновиком до предметной редактуры."
+    }
+  },
+  {
+    "card_id": "card-tour-02-v1",
+    "topic_id": "tour",
+    "learning_objective_id": "TOUR-02",
+    "title": "План похода и уведомление МЧС",
+    "body_ru": "До выхода фиксируют маршрут, сроки, состав группы, контакты, места ночевок, опасные участки, аварийные выходы и порядок связи. Полезно оставить план доверенному человеку и договориться о контрольном времени. Для маршрутов повышенного риска в России действует порядок информирования МЧС: региональные памятки 2025 года указывают срок не позднее чем за 10 рабочих дней до начала. Актуальный срок, форму и исключения нужно проверять на сайте МЧС перед подачей. После возвращения группу снимают с контроля по уведомлению участников.",
+    "key_chain_ru": [
+      "План маршрута",
+      "Контакты и сроки",
+      "Уведомление МЧС",
+      "Сообщение о возвращении"
+    ],
+    "source_refs": [
+      {
+        "source_id": "mchs_33_registration",
+        "url": "https://33.mchs.gov.ru/deyatelnost/press-centr/novosti/5540927",
+        "title": "МЧС России напоминает о необходимости регистрации туристов и туристических групп",
+        "locator": "10 рабочих дней, состав заявки, возвращение"
+      },
+      {
+        "source_id": "nps_trip_planning",
+        "url": "https://www.nps.gov/subjects/healthandsafety/upload/Trip-Planning-Guide-Package-508c.pdf",
+        "title": "NPS Trip Planning Guide",
+        "locator": "trusted contact, backup plan"
+      }
+    ],
+    "source_locator": "19.06.2025: 10 рабочих дней, состав заявки, подтверждение регистрации, уведомление о возвращении; проверено 01.11.2026",
+    "asset_refs": [],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_russian_summary_from_verified_source",
+    "change_note_ru": "Оригинальное русское резюме российского порядка регистрации и общего планирования; срок приведён по памятке МЧС 2025 года с оговоркой о проверке актуальности.",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "МЧС России напоминает о необходимости регистрации туристов и туристических групп",
+      "editor": null,
+      "publisher": "ГУ МЧС России по Владимирской области",
+      "year": 2025,
+      "source_url": "https://33.mchs.gov.ru/deyatelnost/press-centr/novosti/5540927",
+      "chapter_url": "https://33.mchs.gov.ru/deyatelnost/press-centr/novosti/5540927",
+      "locator": "19.06.2025: 10 рабочих дней, состав заявки, подтверждение регистрации, уведомление о возвращении; проверено 01.11.2026",
+      "copyright_notice": "В футере сайта МЧС России указано: все материалы сайта доступны по лицензии Creative Commons Attribution 4.0. Срок и форму подачи нужно сверять с актуальным порядком МЧС.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Источник: ГУ МЧС России по Владимирской области, 19.06.2025. Адаптация: учебный проект, 2026. Материалы сайта МЧС России доступны по CC BY 4.0 (указано в футере сайта).",
+      "changes_ru": "Оригинальное русское резюме российского порядка регистрации и общего планирования; срок приведён по памятке МЧС 2025 года с оговоркой о проверке актуальности.",
+      "no_endorsement_ru": "Источник не проверял и не одобрял эту учебную адаптацию. Материал остаётся черновиком до предметной редактуры."
+    }
+  },
+  {
+    "card_id": "card-tour-03-v1",
+    "topic_id": "tour",
+    "learning_objective_id": "TOUR-03",
+    "title": "Снаряжение: десять систем",
+    "body_ru": "Подход «десять систем» помогает не забыть базовые функции: навигация, защита от солнца, дополнительная одежда, свет, аптечка, огонь, ремонтный набор, запас еды, вода и её обработка, аварийное укрытие. Конкретные вещи зависят от маршрута, сезона и длительности. Перед выходом проверьте исправность снаряжения, запас батарей, срок годности аптечки и умение пользоваться картой и компасом. Бумажная карта и компас остаются резервом, даже если есть телефон или GPS.",
+    "key_chain_ru": [
+      "Функция безопасности",
+      "Подбор под маршрут",
+      "Проверка исправности",
+      "Резерв навигации"
+    ],
+    "source_refs": [
+      {
+        "source_id": "nps_ten_essentials",
+        "url": "https://www.nps.gov/articles/10essentials.htm",
+        "title": "Ten Essentials",
+        "locator": "ten categories/systems"
+      },
+      {
+        "source_id": "nps_trip_planning",
+        "url": "https://www.nps.gov/subjects/healthandsafety/upload/Trip-Planning-Guide-Package-508c.pdf",
+        "title": "NPS Trip Planning Guide",
+        "locator": "check gear, battery"
+      }
+    ],
+    "source_locator": "Ten Essentials: ten categories/systems; проверено 01.11.2026",
+    "asset_refs": [],
+    "license": "Public domain (U.S. government work)",
+    "adaptation_type": "original_russian_summary_from_verified_source",
+    "change_note_ru": "Оригинальное русское резюме десяти категорий NPS; список адаптирован как проверка функций, а не универсальный перечень предметов.",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Ten Essentials",
+      "editor": null,
+      "publisher": "U.S. National Park Service",
+      "year": 2026,
+      "source_url": "https://www.nps.gov/articles/10essentials.htm",
+      "chapter_url": "https://www.nps.gov/articles/10essentials.htm",
+      "locator": "Ten Essentials: ten categories/systems; проверено 01.11.2026",
+      "copyright_notice": "Служебные материалы NPS обычно находятся в общественном достоянии США, если не указано иное; сторонние материалы и логотипы исключены.",
+      "license": "Public domain (U.S. government work)",
+      "license_url": "https://www.nps.gov/aboutus/disclaimer.htm",
+      "required_notice": "Источник: U.S. National Park Service. Материал подготовлен сотрудниками NPS и находится в общественном достоянии США; логотипы и сторонние изображения не использованы.",
+      "changes_ru": "Оригинальное русское резюме десяти категорий NPS; список адаптирован как проверка функций, а не универсальный перечень предметов.",
+      "no_endorsement_ru": "Источник не проверял и не одобрял эту учебную адаптацию. Материал остаётся черновиком до предметной редактуры."
+    }
+  },
+  {
+    "card_id": "card-tour-04-v1",
+    "topic_id": "tour",
+    "learning_objective_id": "TOUR-04",
+    "title": "Группа на маршруте: темп, видимость, разворот",
+    "body_ru": "Темп движения задаёт не самый сильный, а самый уставший или менее подготовленный участник. Группу не разделяют без отдельного плана и связи; на привалах проверяют людей и снаряжение. При тумане, метели, темноте, признаках сильной усталости или ухудшении погоды движение может стать опаснее остановки. Разворот или ожидание включают в план заранее. Если связь пропала или маршрут потерян, группа действует по заранее оговорённому аварийному плану и не сокращает путь за счёт безопасности.",
+    "key_chain_ru": [
+      "Слабейший участник",
+      "Общий темп",
+      "Контроль условий",
+      "Разворот или укрытие"
+    ],
+    "source_refs": [
+      {
+        "source_id": "mchs_51_recommendations",
+        "url": "https://51.mchs.gov.ru/deyatelnost/poleznaya-informaciya/registraciya-turistskih-grupp/rekomendacii-turistskim-i-alpinistskim-gruppam",
+        "title": "Рекомендации туристским и альпинистским группам",
+        "locator": "пункты 4–11"
+      },
+      {
+        "source_id": "nps_wilderness_safety",
+        "url": "https://www.nps.gov/olym/planyourvisit/wilderness-safety.htm",
+        "title": "Wilderness Safety — Olympic National Park",
+        "locator": "track location, turn back, bad weather"
+      }
+    ],
+    "source_locator": "Пункты 1–13: безопасный маршрут, темп по слабейшему, видимость, усталость, регистрация; проверено 01.11.2026",
+    "asset_refs": [],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_russian_summary_from_verified_source",
+    "change_note_ru": "Оригинальное русское резюме рекомендаций МЧС и NPS о темпе, видимости и решении прекратить движение; конкретные горные советы не обобщены на все маршруты.",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Рекомендации туристским и альпинистским группам",
+      "editor": null,
+      "publisher": "ГУ МЧС России по Мурманской области",
+      "year": 2026,
+      "source_url": "https://51.mchs.gov.ru/deyatelnost/poleznaya-informaciya/registraciya-turistskih-grupp/rekomendacii-turistskim-i-alpinistskim-gruppam",
+      "chapter_url": "https://51.mchs.gov.ru/deyatelnost/poleznaya-informaciya/registraciya-turistskih-grupp/rekomendacii-turistskim-i-alpinistskim-gruppam",
+      "locator": "Пункты 1–13: безопасный маршрут, темп по слабейшему, видимость, усталость, регистрация; проверено 01.11.2026",
+      "copyright_notice": "В футере сайта МЧС России указано: все материалы сайта доступны по лицензии Creative Commons Attribution 4.0.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Источник: ГУ МЧС России по Мурманской области. Адаптация: учебный проект, 2026. Материалы сайта МЧС России доступны по CC BY 4.0 (указано в футере сайта).",
+      "changes_ru": "Оригинальное русское резюме рекомендаций МЧС и NPS о темпе, видимости и решении прекратить движение; конкретные горные советы не обобщены на все маршруты.",
+      "no_endorsement_ru": "Источник не проверял и не одобрял эту учебную адаптацию. Материал остаётся черновиком до предметной редактуры."
+    }
+  }
+]

@@ -1,0 +1,208 @@
+[
+  {
+    "card_id": "card-topo-01-v1",
+    "topic_id": "topo",
+    "learning_objective_id": "TOPO-01",
+    "title": "Топографическая карта: масштаб и знаки",
+    "body_ru": "Топографическая карта показывает местность в уменьшенном виде: объекты, расстояния и форму поверхности. Масштаб 1:25 000 означает, что 1 см на карте соответствует 250 м на местности. Чем меньше знаменатель, тем крупнее масштаб и подробнее участок. Условные знаки читают по легенде конкретной карты: цвета и символы могут отличаться у разных серий. Перед выходом проверяют дату обновления, масштаб и легенду, а не полагаются на память о другой карте.",
+    "key_chain_ru": [
+      "Карта",
+      "Масштаб",
+      "Легенда",
+      "Проверка актуальности"
+    ],
+    "source_refs": [
+      {
+        "source_id": "usgs_topo_symbols",
+        "url": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/atoms/files/Topographic%20Map%20Symbols.pdf",
+        "title": "Topographic Map Symbols",
+        "locator": "Reading Topographic Maps"
+      },
+      {
+        "source_id": "usgs_finding_way",
+        "url": "https://pubs.usgs.gov/fs/2001/0035/report.pdf",
+        "title": "Finding Your Way With Map and Compass",
+        "locator": "map scale"
+      }
+    ],
+    "source_locator": "What is a Topographic Map? Reading Topographic Maps; проверено 01.11.2026",
+    "asset_refs": [],
+    "license": "Public domain",
+    "adaptation_type": "original_russian_summary_from_verified_source",
+    "change_note_ru": "Оригинальное русское резюме USGS о масштабе, знаках и чтении карты; примеры пересчёта добавлены для учебного применения.",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Topographic Map Symbols",
+      "editor": null,
+      "publisher": "U.S. Geological Survey",
+      "year": 2026,
+      "source_url": "https://www.usgs.gov/media/files/topographic-map-symbols",
+      "chapter_url": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/atoms/files/Topographic%20Map%20Symbols.pdf",
+      "locator": "What is a Topographic Map? Reading Topographic Maps; проверено 01.11.2026",
+      "copyright_notice": "Материалы, подготовленные USGS, обычно находятся в общественном достоянии США; сторонние изображения могут иметь отдельные права.",
+      "license": "Public domain",
+      "license_url": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+      "required_notice": "Credit: U.S. Geological Survey, U.S. Department of the Interior.",
+      "changes_ru": "Оригинальное русское резюме USGS о масштабе, знаках и чтении карты; примеры пересчёта добавлены для учебного применения.",
+      "no_endorsement_ru": "Источник не проверял и не одобрял эту учебную адаптацию. Материал остаётся черновиком до предметной редактуры."
+    }
+  },
+  {
+    "card_id": "card-topo-02-v1",
+    "topic_id": "topo",
+    "learning_objective_id": "TOPO-02",
+    "title": "Рельеф: горизонтали и крутизна",
+    "body_ru": "Горизонтали соединяют точки с одинаковой высотой. Разность высот между соседними горизонталями называют сечением рельефа; его указывают на карте. Если горизонтали расположены близко, склон обычно крутой; если далеко — пологий. Утолщённые горизонтали помогают считать высоту. По рисунку горизонталей можно представить холм, долину или седловину, но для точного вывода смотрят подписи высот и легенду. Горизонтали не следует путать с дорогами или тропами.",
+    "key_chain_ru": [
+      "Горизонтали",
+      "Сечение рельефа",
+      "Плотность линий",
+      "Крутизна склона"
+    ],
+    "source_refs": [
+      {
+        "source_id": "usgs_topo_symbols",
+        "url": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/atoms/files/Topographic%20Map%20Symbols.pdf",
+        "title": "Topographic Map Symbols",
+        "locator": "contours, contour interval, steep slopes"
+      }
+    ],
+    "source_locator": "What is a Topographic Map? Reading Topographic Maps; проверено 01.11.2026",
+    "asset_refs": [],
+    "license": "Public domain",
+    "adaptation_type": "original_russian_summary_from_verified_source",
+    "change_note_ru": "Оригинальное русское резюме USGS о горизонталях и крутизне; терминология адаптирована для учебного курса.",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Topographic Map Symbols",
+      "editor": null,
+      "publisher": "U.S. Geological Survey",
+      "year": 2026,
+      "source_url": "https://www.usgs.gov/media/files/topographic-map-symbols",
+      "chapter_url": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/atoms/files/Topographic%20Map%20Symbols.pdf",
+      "locator": "What is a Topographic Map? Reading Topographic Maps; проверено 01.11.2026",
+      "copyright_notice": "Материалы, подготовленные USGS, обычно находятся в общественном достоянии США; сторонние изображения могут иметь отдельные права.",
+      "license": "Public domain",
+      "license_url": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+      "required_notice": "Credit: U.S. Geological Survey, U.S. Department of the Interior.",
+      "changes_ru": "Оригинальное русское резюме USGS о горизонталях и крутизне; терминология адаптирована для учебного курса.",
+      "no_endorsement_ru": "Источник не проверял и не одобрял эту учебную адаптацию. Материал остаётся черновиком до предметной редактуры."
+    }
+  },
+  {
+    "card_id": "card-topo-03-v1",
+    "topic_id": "topo",
+    "learning_objective_id": "TOPO-03",
+    "title": "Компас и азимут",
+    "body_ru": "Магнитная стрелка компаса помогает определить направление на север. Азимут — угол от северного направления по часовой стрелке до направления на объект; его выражают в градусах от 0 до 360. Различайте север карты и магнитный север: для точной работы учитывают поправку, если она указана. Компас держат вдали от металла и электроники, дают стрелке успокоиться и сверяют направление с ориентиром. При отказе GPS нужны карта и компас.",
+    "key_chain_ru": [
+      "Стрелка компаса",
+      "Север",
+      "Азимут",
+      "Проверка направления"
+    ],
+    "source_refs": [
+      {
+        "source_id": "nps_compass_course",
+        "url": "https://www.nps.gov/buff/learn/education/classrooms/upload/Compass_Course_508.pdf",
+        "title": "Compass Course — Using a Compass",
+        "locator": "azimuth/bearing"
+      },
+      {
+        "source_id": "usgs_finding_way",
+        "url": "https://pubs.usgs.gov/fs/2001/0035/report.pdf",
+        "title": "Finding Your Way With Map and Compass",
+        "locator": "cardinal points, bearing"
+      },
+      {
+        "source_id": "nps_navigating_time",
+        "url": "https://www.nps.gov/common/uploads/teachers/lessonplans/Navigating_Through_Time_ver20160526_508.pdf",
+        "title": "Navigating Through Time: From Wayfinding to Satellite",
+        "locator": "compass parts"
+      }
+    ],
+    "source_locator": "Compass Course: azimuth/bearing, compass parts, GPS backup; проверено 01.11.2026",
+    "asset_refs": [],
+    "license": "Public domain (U.S. government work)",
+    "adaptation_type": "original_russian_summary_from_verified_source",
+    "change_note_ru": "Оригинальное русское резюме NPS и USGS о компасе и азимуте; добавлена оговорка о магнитном и картографическом севере.",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Compass Course — Using a Compass",
+      "editor": null,
+      "publisher": "U.S. National Park Service",
+      "year": 2024,
+      "source_url": "https://www.nps.gov/teachers/classrooms/compass-course.htm",
+      "chapter_url": "https://www.nps.gov/buff/learn/education/classrooms/upload/Compass_Course_508.pdf",
+      "locator": "Compass Course: azimuth/bearing, compass parts, GPS backup; проверено 01.11.2026",
+      "copyright_notice": "Служебные материалы NPS обычно находятся в общественном достоянии США, если не указано иное; сторонние материалы и логотипы исключены.",
+      "license": "Public domain (U.S. government work)",
+      "license_url": "https://www.nps.gov/aboutus/disclaimer.htm",
+      "required_notice": "Источник: U.S. National Park Service. Материал подготовлен сотрудниками NPS и находится в общественном достоянии США; логотипы и сторонние изображения не использованы.",
+      "changes_ru": "Оригинальное русское резюме NPS и USGS о компасе и азимуте; добавлена оговорка о магнитном и картографическом севере.",
+      "no_endorsement_ru": "Источник не проверял и не одобрял эту учебную адаптацию. Материал остаётся черновиком до предметной редактуры."
+    }
+  },
+  {
+    "card_id": "card-topo-04-v1",
+    "topic_id": "topo",
+    "learning_objective_id": "TOPO-04",
+    "title": "Ориентирование карты и контроль пути",
+    "body_ru": "Ориентировать карту — значит совместить её направления с местностью. Это делают по компасу или по заметным ориентирам: дороге, реке, просеке, вершине. Затем сопоставляют объекты вокруг с картой и контролируют путь по линейным ориентирам, расстоянию и времени. Если место не узнаётся, лучше остановиться, восстановить последнюю известную точку и проверить направление, чем идти наугад. Электронная карта удобна, но должна иметь резерв: бумагу, компас и заряд.",
+    "key_chain_ru": [
+      "Ориентирование карты",
+      "Ориентиры",
+      "Контроль пути",
+      "Восстановление точки"
+    ],
+    "source_refs": [
+      {
+        "source_id": "nps_wilderness_safety",
+        "url": "https://www.nps.gov/olym/planyourvisit/wilderness-safety.htm",
+        "title": "Wilderness Safety — Olympic National Park",
+        "locator": "track location, lost"
+      },
+      {
+        "source_id": "usgs_finding_way",
+        "url": "https://pubs.usgs.gov/fs/2001/0035/report.pdf",
+        "title": "Finding Your Way With Map and Compass",
+        "locator": "topographic map, direction"
+      },
+      {
+        "source_id": "nps_compass_course",
+        "url": "https://www.nps.gov/buff/learn/education/classrooms/upload/Compass_Course_508.pdf",
+        "title": "Compass Course — Using a Compass",
+        "locator": "GPS backup"
+      }
+    ],
+    "source_locator": "Wilderness Safety: itinerary, weakest member, turn back, bad weather; проверено 01.11.2026",
+    "asset_refs": [],
+    "license": "Public domain (U.S. government work)",
+    "adaptation_type": "original_russian_summary_from_verified_source",
+    "change_note_ru": "Оригинальное русское резюме NPS и USGS о контроле местоположения; порядок действий при потере ориентировки дан как учебный алгоритм.",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Wilderness Safety — Olympic National Park",
+      "editor": null,
+      "publisher": "U.S. National Park Service",
+      "year": 2026,
+      "source_url": "https://www.nps.gov/olym/planyourvisit/wilderness-safety.htm",
+      "chapter_url": "https://www.nps.gov/olym/planyourvisit/wilderness-safety.htm",
+      "locator": "Wilderness Safety: itinerary, weakest member, turn back, bad weather; проверено 01.11.2026",
+      "copyright_notice": "Служебные материалы NPS обычно находятся в общественном достоянии США, если не указано иное; сторонние материалы и логотипы исключены. Парковые рекомендации не выдаются за нормы РФ.",
+      "license": "Public domain (U.S. government work)",
+      "license_url": "https://www.nps.gov/aboutus/disclaimer.htm",
+      "required_notice": "Источник: U.S. National Park Service. Материал подготовлен сотрудниками NPS и находится в общественном достоянии США; логотипы и сторонние изображения не использованы.",
+      "changes_ru": "Оригинальное русское резюме NPS и USGS о контроле местоположения; порядок действий при потере ориентировки дан как учебный алгоритм.",
+      "no_endorsement_ru": "Источник не проверял и не одобрял эту учебную адаптацию. Материал остаётся черновиком до предметной редактуры."
+    }
+  }
+]

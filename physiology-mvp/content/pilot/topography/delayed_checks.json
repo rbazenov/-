@@ -1,0 +1,296 @@
+[
+  {
+    "question_id": "d-topo-01-v1",
+    "learning_objective_id": "TOPO-01",
+    "card_id": "card-topo-01-v1",
+    "prompt_ru": "На карте 1:50 000 измерили 4 см до моста. Каково расстояние на местности?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "200 м",
+        "is_correct": false,
+        "explanation_ru": "Это было бы верно для 1:5 000.",
+        "hint_ru": "Переведите 50 000 см в метры."
+      },
+      {
+        "option_id": "b",
+        "text_ru": "2 км",
+        "is_correct": true,
+        "explanation_ru": "1 см = 500 м, значит 4 см = 2 000 м.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "c",
+        "text_ru": "20 км",
+        "is_correct": false,
+        "explanation_ru": "Это завышение в десять раз.",
+        "hint_ru": "Сколько метров в одном сантиметре карты?"
+      },
+      {
+        "option_id": "d",
+        "text_ru": "500 м",
+        "is_correct": false,
+        "explanation_ru": "Это расстояние для 1 см, а не для 4 см.",
+        "hint_ru": "Умножьте на число сантиметров."
+      }
+    ],
+    "correct_option_id": "b",
+    "explanation_correct_ru": "1 см = 500 м, значит 4 см = 2 000 м.",
+    "difficulty": "transfer",
+    "assessment_role": "delayed_check",
+    "misconception_tags": [
+      "scale_transfer"
+    ],
+    "source_id": "usgs_finding_way",
+    "source_refs": [
+      {
+        "source_id": "usgs_finding_way",
+        "url": "https://pubs.usgs.gov/fs/2001/0035/report.pdf",
+        "title": "Finding Your Way With Map and Compass",
+        "locator": "map scale"
+      }
+    ],
+    "license": "Public domain",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Finding Your Way With Map and Compass",
+      "editor": null,
+      "publisher": "U.S. Geological Survey",
+      "year": 2001,
+      "source_url": "https://www.usgs.gov/educational-resources/finding-your-way-map-and-compass",
+      "chapter_url": "https://pubs.usgs.gov/fs/2001/0035/report.pdf",
+      "locator": "Map scale, cardinal points, bearing; проверено 01.11.2026",
+      "copyright_notice": "Материалы, подготовленные USGS, обычно находятся в общественном достоянии США; сторонние изображения могут иметь отдельные права.",
+      "license": "Public domain",
+      "license_url": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+      "required_notice": "Credit: U.S. Geological Survey, U.S. Department of the Interior.",
+      "changes_ru": "Оригинальный отложенный вопрос на пересчёт расстояния.",
+      "no_endorsement_ru": "Источник не проверял и не одобрял эту учебную адаптацию. Материал остаётся черновиком до предметной редактуры."
+    }
+  },
+  {
+    "question_id": "d-topo-02-v1",
+    "learning_objective_id": "TOPO-02",
+    "card_id": "card-topo-02-v1",
+    "prompt_ru": "Сечение рельефа 10 м. Две точки лежат на горизонталях, между которыми четыре интервала сечения. Какова разность высот?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "10 м",
+        "is_correct": false,
+        "explanation_ru": "Это один интервал, а не четыре.",
+        "hint_ru": "Сколько интервалов между точками?"
+      },
+      {
+        "option_id": "b",
+        "text_ru": "20 м",
+        "is_correct": false,
+        "explanation_ru": "Это два интервала.",
+        "hint_ru": "Умножьте сечение на число интервалов."
+      },
+      {
+        "option_id": "c",
+        "text_ru": "40 м",
+        "is_correct": true,
+        "explanation_ru": "4 интервала по 10 м дают 40 м.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "d",
+        "text_ru": "100 м",
+        "is_correct": false,
+        "explanation_ru": "Это десять интервалов.",
+        "hint_ru": "Сколько интервалов указано?"
+      }
+    ],
+    "correct_option_id": "c",
+    "explanation_correct_ru": "4 интервала по 10 м дают 40 м.",
+    "difficulty": "transfer",
+    "assessment_role": "delayed_check",
+    "misconception_tags": [
+      "contour_transfer"
+    ],
+    "source_id": "usgs_topo_symbols",
+    "source_refs": [
+      {
+        "source_id": "usgs_topo_symbols",
+        "url": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/atoms/files/Topographic%20Map%20Symbols.pdf",
+        "title": "Topographic Map Symbols",
+        "locator": "contour interval, index contours"
+      }
+    ],
+    "license": "Public domain",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Topographic Map Symbols",
+      "editor": null,
+      "publisher": "U.S. Geological Survey",
+      "year": 2026,
+      "source_url": "https://www.usgs.gov/media/files/topographic-map-symbols",
+      "chapter_url": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/atoms/files/Topographic%20Map%20Symbols.pdf",
+      "locator": "What is a Topographic Map? Reading Topographic Maps; проверено 01.11.2026",
+      "copyright_notice": "Материалы, подготовленные USGS, обычно находятся в общественном достоянии США; сторонние изображения могут иметь отдельные права.",
+      "license": "Public domain",
+      "license_url": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+      "required_notice": "Credit: U.S. Geological Survey, U.S. Department of the Interior.",
+      "changes_ru": "Оригинальный отложенный вопрос на расчёт разности высот.",
+      "no_endorsement_ru": "Источник не проверял и не одобрял эту учебную адаптацию. Материал остаётся черновиком до предметной редактуры."
+    }
+  },
+  {
+    "question_id": "d-topo-03-v1",
+    "learning_objective_id": "TOPO-03",
+    "card_id": "card-topo-03-v1",
+    "prompt_ru": "Студент хочет идти на восток, но ставит на компасе 270 градусов. Какая ошибка допущена?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Выбран азимут запада вместо востока",
+        "is_correct": true,
+        "explanation_ru": "Восток — 90 градусов, запад — 270.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Выбран азимут севера",
+        "is_correct": false,
+        "explanation_ru": "Север — 0 или 360 градусов.",
+        "hint_ru": "Где находится восток на круге?"
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Азимут вообще не используется",
+        "is_correct": false,
+        "explanation_ru": "Азимут как раз задаёт направление.",
+        "hint_ru": "Что означает 270 градусов?"
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Ошибка только в единицах измерения",
+        "is_correct": false,
+        "explanation_ru": "Градусы верны, неверно выбрано направление.",
+        "hint_ru": "Сравните стороны горизонта."
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_correct_ru": "Восток — 90 градусов, запад — 270.",
+    "difficulty": "transfer",
+    "assessment_role": "delayed_check",
+    "misconception_tags": [
+      "azimuth_transfer"
+    ],
+    "source_id": "usgs_finding_way",
+    "source_refs": [
+      {
+        "source_id": "usgs_finding_way",
+        "url": "https://pubs.usgs.gov/fs/2001/0035/report.pdf",
+        "title": "Finding Your Way With Map and Compass",
+        "locator": "cardinal points"
+      }
+    ],
+    "license": "Public domain",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Finding Your Way With Map and Compass",
+      "editor": null,
+      "publisher": "U.S. Geological Survey",
+      "year": 2001,
+      "source_url": "https://www.usgs.gov/educational-resources/finding-your-way-map-and-compass",
+      "chapter_url": "https://pubs.usgs.gov/fs/2001/0035/report.pdf",
+      "locator": "Map scale, cardinal points, bearing; проверено 01.11.2026",
+      "copyright_notice": "Материалы, подготовленные USGS, обычно находятся в общественном достоянии США; сторонние изображения могут иметь отдельные права.",
+      "license": "Public domain",
+      "license_url": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+      "required_notice": "Credit: U.S. Geological Survey, U.S. Department of the Interior.",
+      "changes_ru": "Оригинальный отложенный вопрос о переносе азимута на стороны горизонта.",
+      "no_endorsement_ru": "Источник не проверял и не одобрял эту учебную адаптацию. Материал остаётся черновиком до предметной редактуры."
+    }
+  },
+  {
+    "question_id": "d-topo-04-v1",
+    "learning_objective_id": "TOPO-04",
+    "card_id": "card-topo-04-v1",
+    "prompt_ru": "После снегопада тропа исчезла, но на карте видна просека и известна последняя точка. Что лучше сделать?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Идти прямо без сверки с картой",
+        "is_correct": false,
+        "explanation_ru": "Без сверки легко уйти в сторону.",
+        "hint_ru": "Что помогает удержать направление?"
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Ориентировать карту, выбрать линейный ориентир и контролировать направление",
+        "is_correct": true,
+        "explanation_ru": "Просека и ориентированная карта помогают восстановить контроль пути.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Ждать, пока тропа снова станет видимой, без оценки условий",
+        "is_correct": false,
+        "explanation_ru": "Ожидание без оценки погоды и состояния может быть опасным.",
+        "hint_ru": "Что ещё нужно оценить?"
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Разделиться и искать тропу в разных сторонах",
+        "is_correct": false,
+        "explanation_ru": "Разделение повышает риск.",
+        "hint_ru": "Как сохранить группу?"
+      }
+    ],
+    "correct_option_id": "b",
+    "explanation_correct_ru": "Просека и ориентированная карта помогают восстановить контроль пути.",
+    "difficulty": "transfer",
+    "assessment_role": "delayed_check",
+    "misconception_tags": [
+      "orientation_transfer"
+    ],
+    "source_id": "nps_wilderness_safety",
+    "source_refs": [
+      {
+        "source_id": "nps_wilderness_safety",
+        "url": "https://www.nps.gov/olym/planyourvisit/wilderness-safety.htm",
+        "title": "Wilderness Safety — Olympic National Park",
+        "locator": "track location"
+      },
+      {
+        "source_id": "usgs_finding_way",
+        "url": "https://pubs.usgs.gov/fs/2001/0035/report.pdf",
+        "title": "Finding Your Way With Map and Compass",
+        "locator": "direction"
+      }
+    ],
+    "license": "Public domain (U.S. government work)",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Wilderness Safety — Olympic National Park",
+      "editor": null,
+      "publisher": "U.S. National Park Service",
+      "year": 2026,
+      "source_url": "https://www.nps.gov/olym/planyourvisit/wilderness-safety.htm",
+      "chapter_url": "https://www.nps.gov/olym/planyourvisit/wilderness-safety.htm",
+      "locator": "Wilderness Safety: itinerary, weakest member, turn back, bad weather; проверено 01.11.2026",
+      "copyright_notice": "Служебные материалы NPS обычно находятся в общественном достоянии США, если не указано иное; сторонние материалы и логотипы исключены. Парковые рекомендации не выдаются за нормы РФ.",
+      "license": "Public domain (U.S. government work)",
+      "license_url": "https://www.nps.gov/aboutus/disclaimer.htm",
+      "required_notice": "Источник: U.S. National Park Service. Материал подготовлен сотрудниками NPS и находится в общественном достоянии США; логотипы и сторонние изображения не использованы.",
+      "changes_ru": "Оригинальный отложенный вопрос о восстановлении контроля пути.",
+      "no_endorsement_ru": "Источник не проверял и не одобрял эту учебную адаптацию. Материал остаётся черновиком до предметной редактуры."
+    }
+  }
+]

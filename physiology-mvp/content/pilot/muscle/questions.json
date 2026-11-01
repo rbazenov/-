@@ -1,0 +1,3404 @@
+[
+  {
+    "question_id": "q-mus-01-01-v1",
+    "learning_objective_id": "MUS-01",
+    "card_id": "card-mus-01-v1",
+    "prompt_ru": "Какое свойство позволяет мышце возвращать исходную длину после растяжения?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Эластичность",
+        "is_correct": true,
+        "explanation_ru": "Эластичность помогает мышце возвращать исходную форму после растяжения.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Возбудимость",
+        "is_correct": false,
+        "explanation_ru": "Возбудимость — это способность отвечать на сигнал, а не возвращать длину.",
+        "hint_ru": "Разделите ответ на сигнал и механическое возвращение формы."
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Сократимость",
+        "is_correct": false,
+        "explanation_ru": "Сократимость связана с развитием силы, а не с пассивным возвратом длины.",
+        "hint_ru": "Ищите свойство, связанное с возвратом формы."
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Растяжимость",
+        "is_correct": false,
+        "explanation_ru": "Растяжимость позволяет удлиняться, но не объясняет возврат.",
+        "hint_ru": "Что происходит после растяжения?"
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_correct_ru": "Эластичность помогает мышце возвращать исходную форму после растяжения.",
+    "difficulty": "baseline",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "muscle_properties"
+    ],
+    "source_id": "douglas_ap_1",
+    "source_refs": [
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-1-overview-of-muscle-tissues/"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Douglas College Human Anatomy and Physiology I (1st ed.)",
+      "editor": "Jennifer M. Barker",
+      "publisher": "Douglas College",
+      "year": 2017,
+      "source_url": "https://pressbooks.bccampus.ca/dcbiol11031109/",
+      "chapter_url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-1-overview-of-muscle-tissues/",
+      "locator": "10.1 Overview of Muscle Tissues",
+      "copyright_notice": "Textbook content © 1999–2016 Rice University; changes and additions © 2017 Douglas College Biology Department, except where otherwise noted.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Download for free at https://pressbooks.bccampus.ca/dcbiol11031109",
+      "changes_ru": "Формулировка вопроса и варианты ответа созданы для проекта по механизму из источника. Иллюстрации исходного учебника не использованы.",
+      "no_endorsement_ru": "Автор и издатель исходного учебника не проверяли и не одобряли эту адаптацию."
+    }
+  },
+  {
+    "question_id": "q-mus-01-02-v1",
+    "learning_objective_id": "MUS-01",
+    "card_id": "card-mus-01-v1",
+    "prompt_ru": "Почему скелетная мышца может выполнять произвольное движение?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Она не зависит от нервной системы",
+        "is_correct": false,
+        "explanation_ru": "Скелетная мышца как раз зависит от сигнала мотонейрона.",
+        "hint_ru": "Вспомните, какой сигнал запускает скелетное волокно."
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Она обычно получает сигнал от мотонейрона",
+        "is_correct": true,
+        "explanation_ru": "Произвольное движение скелетной мышцы связано с нервной командой.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Она сокращается только от гормонов",
+        "is_correct": false,
+        "explanation_ru": "Гормоны могут влиять на мышцу, но не являются основным быстрым сигналом произвольного движения.",
+        "hint_ru": "Разделите быструю нервную команду и медленную регуляцию."
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Она не обладает возбудимостью",
+        "is_correct": false,
+        "explanation_ru": "Скелетная мышца возбудима и отвечает на сигнал.",
+        "hint_ru": "Без возбудимости сигнал не запустил бы сокращение."
+      }
+    ],
+    "correct_option_id": "b",
+    "explanation_correct_ru": "Произвольное движение скелетной мышцы связано с нервной командой.",
+    "difficulty": "application",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "voluntary_control"
+    ],
+    "source_id": "douglas_ap_1",
+    "source_refs": [
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-1-overview-of-muscle-tissues/"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Douglas College Human Anatomy and Physiology I (1st ed.)",
+      "editor": "Jennifer M. Barker",
+      "publisher": "Douglas College",
+      "year": 2017,
+      "source_url": "https://pressbooks.bccampus.ca/dcbiol11031109/",
+      "chapter_url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-1-overview-of-muscle-tissues/",
+      "locator": "10.1 Overview of Muscle Tissues",
+      "copyright_notice": "Textbook content © 1999–2016 Rice University; changes and additions © 2017 Douglas College Biology Department, except where otherwise noted.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Download for free at https://pressbooks.bccampus.ca/dcbiol11031109",
+      "changes_ru": "Формулировка вопроса и варианты ответа созданы для проекта по механизму из источника. Иллюстрации исходного учебника не использованы.",
+      "no_endorsement_ru": "Автор и издатель исходного учебника не проверяли и не одобряли эту адаптацию."
+    }
+  },
+  {
+    "question_id": "q-mus-01-03-v1",
+    "learning_objective_id": "MUS-01",
+    "card_id": "card-mus-01-v1",
+    "prompt_ru": "Мышца развивает силу, но её длина почти не меняется. Какое свойство прежде всего обеспечивает развитие силы?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Эластичность",
+        "is_correct": false,
+        "explanation_ru": "Эластичность помогает возвращать форму, а сократимость развивает силу.",
+        "hint_ru": "Ищите свойство, связанное с созданием напряжения."
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Растяжимость",
+        "is_correct": false,
+        "explanation_ru": "Растяжимость описывает возможность удлинения, а не создание силы.",
+        "hint_ru": "Что позволяет мышце тянуть?"
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Сократимость",
+        "is_correct": true,
+        "explanation_ru": "Сократимость позволяет мышце развивать силу даже без заметного укорочения.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Возбудимость",
+        "is_correct": false,
+        "explanation_ru": "Возбудимость запускает ответ, но само развитие силы связано с сократимостью.",
+        "hint_ru": "Разделите сигнал и механический ответ."
+      }
+    ],
+    "correct_option_id": "c",
+    "explanation_correct_ru": "Сократимость позволяет мышце развивать силу даже без заметного укорочения.",
+    "difficulty": "transfer",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "isometric_property"
+    ],
+    "source_id": "douglas_ap_1",
+    "source_refs": [
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-1-overview-of-muscle-tissues/"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Douglas College Human Anatomy and Physiology I (1st ed.)",
+      "editor": "Jennifer M. Barker",
+      "publisher": "Douglas College",
+      "year": 2017,
+      "source_url": "https://pressbooks.bccampus.ca/dcbiol11031109/",
+      "chapter_url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-1-overview-of-muscle-tissues/",
+      "locator": "10.1 Overview of Muscle Tissues",
+      "copyright_notice": "Textbook content © 1999–2016 Rice University; changes and additions © 2017 Douglas College Biology Department, except where otherwise noted.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Download for free at https://pressbooks.bccampus.ca/dcbiol11031109",
+      "changes_ru": "Формулировка вопроса и варианты ответа созданы для проекта по механизму из источника. Иллюстрации исходного учебника не использованы.",
+      "no_endorsement_ru": "Автор и издатель исходного учебника не проверяли и не одобряли эту адаптацию."
+    }
+  },
+  {
+    "question_id": "q-mus-02-01-v1",
+    "learning_objective_id": "MUS-02",
+    "card_id": "card-mus-02-v1",
+    "prompt_ru": "Что такое мышечное волокно?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Пучок саркомеров",
+        "is_correct": false,
+        "explanation_ru": "Мышечное волокно — клетка. Пучок саркомеров не отдельный уровень организации мышцы.",
+        "hint_ru": "Вспомните уровни: клетка, пучок, орган."
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Клетка скелетной мышцы",
+        "is_correct": true,
+        "explanation_ru": "Мышечное волокно — это мышечная клетка.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Сухожилие",
+        "is_correct": false,
+        "explanation_ru": "Сухожилие передаёт усилие, но это не мышечная клетка.",
+        "hint_ru": "Что содержит сарколемму и саркоплазму?"
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Один саркомер",
+        "is_correct": false,
+        "explanation_ru": "Саркомер — часть миофибриллы внутри волокна.",
+        "hint_ru": "Саркомер меньше волокна."
+      }
+    ],
+    "correct_option_id": "b",
+    "explanation_correct_ru": "Мышечное волокно — это мышечная клетка.",
+    "difficulty": "baseline",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "organization_levels"
+    ],
+    "source_id": "douglas_ap_1",
+    "source_refs": [
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-2-skeletal-muscle/"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Douglas College Human Anatomy and Physiology I (1st ed.)",
+      "editor": "Jennifer M. Barker",
+      "publisher": "Douglas College",
+      "year": 2017,
+      "source_url": "https://pressbooks.bccampus.ca/dcbiol11031109/",
+      "chapter_url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-2-skeletal-muscle/",
+      "locator": "10.2 Skeletal Muscle",
+      "copyright_notice": "Textbook content © 1999–2016 Rice University; changes and additions © 2017 Douglas College Biology Department, except where otherwise noted.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Download for free at https://pressbooks.bccampus.ca/dcbiol11031109",
+      "changes_ru": "Формулировка вопроса и варианты ответа созданы для проекта по механизму из источника. Иллюстрации исходного учебника не использованы.",
+      "no_endorsement_ru": "Автор и издатель исходного учебника не проверяли и не одобряли эту адаптацию."
+    }
+  },
+  {
+    "question_id": "q-mus-02-02-v1",
+    "learning_objective_id": "MUS-02",
+    "card_id": "card-mus-02-v1",
+    "prompt_ru": "Через что усилие мышечных волокон обычно передаётся на кость?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Только через сарколемму",
+        "is_correct": false,
+        "explanation_ru": "Сарколемма — мембрана волокна, но усилие передаётся через соединительные структуры.",
+        "hint_ru": "Ищите структуры, которые соединяются с сухожилием."
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Через T-трубочки",
+        "is_correct": false,
+        "explanation_ru": "T-трубочки проводят возбуждение, а не передают усилие на кость.",
+        "hint_ru": "Разделите электрический сигнал и механическую передачу."
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Через соединительнотканные оболочки и сухожилие",
+        "is_correct": true,
+        "explanation_ru": "Оболочки мышцы соединяются с сухожилием и передают усилие.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Через ацетилхолин",
+        "is_correct": false,
+        "explanation_ru": "Ацетилхолин передаёт сигнал на мембрану, но не тянет кость.",
+        "hint_ru": "Медиатор — не механическая структура."
+      }
+    ],
+    "correct_option_id": "c",
+    "explanation_correct_ru": "Оболочки мышцы соединяются с сухожилием и передают усилие.",
+    "difficulty": "application",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "force_transmission"
+    ],
+    "source_id": "douglas_ap_1",
+    "source_refs": [
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-2-skeletal-muscle/"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Douglas College Human Anatomy and Physiology I (1st ed.)",
+      "editor": "Jennifer M. Barker",
+      "publisher": "Douglas College",
+      "year": 2017,
+      "source_url": "https://pressbooks.bccampus.ca/dcbiol11031109/",
+      "chapter_url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-2-skeletal-muscle/",
+      "locator": "10.2 Skeletal Muscle",
+      "copyright_notice": "Textbook content © 1999–2016 Rice University; changes and additions © 2017 Douglas College Biology Department, except where otherwise noted.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Download for free at https://pressbooks.bccampus.ca/dcbiol11031109",
+      "changes_ru": "Формулировка вопроса и варианты ответа созданы для проекта по механизму из источника. Иллюстрации исходного учебника не использованы.",
+      "no_endorsement_ru": "Автор и издатель исходного учебника не проверяли и не одобряли эту адаптацию."
+    }
+  },
+  {
+    "question_id": "q-mus-02-03-v1",
+    "learning_objective_id": "MUS-02",
+    "card_id": "card-mus-02-v1",
+    "prompt_ru": "Какой уровень организации непосредственно состоит из последовательных саркомеров?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Эпимизий",
+        "is_correct": false,
+        "explanation_ru": "Эпимизий окружает всю мышцу.",
+        "hint_ru": "Саркомеры находятся внутри сократительного аппарата клетки."
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Пучок волокон",
+        "is_correct": false,
+        "explanation_ru": "Пучок состоит из волокон, а не непосредственно из саркомеров.",
+        "hint_ru": "Спуститесь на уровень внутри волокна."
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Сухожилие",
+        "is_correct": false,
+        "explanation_ru": "Сухожилие передаёт усилие, но не состоит из саркомеров.",
+        "hint_ru": "Ищите структуру внутри мышечного волокна."
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Миофибрилла",
+        "is_correct": true,
+        "explanation_ru": "Миофибрилла состоит из саркомеров, расположенных последовательно.",
+        "hint_ru": null
+      }
+    ],
+    "correct_option_id": "d",
+    "explanation_correct_ru": "Миофибрилла состоит из саркомеров, расположенных последовательно.",
+    "difficulty": "transfer",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "sarcomere_location"
+    ],
+    "source_id": "douglas_ap_1",
+    "source_refs": [
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-2-skeletal-muscle/"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Douglas College Human Anatomy and Physiology I (1st ed.)",
+      "editor": "Jennifer M. Barker",
+      "publisher": "Douglas College",
+      "year": 2017,
+      "source_url": "https://pressbooks.bccampus.ca/dcbiol11031109/",
+      "chapter_url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-2-skeletal-muscle/",
+      "locator": "10.2 Skeletal Muscle",
+      "copyright_notice": "Textbook content © 1999–2016 Rice University; changes and additions © 2017 Douglas College Biology Department, except where otherwise noted.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Download for free at https://pressbooks.bccampus.ca/dcbiol11031109",
+      "changes_ru": "Формулировка вопроса и варианты ответа созданы для проекта по механизму из источника. Иллюстрации исходного учебника не использованы.",
+      "no_endorsement_ru": "Автор и издатель исходного учебника не проверяли и не одобряли эту адаптацию."
+    }
+  },
+  {
+    "question_id": "q-mus-03-01-v1",
+    "learning_objective_id": "MUS-03",
+    "card_id": "card-mus-03-v1",
+    "prompt_ru": "Что происходит с Z-дисками при укорочении саркомера?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Они сближаются",
+        "is_correct": true,
+        "explanation_ru": "При скольжении нитей Z-диски сближаются.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Они расходятся",
+        "is_correct": false,
+        "explanation_ru": "Расхождение Z-дисков означало бы удлинение саркомера.",
+        "hint_ru": "Куда движутся границы саркомера при сокращении?"
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Они исчезают",
+        "is_correct": false,
+        "explanation_ru": "Z-диски сохраняются как границы саркомера.",
+        "hint_ru": "Границы не исчезают, а меняют расстояние."
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Они превращаются в M-линию",
+        "is_correct": false,
+        "explanation_ru": "M-линия и Z-диски — разные структуры.",
+        "hint_ru": "Не смешивайте границы и центр саркомера."
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_correct_ru": "При скольжении нитей Z-диски сближаются.",
+    "difficulty": "baseline",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "sarcomere_shortening"
+    ],
+    "source_id": "douglas_ap_1",
+    "source_refs": [
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-2-skeletal-muscle/"
+      },
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-3-muscle-fiber-contraction-and-relaxation/"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Douglas College Human Anatomy and Physiology I (1st ed.)",
+      "editor": "Jennifer M. Barker",
+      "publisher": "Douglas College",
+      "year": 2017,
+      "source_url": "https://pressbooks.bccampus.ca/dcbiol11031109/",
+      "chapter_url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-2-skeletal-muscle/",
+      "locator": "10.2 Skeletal Muscle; 10.3 Muscle Fiber Contraction and Relaxation",
+      "copyright_notice": "Textbook content © 1999–2016 Rice University; changes and additions © 2017 Douglas College Biology Department, except where otherwise noted.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Download for free at https://pressbooks.bccampus.ca/dcbiol11031109",
+      "changes_ru": "Формулировка вопроса и варианты ответа созданы для проекта по механизму из источника. Иллюстрации исходного учебника не использованы.",
+      "no_endorsement_ru": "Автор и издатель исходного учебника не проверяли и не одобряли эту адаптацию."
+    }
+  },
+  {
+    "question_id": "q-mus-03-02-v1",
+    "learning_objective_id": "MUS-03",
+    "card_id": "card-mus-03-v1",
+    "prompt_ru": "Почему при сокращении не говорят, что актиновые и миозиновые нити укорачиваются?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Они растворяются в саркоплазме",
+        "is_correct": false,
+        "explanation_ru": "Нити не растворяются при обычном сокращении.",
+        "hint_ru": "Вспомните модель скольжения."
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Они скользят относительно друг друга",
+        "is_correct": true,
+        "explanation_ru": "Меняется перекрытие нитей, а не длина самих нитей.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Они заменяются кальцием",
+        "is_correct": false,
+        "explanation_ru": "Кальций регулирует сокращение, но не заменяет нити.",
+        "hint_ru": "Разделите регуляторный сигнал и структуры."
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Они синтезируются заново каждый раз",
+        "is_correct": false,
+        "explanation_ru": "Сокращение не требует мгновенного синтеза новых нитей.",
+        "hint_ru": "Что меняется быстрее: длина нитей или их положение?"
+      }
+    ],
+    "correct_option_id": "b",
+    "explanation_correct_ru": "Меняется перекрытие нитей, а не длина самих нитей.",
+    "difficulty": "application",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "sliding_filament"
+    ],
+    "source_id": "douglas_ap_1",
+    "source_refs": [
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-3-muscle-fiber-contraction-and-relaxation/"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Douglas College Human Anatomy and Physiology I (1st ed.)",
+      "editor": "Jennifer M. Barker",
+      "publisher": "Douglas College",
+      "year": 2017,
+      "source_url": "https://pressbooks.bccampus.ca/dcbiol11031109/",
+      "chapter_url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-3-muscle-fiber-contraction-and-relaxation/",
+      "locator": "10.3 Muscle Fiber Contraction and Relaxation",
+      "copyright_notice": "Textbook content © 1999–2016 Rice University; changes and additions © 2017 Douglas College Biology Department, except where otherwise noted.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Download for free at https://pressbooks.bccampus.ca/dcbiol11031109",
+      "changes_ru": "Формулировка вопроса и варианты ответа созданы для проекта по механизму из источника. Иллюстрации исходного учебника не использованы.",
+      "no_endorsement_ru": "Автор и издатель исходного учебника не проверяли и не одобряли эту адаптацию."
+    }
+  },
+  {
+    "question_id": "q-mus-03-03-v1",
+    "learning_objective_id": "MUS-03",
+    "card_id": "card-mus-03-v1",
+    "prompt_ru": "Какой признак соответствует сокращению саркомера?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "A-полоса резко увеличивается",
+        "is_correct": false,
+        "explanation_ru": "A-полоса связана с длиной толстых нитей и обычно не увеличивается при сокращении.",
+        "hint_ru": "Подумайте, какие зоны показывают перекрытие нитей."
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Длина толстых нитей уменьшается",
+        "is_correct": false,
+        "explanation_ru": "Толстые нити не укорачиваются как отдельные структуры.",
+        "hint_ru": "Нити скользят, а не сжимаются."
+      },
+      {
+        "option_id": "c",
+        "text_ru": "I-полоса и H-зона уменьшаются",
+        "is_correct": true,
+        "explanation_ru": "При большем перекрытии нитей эти зоны уменьшаются.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Z-диски расходятся",
+        "is_correct": false,
+        "explanation_ru": "При сокращении Z-диски сближаются.",
+        "hint_ru": "Саркомер становится короче."
+      }
+    ],
+    "correct_option_id": "c",
+    "explanation_correct_ru": "При большем перекрытии нитей эти зоны уменьшаются.",
+    "difficulty": "transfer",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "band_changes"
+    ],
+    "source_id": "douglas_ap_1",
+    "source_refs": [
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-2-skeletal-muscle/"
+      },
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-3-muscle-fiber-contraction-and-relaxation/"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Douglas College Human Anatomy and Physiology I (1st ed.)",
+      "editor": "Jennifer M. Barker",
+      "publisher": "Douglas College",
+      "year": 2017,
+      "source_url": "https://pressbooks.bccampus.ca/dcbiol11031109/",
+      "chapter_url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-2-skeletal-muscle/",
+      "locator": "10.2 Skeletal Muscle; 10.3 Muscle Fiber Contraction and Relaxation",
+      "copyright_notice": "Textbook content © 1999–2016 Rice University; changes and additions © 2017 Douglas College Biology Department, except where otherwise noted.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Download for free at https://pressbooks.bccampus.ca/dcbiol11031109",
+      "changes_ru": "Формулировка вопроса и варианты ответа созданы для проекта по механизму из источника. Иллюстрации исходного учебника не использованы.",
+      "no_endorsement_ru": "Автор и издатель исходного учебника не проверяли и не одобряли эту адаптацию."
+    }
+  },
+  {
+    "question_id": "q-mus-04-01-v1",
+    "learning_objective_id": "MUS-04",
+    "card_id": "card-mus-04-v1",
+    "prompt_ru": "Что такое двигательная единица?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Один саркомер и его Z-диски",
+        "is_correct": false,
+        "explanation_ru": "Это структура саркомера, а не единица нервной регуляции.",
+        "hint_ru": "Двигательная единица связывает нейрон и волокна."
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Все волокна одной мышцы",
+        "is_correct": false,
+        "explanation_ru": "В мышце много двигательных единиц, а не одна на всю мышцу.",
+        "hint_ru": "Один мотонейрон управляет не всей мышцей сразу."
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Один мотонейрон и все иннервируемые им волокна",
+        "is_correct": true,
+        "explanation_ru": "Это определение двигательной единицы.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Ацетилхолин и рецептор",
+        "is_correct": false,
+        "explanation_ru": "Это компоненты синапса, а не двигательная единица.",
+        "hint_ru": "Ищите клеточный уровень управления."
+      }
+    ],
+    "correct_option_id": "c",
+    "explanation_correct_ru": "Это определение двигательной единицы.",
+    "difficulty": "baseline",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "motor_unit_definition"
+    ],
+    "source_id": "douglas_ap_1",
+    "source_refs": [
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-4-nervous-system-control-of-muscle-tension/"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Douglas College Human Anatomy and Physiology I (1st ed.)",
+      "editor": "Jennifer M. Barker",
+      "publisher": "Douglas College",
+      "year": 2017,
+      "source_url": "https://pressbooks.bccampus.ca/dcbiol11031109/",
+      "chapter_url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-4-nervous-system-control-of-muscle-tension/",
+      "locator": "10.4 Nervous System Control of Muscle Tension",
+      "copyright_notice": "Textbook content © 1999–2016 Rice University; changes and additions © 2017 Douglas College Biology Department, except where otherwise noted.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Download for free at https://pressbooks.bccampus.ca/dcbiol11031109",
+      "changes_ru": "Формулировка вопроса и варианты ответа созданы для проекта по механизму из источника. Иллюстрации исходного учебника не использованы.",
+      "no_endorsement_ru": "Автор и издатель исходного учебника не проверяли и не одобряли эту адаптацию."
+    }
+  },
+  {
+    "question_id": "q-mus-04-02-v1",
+    "learning_objective_id": "MUS-04",
+    "card_id": "card-mus-04-v1",
+    "prompt_ru": "Почему мышцы глаз способны к очень точным движениям?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "В них нет мотонейронов",
+        "is_correct": false,
+        "explanation_ru": "Скелетные мышцы глаз иннервируются мотонейронами.",
+        "hint_ru": "Точность не означает отсутствие нервного контроля."
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Они используют только гликолиз",
+        "is_correct": false,
+        "explanation_ru": "Тип энергообеспечения не объясняет точность сам по себе.",
+        "hint_ru": "Подумайте о размере двигательных единиц."
+      },
+      {
+        "option_id": "c",
+        "text_ru": "В них только крупные двигательные единицы",
+        "is_correct": false,
+        "explanation_ru": "Крупные единицы дают мощные, но менее точные движения.",
+        "hint_ru": "Для точности нужно меньше волокон на один нейрон."
+      },
+      {
+        "option_id": "d",
+        "text_ru": "В них много малых двигательных единиц",
+        "is_correct": true,
+        "explanation_ru": "Малые двигательные единицы позволяют тонко управлять силой и движением.",
+        "hint_ru": null
+      }
+    ],
+    "correct_option_id": "d",
+    "explanation_correct_ru": "Малые двигательные единицы позволяют тонко управлять силой и движением.",
+    "difficulty": "application",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "motor_unit_precision"
+    ],
+    "source_id": "douglas_ap_1",
+    "source_refs": [
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-4-nervous-system-control-of-muscle-tension/"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Douglas College Human Anatomy and Physiology I (1st ed.)",
+      "editor": "Jennifer M. Barker",
+      "publisher": "Douglas College",
+      "year": 2017,
+      "source_url": "https://pressbooks.bccampus.ca/dcbiol11031109/",
+      "chapter_url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-4-nervous-system-control-of-muscle-tension/",
+      "locator": "10.4 Nervous System Control of Muscle Tension",
+      "copyright_notice": "Textbook content © 1999–2016 Rice University; changes and additions © 2017 Douglas College Biology Department, except where otherwise noted.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Download for free at https://pressbooks.bccampus.ca/dcbiol11031109",
+      "changes_ru": "Формулировка вопроса и варианты ответа созданы для проекта по механизму из источника. Иллюстрации исходного учебника не использованы.",
+      "no_endorsement_ru": "Автор и издатель исходного учебника не проверяли и не одобряли эту адаптацию."
+    }
+  },
+  {
+    "question_id": "q-mus-04-03-v1",
+    "learning_objective_id": "MUS-04",
+    "card_id": "card-mus-04-v1",
+    "prompt_ru": "Что может быстро увеличить усилие одной мышцы без роста её размера?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Увеличение числа активных двигательных единиц",
+        "is_correct": true,
+        "explanation_ru": "Рекрутирование меняет число активных волокон здесь и сейчас.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Увеличение числа костей в конечности",
+        "is_correct": false,
+        "explanation_ru": "Число костей не меняется при усилии мышцы.",
+        "hint_ru": "Ищите механизм нервной регуляции."
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Удлинение актиновых нитей",
+        "is_correct": false,
+        "explanation_ru": "Актиновые нити не удлиняются для мгновенного роста силы.",
+        "hint_ru": "Сила регулируется числом мостиков и активных волокон."
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Замена миозина на тропомиозин",
+        "is_correct": false,
+        "explanation_ru": "Это разные белки с разными функциями.",
+        "hint_ru": "Не смешивайте сократительные и регуляторные белки."
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_correct_ru": "Рекрутирование меняет число активных волокон здесь и сейчас.",
+    "difficulty": "transfer",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "recruitment_vs_growth"
+    ],
+    "source_id": "douglas_ap_1",
+    "source_refs": [
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-4-nervous-system-control-of-muscle-tension/"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Douglas College Human Anatomy and Physiology I (1st ed.)",
+      "editor": "Jennifer M. Barker",
+      "publisher": "Douglas College",
+      "year": 2017,
+      "source_url": "https://pressbooks.bccampus.ca/dcbiol11031109/",
+      "chapter_url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-4-nervous-system-control-of-muscle-tension/",
+      "locator": "10.4 Nervous System Control of Muscle Tension",
+      "copyright_notice": "Textbook content © 1999–2016 Rice University; changes and additions © 2017 Douglas College Biology Department, except where otherwise noted.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Download for free at https://pressbooks.bccampus.ca/dcbiol11031109",
+      "changes_ru": "Формулировка вопроса и варианты ответа созданы для проекта по механизму из источника. Иллюстрации исходного учебника не использованы.",
+      "no_endorsement_ru": "Автор и издатель исходного учебника не проверяли и не одобряли эту адаптацию."
+    }
+  },
+  {
+    "question_id": "q-mus-05-01-v1",
+    "learning_objective_id": "MUS-05",
+    "card_id": "card-mus-05-v1",
+    "prompt_ru": "Что непосредственно передаёт сигнал от окончания мотонейрона к мембране мышечного волокна?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Высвобождение ацетилхолина и его связывание с рецепторами",
+        "is_correct": true,
+        "explanation_ru": "Ацетилхолин выделяется из окончания аксона, диффундирует через синаптическую щель и связывается с рецепторами моторной концевой пластинки.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Высвобождение Ca²⁺ из саркоплазматического ретикулума",
+        "is_correct": false,
+        "explanation_ru": "Это более позднее событие внутри мышечного волокна; оно следует за возбуждением мембраны.",
+        "hint_ru": "Подумайте, что происходит между нейроном и мышечным волокном до возбуждения сарколеммы."
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Связывание миозина с актином",
+        "is_correct": false,
+        "explanation_ru": "Это этап сокращения внутри саркомера, а не передача сигнала от нейрона.",
+        "hint_ru": "Разделите передачу сигнала на мембрану и последующую работу сократительных белков."
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Гидролиз АТФ миозиновой головкой",
+        "is_correct": false,
+        "explanation_ru": "АТФ обеспечивает цикл поперечных мостиков, но между нейроном и мембраной волокна сигнал передаёт ацетилхолин.",
+        "hint_ru": "Ищите химический посредник, который выделяется из окончания аксона."
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_correct_ru": "Ацетилхолин — посредник нервно-мышечной передачи: он связывает сигнал мотонейрона с возбуждением мембраны мышечного волокна.",
+    "difficulty": "baseline",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "nmj_transmitter",
+      "sequence_confusion"
+    ],
+    "source_id": "douglas_ap_1",
+    "source_refs": [
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-2-skeletal-muscle/"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "approved",
+    "reviewer": "Организатор продукта (со слов); предметный редактор не указан",
+    "version": 1,
+    "attribution": {
+      "source_title": "Douglas College Human Anatomy and Physiology I (1st ed.)",
+      "editor": "Jennifer M. Barker",
+      "publisher": "Douglas College",
+      "year": 2017,
+      "source_url": "https://pressbooks.bccampus.ca/dcbiol11031109/",
+      "chapter_url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-2-skeletal-muscle/",
+      "locator": "10.2–10.3",
+      "copyright_notice": "Textbook content © 1999–2016 Rice University; changes and additions © 2017 Douglas College Biology Department, except where otherwise noted.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Download for free at https://pressbooks.bccampus.ca/dcbiol11031109",
+      "changes_ru": "Перевод на русский язык, сокращение и адаптация под мобильную карточку; формулировки учебных вопросов созданы для проекта. Иллюстрации исходного учебника не использованы.",
+      "no_endorsement_ru": "Автор и издатель исходного учебника не проверяли и не одобряли эту адаптацию."
+    },
+    "review_note_ru": "Утверждение сообщено организатором продукта 01.11.2026. ФИО предметного редактора не предоставлено; не выдавать за независимую предметную экспертизу."
+  },
+  {
+    "question_id": "q-mus-05-02-v1",
+    "learning_objective_id": "MUS-05",
+    "card_id": "card-mus-05-v1",
+    "prompt_ru": "Почему ацетилхолин не должен бесконечно возбуждать мышечное волокно после одного нервного сигнала?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Кальций немедленно связывается с тропонином",
+        "is_correct": false,
+        "explanation_ru": "Связывание кальция с тропонином относится к запуску сокращения, а не к прекращению действия ацетилхолина.",
+        "hint_ru": "Вспомните, какой фермент ограничивает действие медиатора в синаптической щели."
+      },
+      {
+        "option_id": "b",
+        "text_ru": "АТФ прекращает выделяться из окончания аксона",
+        "is_correct": false,
+        "explanation_ru": "АТФ не медиатор нервно-мышечного соединения. Прекращение сигнала связано с разрушением ацетилхолина.",
+        "hint_ru": "Подумайте о веществе, которое уже выделилось в синаптическую щель."
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Тропомиозин закрывает рецепторы ацетилхолина",
+        "is_correct": false,
+        "explanation_ru": "Тропомиозин регулирует участки связывания на актине, а не рецепторы ацетилхолина на мембране.",
+        "hint_ru": "Не смешивайте регуляцию сократительных нитей и рецепторы мембраны."
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Ацетилхолинэстераза разрушает ацетилхолин в синаптической щели",
+        "is_correct": true,
+        "explanation_ru": "Быстрое разрушение ацетилхолина помогает прекратить его действие на рецепторы.",
+        "hint_ru": null
+      }
+    ],
+    "correct_option_id": "d",
+    "explanation_correct_ru": "Ацетилхолинэстераза ограничивает действие ацетилхолина, поэтому сигнал не должен поддерживаться бесконечно.",
+    "difficulty": "application",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "ach_termination",
+      "compartment_confusion"
+    ],
+    "source_id": "douglas_ap_1",
+    "source_refs": [
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-2-skeletal-muscle/"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "approved",
+    "reviewer": "Организатор продукта (со слов); предметный редактор не указан",
+    "version": 1,
+    "attribution": {
+      "source_title": "Douglas College Human Anatomy and Physiology I (1st ed.)",
+      "editor": "Jennifer M. Barker",
+      "publisher": "Douglas College",
+      "year": 2017,
+      "source_url": "https://pressbooks.bccampus.ca/dcbiol11031109/",
+      "chapter_url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-2-skeletal-muscle/",
+      "locator": "10.2–10.3",
+      "copyright_notice": "Textbook content © 1999–2016 Rice University; changes and additions © 2017 Douglas College Biology Department, except where otherwise noted.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Download for free at https://pressbooks.bccampus.ca/dcbiol11031109",
+      "changes_ru": "Перевод на русский язык, сокращение и адаптация под мобильную карточку; формулировки учебных вопросов созданы для проекта. Иллюстрации исходного учебника не использованы.",
+      "no_endorsement_ru": "Автор и издатель исходного учебника не проверяли и не одобряли эту адаптацию."
+    },
+    "review_note_ru": "Утверждение сообщено организатором продукта 01.11.2026. ФИО предметного редактора не предоставлено; не выдавать за независимую предметную экспертизу."
+  },
+  {
+    "question_id": "q-mus-05-03-v1",
+    "learning_objective_id": "MUS-05",
+    "card_id": "card-mus-05-v1",
+    "prompt_ru": "Спортсмен быстро включает мышцы перед стартом. Какой порядок ранних событий правильный?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Потенциал действия волокна → выброс ацетилхолина → импульс мотонейрона → связывание миозина с актином",
+        "is_correct": false,
+        "explanation_ru": "Потенциал действия волокна не возникает раньше нервного сигнала и выделения медиатора.",
+        "hint_ru": "Сначала сигнал приходит по мотонейрону, затем мышечное волокно возбуждается."
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Выход Ca²⁺ из саркоплазматического ретикулума → выброс ацетилхолина → импульс мотонейрона → деполяризация мембраны",
+        "is_correct": false,
+        "explanation_ru": "Выход кальция из саркоплазматического ретикулума — более позднее событие, а не начало цепочки.",
+        "hint_ru": "Разделите раннюю передачу сигнала на мембрану и более поздний выход кальция внутри волокна."
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Потенциал действия мотонейрона → выброс ацетилхолина → деполяризация мембраны волокна → потенциал действия волокна",
+        "is_correct": true,
+        "explanation_ru": "Это последовательность от нервного сигнала к возбуждению мышечного волокна.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Выброс ацетилхолина → потенциал действия мотонейрона → выход Ca²⁺ из саркоплазматического ретикулума → деполяризация мембраны",
+        "is_correct": false,
+        "explanation_ru": "Выброс ацетилхолина не предшествует потенциалу действия мотонейрона; порядок перепутан.",
+        "hint_ru": "Начните с события в аксоне, а не с выделения медиатора."
+      }
+    ],
+    "correct_option_id": "c",
+    "explanation_correct_ru": "Ранняя цепочка идёт от импульса мотонейрона через ацетилхолин к возбуждению мембраны мышечного волокна.",
+    "difficulty": "transfer",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "sequence_order",
+      "excitation_contraction_coupling"
+    ],
+    "source_id": "douglas_ap_1",
+    "source_refs": [
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-2-skeletal-muscle/"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "approved",
+    "reviewer": "Организатор продукта (со слов); предметный редактор не указан",
+    "version": 1,
+    "attribution": {
+      "source_title": "Douglas College Human Anatomy and Physiology I (1st ed.)",
+      "editor": "Jennifer M. Barker",
+      "publisher": "Douglas College",
+      "year": 2017,
+      "source_url": "https://pressbooks.bccampus.ca/dcbiol11031109/",
+      "chapter_url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-2-skeletal-muscle/",
+      "locator": "10.2–10.3",
+      "copyright_notice": "Textbook content © 1999–2016 Rice University; changes and additions © 2017 Douglas College Biology Department, except where otherwise noted.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Download for free at https://pressbooks.bccampus.ca/dcbiol11031109",
+      "changes_ru": "Перевод на русский язык, сокращение и адаптация под мобильную карточку; формулировки учебных вопросов созданы для проекта. Иллюстрации исходного учебника не использованы.",
+      "no_endorsement_ru": "Автор и издатель исходного учебника не проверяли и не одобряли эту адаптацию."
+    },
+    "review_note_ru": "Утверждение сообщено организатором продукта 01.11.2026. ФИО предметного редактора не предоставлено; не выдавать за независимую предметную экспертизу."
+  },
+  {
+    "question_id": "q-mus-06-01-v1",
+    "learning_objective_id": "MUS-06",
+    "card_id": "card-mus-06-v1",
+    "prompt_ru": "Что распространяется по T-трубочкам вглубь мышечного волокна?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Ацетилхолин",
+        "is_correct": false,
+        "explanation_ru": "Ацетилхолин действует в синаптической щели, а не внутри T-трубочек.",
+        "hint_ru": "Вспомните, где возникает электрический сигнал."
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Потенциал действия",
+        "is_correct": true,
+        "explanation_ru": "T-трубочки проводят возбуждение вглубь волокна.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Миозиновые головки",
+        "is_correct": false,
+        "explanation_ru": "Миозиновые головки работают в саркомерах.",
+        "hint_ru": "T-трубочки — мембранные структуры."
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Глюкоза",
+        "is_correct": false,
+        "explanation_ru": "Глюкоза — субстрат обмена, а не сигнал в T-трубочках.",
+        "hint_ru": "Ищите электрическое событие."
+      }
+    ],
+    "correct_option_id": "b",
+    "explanation_correct_ru": "T-трубочки проводят возбуждение вглубь волокна.",
+    "difficulty": "baseline",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "t_tubule_signal"
+    ],
+    "source_id": "douglas_ap_1",
+    "source_refs": [
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-2-skeletal-muscle/"
+      },
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-3-muscle-fiber-contraction-and-relaxation/"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Douglas College Human Anatomy and Physiology I (1st ed.)",
+      "editor": "Jennifer M. Barker",
+      "publisher": "Douglas College",
+      "year": 2017,
+      "source_url": "https://pressbooks.bccampus.ca/dcbiol11031109/",
+      "chapter_url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-2-skeletal-muscle/",
+      "locator": "10.2 Skeletal Muscle; 10.3 Muscle Fiber Contraction and Relaxation",
+      "copyright_notice": "Textbook content © 1999–2016 Rice University; changes and additions © 2017 Douglas College Biology Department, except where otherwise noted.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Download for free at https://pressbooks.bccampus.ca/dcbiol11031109",
+      "changes_ru": "Формулировка вопроса и варианты ответа созданы для проекта по механизму из источника. Иллюстрации исходного учебника не использованы.",
+      "no_endorsement_ru": "Автор и издатель исходного учебника не проверяли и не одобряли эту адаптацию."
+    }
+  },
+  {
+    "question_id": "q-mus-06-02-v1",
+    "learning_objective_id": "MUS-06",
+    "card_id": "card-mus-06-v1",
+    "prompt_ru": "Зачем T-трубочки нужны рядом с саркоплазматическим ретикулумом?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Чтобы хранить гликоген",
+        "is_correct": false,
+        "explanation_ru": "Гликоген хранится иначе; T-трубочки связаны с возбуждением.",
+        "hint_ru": "Ретикулум связан с кальцием."
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Чтобы синтезировать АТФ",
+        "is_correct": false,
+        "explanation_ru": "АТФ синтезируется преимущественно в митохондриях и путях обмена.",
+        "hint_ru": "Подумайте о запуске сокращения."
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Чтобы передавать возбуждение к механизму выхода Ca²⁺",
+        "is_correct": true,
+        "explanation_ru": "Возбуждение T-трубочек связано с выходом кальция из ретикулума.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Чтобы соединять мышцы с костями",
+        "is_correct": false,
+        "explanation_ru": "Это функция сухожилий.",
+        "hint_ru": "T-трубочки находятся внутри волокна."
+      }
+    ],
+    "correct_option_id": "c",
+    "explanation_correct_ru": "Возбуждение T-трубочек связано с выходом кальция из ретикулума.",
+    "difficulty": "application",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "excitation_contraction_coupling"
+    ],
+    "source_id": "douglas_ap_1",
+    "source_refs": [
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-2-skeletal-muscle/"
+      },
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-3-muscle-fiber-contraction-and-relaxation/"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Douglas College Human Anatomy and Physiology I (1st ed.)",
+      "editor": "Jennifer M. Barker",
+      "publisher": "Douglas College",
+      "year": 2017,
+      "source_url": "https://pressbooks.bccampus.ca/dcbiol11031109/",
+      "chapter_url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-2-skeletal-muscle/",
+      "locator": "10.2 Skeletal Muscle; 10.3 Muscle Fiber Contraction and Relaxation",
+      "copyright_notice": "Textbook content © 1999–2016 Rice University; changes and additions © 2017 Douglas College Biology Department, except where otherwise noted.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Download for free at https://pressbooks.bccampus.ca/dcbiol11031109",
+      "changes_ru": "Формулировка вопроса и варианты ответа созданы для проекта по механизму из источника. Иллюстрации исходного учебника не использованы.",
+      "no_endorsement_ru": "Автор и издатель исходного учебника не проверяли и не одобряли эту адаптацию."
+    }
+  },
+  {
+    "question_id": "q-mus-06-03-v1",
+    "learning_objective_id": "MUS-06",
+    "card_id": "card-mus-06-v1",
+    "prompt_ru": "Что следует за возбуждением T-трубочек в описанной цепочке запуска сокращения?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Выброс ацетилхолина в синапсе",
+        "is_correct": false,
+        "explanation_ru": "Это более раннее событие на мембране волокна.",
+        "hint_ru": "T-трубочки работают после возбуждения сарколеммы."
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Связывание миозина с актином до выхода Ca²⁺",
+        "is_correct": false,
+        "explanation_ru": "Без кальция участки актина обычно закрыты.",
+        "hint_ru": "Сначала должен выйти кальций."
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Синтез тропонина",
+        "is_correct": false,
+        "explanation_ru": "Сокращение не ждёт синтеза нового тропонина.",
+        "hint_ru": "Ищите быстрое событие с Ca²⁺."
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Открытие каналов выхода Ca²⁺ из саркоплазматического ретикулума",
+        "is_correct": true,
+        "explanation_ru": "Это связывает возбуждение мембраны с регуляцией сокращения.",
+        "hint_ru": null
+      }
+    ],
+    "correct_option_id": "d",
+    "explanation_correct_ru": "Это связывает возбуждение мембраны с регуляцией сокращения.",
+    "difficulty": "transfer",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "calcium_release_sequence"
+    ],
+    "source_id": "douglas_ap_1",
+    "source_refs": [
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-3-muscle-fiber-contraction-and-relaxation/"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Douglas College Human Anatomy and Physiology I (1st ed.)",
+      "editor": "Jennifer M. Barker",
+      "publisher": "Douglas College",
+      "year": 2017,
+      "source_url": "https://pressbooks.bccampus.ca/dcbiol11031109/",
+      "chapter_url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-3-muscle-fiber-contraction-and-relaxation/",
+      "locator": "10.3 Muscle Fiber Contraction and Relaxation",
+      "copyright_notice": "Textbook content © 1999–2016 Rice University; changes and additions © 2017 Douglas College Biology Department, except where otherwise noted.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Download for free at https://pressbooks.bccampus.ca/dcbiol11031109",
+      "changes_ru": "Формулировка вопроса и варианты ответа созданы для проекта по механизму из источника. Иллюстрации исходного учебника не использованы.",
+      "no_endorsement_ru": "Автор и издатель исходного учебника не проверяли и не одобряли эту адаптацию."
+    }
+  },
+  {
+    "question_id": "q-mus-07-01-v1",
+    "learning_objective_id": "MUS-07",
+    "card_id": "card-mus-07-v1",
+    "prompt_ru": "С каким белком непосредственно связывается Ca²⁺, запуская смещение тропомиозина в скелетной мышце?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "С актином",
+        "is_correct": false,
+        "explanation_ru": "Актин содержит участки связывания для миозина, но Ca²⁺ запускает процесс через регуляторный белок.",
+        "hint_ru": "Подумайте, какой белок изменяет положение тропомиозина."
+      },
+      {
+        "option_id": "b",
+        "text_ru": "С тропонином",
+        "is_correct": true,
+        "explanation_ru": "Ca²⁺ связывается с тропонином, что приводит к смещению тропомиозина.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "c",
+        "text_ru": "С тропомиозином",
+        "is_correct": false,
+        "explanation_ru": "Тропомиозин смещается, а Ca²⁺ в этой цепочке связывается с тропонином.",
+        "hint_ru": "Разделите белок, который связывает кальций, и белок, который закрывает участки актина."
+      },
+      {
+        "option_id": "d",
+        "text_ru": "С миозином",
+        "is_correct": false,
+        "explanation_ru": "Миозин образует поперечные мостики, но запуск доступности участков актина связан с регуляторным комплексом тонкой нити.",
+        "hint_ru": "Ищите белок регуляторного комплекса, связанный с тропомиозином."
+      }
+    ],
+    "correct_option_id": "b",
+    "explanation_correct_ru": "Ca²⁺ связывается с тропонином; это ведёт к смещению тропомиозина и открытию участков связывания на актине.",
+    "difficulty": "baseline",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "calcium_target",
+      "troponin_tropomyosin_confusion"
+    ],
+    "source_id": "douglas_ap_1",
+    "source_refs": [
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-3-muscle-fiber-contraction-and-relaxation/"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "approved",
+    "reviewer": "Организатор продукта (со слов); предметный редактор не указан",
+    "version": 1,
+    "attribution": {
+      "source_title": "Douglas College Human Anatomy and Physiology I (1st ed.)",
+      "editor": "Jennifer M. Barker",
+      "publisher": "Douglas College",
+      "year": 2017,
+      "source_url": "https://pressbooks.bccampus.ca/dcbiol11031109/",
+      "chapter_url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-3-muscle-fiber-contraction-and-relaxation/",
+      "locator": "10.3",
+      "copyright_notice": "Textbook content © 1999–2016 Rice University; changes and additions © 2017 Douglas College Biology Department, except where otherwise noted.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Download for free at https://pressbooks.bccampus.ca/dcbiol11031109",
+      "changes_ru": "Перевод на русский язык, сокращение и адаптация под мобильную карточку; формулировки учебных вопросов созданы для проекта. Иллюстрации исходного учебника не использованы.",
+      "no_endorsement_ru": "Автор и издатель исходного учебника не проверяли и не одобряли эту адаптацию."
+    },
+    "review_note_ru": "Утверждение сообщено организатором продукта 01.11.2026. ФИО предметного редактора не предоставлено; не выдавать за независимую предметную экспертизу."
+  },
+  {
+    "question_id": "q-mus-07-02-v1",
+    "learning_objective_id": "MUS-07",
+    "card_id": "card-mus-07-v1",
+    "prompt_ru": "Почему повышение Ca²⁺ в саркоплазме делает возможным сокращение?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Оно открывает участки связывания миозина на актине",
+        "is_correct": true,
+        "explanation_ru": "Через тропонин и тропомиозин кальций делает возможным образование поперечных мостиков.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Оно напрямую укорачивает сами актиновые и миозиновые нити",
+        "is_correct": false,
+        "explanation_ru": "Нити не укорачиваются как отдельные белковые структуры; при сокращении они скользят относительно друг друга.",
+        "hint_ru": "Вспомните модель скольжения нитей: что именно меняет взаимное положение нитей?"
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Оно синтезирует АТФ для миозиновой головки",
+        "is_correct": false,
+        "explanation_ru": "Кальций регулирует доступность участков связывания, а не синтезирует АТФ.",
+        "hint_ru": "Разделите регуляторный сигнал и источник энергии."
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Оно блокирует рецепторы ацетилхолина",
+        "is_correct": false,
+        "explanation_ru": "Рецепторы ацетилхолина находятся на мембране и относятся к передаче сигнала, а не к регуляции актина.",
+        "hint_ru": "Ищите механизм внутри саркомера, связанный с тропомиозином."
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_correct_ru": "Кальций не укорачивает белковые нити напрямую; он открывает возможность взаимодействия актина и миозина.",
+    "difficulty": "application",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "calcium_role",
+      "filament_shortening_misconception"
+    ],
+    "source_id": "douglas_ap_1",
+    "source_refs": [
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-3-muscle-fiber-contraction-and-relaxation/"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "approved",
+    "reviewer": "Организатор продукта (со слов); предметный редактор не указан",
+    "version": 1,
+    "attribution": {
+      "source_title": "Douglas College Human Anatomy and Physiology I (1st ed.)",
+      "editor": "Jennifer M. Barker",
+      "publisher": "Douglas College",
+      "year": 2017,
+      "source_url": "https://pressbooks.bccampus.ca/dcbiol11031109/",
+      "chapter_url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-3-muscle-fiber-contraction-and-relaxation/",
+      "locator": "10.3",
+      "copyright_notice": "Textbook content © 1999–2016 Rice University; changes and additions © 2017 Douglas College Biology Department, except where otherwise noted.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Download for free at https://pressbooks.bccampus.ca/dcbiol11031109",
+      "changes_ru": "Перевод на русский язык, сокращение и адаптация под мобильную карточку; формулировки учебных вопросов созданы для проекта. Иллюстрации исходного учебника не использованы.",
+      "no_endorsement_ru": "Автор и издатель исходного учебника не проверяли и не одобряли эту адаптацию."
+    },
+    "review_note_ru": "Утверждение сообщено организатором продукта 01.11.2026. ФИО предметного редактора не предоставлено; не выдавать за независимую предметную экспертизу."
+  },
+  {
+    "question_id": "q-mus-07-03-v1",
+    "learning_objective_id": "MUS-07",
+    "card_id": "card-mus-07-v1",
+    "prompt_ru": "Какой порядок событий правильно описывает запуск сокращения после выхода Ca²⁺?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Миозин связывается с актином → Ca²⁺ связывается с тропомиозином → тропонин смещается",
+        "is_correct": false,
+        "explanation_ru": "В покое участки связывания закрыты; кроме того, перепутаны роли тропонина и тропомиозина.",
+        "hint_ru": "Сначала должен быть снят блокирующий механизм, затем возможны поперечные мостики."
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Ca²⁺ связывается с актином → миозин отсоединяется → тропомиозин закрывает участки",
+        "is_correct": false,
+        "explanation_ru": "Эта последовательность не описывает запуск сокращения и путает роли белков.",
+        "hint_ru": "Вспомните, какой регуляторный белок связывает Ca²⁺."
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Тропомиозин связывается с Ca²⁺ → актин укорачивается → миозин образует мостик",
+        "is_correct": false,
+        "explanation_ru": "Ca²⁺ связывается с тропонином, а актиновая нить не укорачивается.",
+        "hint_ru": "Разделите связывание кальция, смещение тропомиозина и скольжение нитей."
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Ca²⁺ связывается с тропонином → тропомиозин смещается → миозин связывается с актином",
+        "is_correct": true,
+        "explanation_ru": "Это причинная последовательность регуляции поперечных мостиков.",
+        "hint_ru": null
+      }
+    ],
+    "correct_option_id": "d",
+    "explanation_correct_ru": "После выхода Ca²⁺ последовательность такая: тропонин → смещение тропомиозина → доступность актина для миозина.",
+    "difficulty": "transfer",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "sequence_order",
+      "regulatory_protein_roles"
+    ],
+    "source_id": "douglas_ap_1",
+    "source_refs": [
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-3-muscle-fiber-contraction-and-relaxation/"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "approved",
+    "reviewer": "Организатор продукта (со слов); предметный редактор не указан",
+    "version": 1,
+    "attribution": {
+      "source_title": "Douglas College Human Anatomy and Physiology I (1st ed.)",
+      "editor": "Jennifer M. Barker",
+      "publisher": "Douglas College",
+      "year": 2017,
+      "source_url": "https://pressbooks.bccampus.ca/dcbiol11031109/",
+      "chapter_url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-3-muscle-fiber-contraction-and-relaxation/",
+      "locator": "10.3",
+      "copyright_notice": "Textbook content © 1999–2016 Rice University; changes and additions © 2017 Douglas College Biology Department, except where otherwise noted.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Download for free at https://pressbooks.bccampus.ca/dcbiol11031109",
+      "changes_ru": "Перевод на русский язык, сокращение и адаптация под мобильную карточку; формулировки учебных вопросов созданы для проекта. Иллюстрации исходного учебника не использованы.",
+      "no_endorsement_ru": "Автор и издатель исходного учебника не проверяли и не одобряли эту адаптацию."
+    },
+    "review_note_ru": "Утверждение сообщено организатором продукта 01.11.2026. ФИО предметного редактора не предоставлено; не выдавать за независимую предметную экспертизу."
+  },
+  {
+    "question_id": "q-mus-08-01-v1",
+    "learning_objective_id": "MUS-08",
+    "card_id": "card-mus-08-v1",
+    "prompt_ru": "Что помогает миозиновой головке отсоединиться от актина после рабочего движения?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Высвобождение ацетилхолина в синаптической щели",
+        "is_correct": false,
+        "explanation_ru": "Ацетилхолин передаёт сигнал на мембрану, а не управляет отсоединением миозина от актина.",
+        "hint_ru": "Ищите молекулу, которая связывается непосредственно с миозиновой головкой."
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Смещение тропомиозина",
+        "is_correct": false,
+        "explanation_ru": "Смещение тропомиозина открывает участки связывания, но не разрывает уже образованный поперечный мостик.",
+        "hint_ru": "Подумайте, что должно связаться с миозином, чтобы цикл продолжился."
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Связывание новой молекулы АТФ с миозиновой головкой",
+        "is_correct": true,
+        "explanation_ru": "Связывание АТФ с миозином способствует отсоединению головки от актина.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Связывание Ca²⁺ с тропонином",
+        "is_correct": false,
+        "explanation_ru": "Это открывает участки связывания на актине, но не отсоединяет миозиновую головку.",
+        "hint_ru": "Разделите запуск доступности актина и завершение цикла поперечного мостика."
+      }
+    ],
+    "correct_option_id": "c",
+    "explanation_correct_ru": "Связывание АТФ с миозиновой головкой необходимо для её отсоединения от актина и продолжения цикла.",
+    "difficulty": "baseline",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "atp_detach",
+      "crossbridge_cycle"
+    ],
+    "source_id": "douglas_ap_1",
+    "source_refs": [
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-3-muscle-fiber-contraction-and-relaxation/"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "approved",
+    "reviewer": "Организатор продукта (со слов); предметный редактор не указан",
+    "version": 1,
+    "attribution": {
+      "source_title": "Douglas College Human Anatomy and Physiology I (1st ed.)",
+      "editor": "Jennifer M. Barker",
+      "publisher": "Douglas College",
+      "year": 2017,
+      "source_url": "https://pressbooks.bccampus.ca/dcbiol11031109/",
+      "chapter_url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-3-muscle-fiber-contraction-and-relaxation/",
+      "locator": "10.3",
+      "copyright_notice": "Textbook content © 1999–2016 Rice University; changes and additions © 2017 Douglas College Biology Department, except where otherwise noted.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Download for free at https://pressbooks.bccampus.ca/dcbiol11031109",
+      "changes_ru": "Перевод на русский язык, сокращение и адаптация под мобильную карточку; формулировки учебных вопросов созданы для проекта. Иллюстрации исходного учебника не использованы.",
+      "no_endorsement_ru": "Автор и издатель исходного учебника не проверяли и не одобряли эту адаптацию."
+    },
+    "review_note_ru": "Утверждение сообщено организатором продукта 01.11.2026. ФИО предметного редактора не предоставлено; не выдавать за независимую предметную экспертизу."
+  },
+  {
+    "question_id": "q-mus-08-02-v1",
+    "learning_objective_id": "MUS-08",
+    "card_id": "card-mus-08-v1",
+    "prompt_ru": "Почему расслабление мышцы тоже требует энергии?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "АТФ нужен для связывания ацетилхолина с актином",
+        "is_correct": false,
+        "explanation_ru": "Ацетилхолин не связывается с актином; он действует на рецепторы мембраны.",
+        "hint_ru": "Не смешивайте нервно-мышечную передачу и удаление кальция из саркоплазмы."
+      },
+      {
+        "option_id": "b",
+        "text_ru": "АТФ нужен для обратного транспорта Ca²⁺ в саркоплазматический ретикулум",
+        "is_correct": true,
+        "explanation_ru": "Удаление Ca²⁺ из саркоплазмы помогает прекратить сокращение, и этот транспорт требует энергии.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "c",
+        "text_ru": "АТФ нужен только для синтеза тропомиозина",
+        "is_correct": false,
+        "explanation_ru": "Быстрое расслабление связано с обратным транспортом Ca²⁺, а не с синтезом тропомиозина.",
+        "hint_ru": "Вспомните, что должно произойти с Ca²⁺ после прекращения сигнала."
+      },
+      {
+        "option_id": "d",
+        "text_ru": "АТФ нужен для пассивного выхода Ca²⁺ из клетки",
+        "is_correct": false,
+        "explanation_ru": "Пассивный транспорт не требует АТФ; в вопросе речь о возврате кальция в депо.",
+        "hint_ru": "Разделите пассивный процесс и активный обратный транспорт."
+      }
+    ],
+    "correct_option_id": "b",
+    "explanation_correct_ru": "Расслабление связано с обратным транспортом Ca²⁺ в саркоплазматический ретикулум, который требует АТФ.",
+    "difficulty": "application",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "relaxation_energy",
+      "calcium_reuptake"
+    ],
+    "source_id": "douglas_ap_1",
+    "source_refs": [
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-3-muscle-fiber-contraction-and-relaxation/"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "approved",
+    "reviewer": "Организатор продукта (со слов); предметный редактор не указан",
+    "version": 1,
+    "attribution": {
+      "source_title": "Douglas College Human Anatomy and Physiology I (1st ed.)",
+      "editor": "Jennifer M. Barker",
+      "publisher": "Douglas College",
+      "year": 2017,
+      "source_url": "https://pressbooks.bccampus.ca/dcbiol11031109/",
+      "chapter_url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-3-muscle-fiber-contraction-and-relaxation/",
+      "locator": "10.3",
+      "copyright_notice": "Textbook content © 1999–2016 Rice University; changes and additions © 2017 Douglas College Biology Department, except where otherwise noted.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Download for free at https://pressbooks.bccampus.ca/dcbiol11031109",
+      "changes_ru": "Перевод на русский язык, сокращение и адаптация под мобильную карточку; формулировки учебных вопросов созданы для проекта. Иллюстрации исходного учебника не использованы.",
+      "no_endorsement_ru": "Автор и издатель исходного учебника не проверяли и не одобряли эту адаптацию."
+    },
+    "review_note_ru": "Утверждение сообщено организатором продукта 01.11.2026. ФИО предметного редактора не предоставлено; не выдавать за независимую предметную экспертизу."
+  },
+  {
+    "question_id": "q-mus-08-03-v1",
+    "learning_objective_id": "MUS-08",
+    "card_id": "card-mus-08-v1",
+    "prompt_ru": "После нагрузки мышце нужно восстановить распределение Ca²⁺. Какой процесс напрямую использует АТФ?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Работа кальциевых насосов саркоплазматического ретикулума",
+        "is_correct": true,
+        "explanation_ru": "Кальциевые насосы возвращают Ca²⁺ в саркоплазматический ретикулум с затратой АТФ.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Диффузия ацетилхолина через синаптическую щель",
+        "is_correct": false,
+        "explanation_ru": "Диффузия медиатора и активный транспорт кальция — разные процессы.",
+        "hint_ru": "Ищите процесс, который перемещает Ca²⁺ против его градиента."
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Скольжение актина относительно миозина без поперечных мостиков",
+        "is_correct": false,
+        "explanation_ru": "Скольжение нитей связано с циклом поперечных мостиков; формулировка не описывает восстановление кальциевого градиента.",
+        "hint_ru": "Подумайте о мембранном депо кальция и его насосах."
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Связывание тропомиозина с рецептором ацетилхолина",
+        "is_correct": false,
+        "explanation_ru": "Такого механизма в нервно-мышечной передаче и регуляции саркомера нет.",
+        "hint_ru": "Разделите рецепторы мембраны и белки тонкой нити."
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_correct_ru": "АТФ используется кальциевыми насосами саркоплазматического ретикулума для возврата Ca²⁺ и завершения сокращения.",
+    "difficulty": "transfer",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "calcium_pump",
+      "active_transport"
+    ],
+    "source_id": "douglas_ap_1",
+    "source_refs": [
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-3-muscle-fiber-contraction-and-relaxation/"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "approved",
+    "reviewer": "Организатор продукта (со слов); предметный редактор не указан",
+    "version": 1,
+    "attribution": {
+      "source_title": "Douglas College Human Anatomy and Physiology I (1st ed.)",
+      "editor": "Jennifer M. Barker",
+      "publisher": "Douglas College",
+      "year": 2017,
+      "source_url": "https://pressbooks.bccampus.ca/dcbiol11031109/",
+      "chapter_url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-3-muscle-fiber-contraction-and-relaxation/",
+      "locator": "10.3",
+      "copyright_notice": "Textbook content © 1999–2016 Rice University; changes and additions © 2017 Douglas College Biology Department, except where otherwise noted.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Download for free at https://pressbooks.bccampus.ca/dcbiol11031109",
+      "changes_ru": "Перевод на русский язык, сокращение и адаптация под мобильную карточку; формулировки учебных вопросов созданы для проекта. Иллюстрации исходного учебника не использованы.",
+      "no_endorsement_ru": "Автор и издатель исходного учебника не проверяли и не одобряли эту адаптацию."
+    },
+    "review_note_ru": "Утверждение сообщено организатором продукта 01.11.2026. ФИО предметного редактора не предоставлено; не выдавать за независимую предметную экспертизу."
+  },
+  {
+    "question_id": "q-mus-09-01-v1",
+    "learning_objective_id": "MUS-09",
+    "card_id": "card-mus-09-v1",
+    "prompt_ru": "Что такое рекрутирование двигательных единиц?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Вовлечение дополнительных двигательных единиц",
+        "is_correct": true,
+        "explanation_ru": "Рекрутирование увеличивает число активных волокон.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Увеличение числа мышечных волокон за одну тренировку",
+        "is_correct": false,
+        "explanation_ru": "Это не мгновенный рост числа волокон.",
+        "hint_ru": "Рекрутирование — регуляция, а не гипертрофия."
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Синтез новых молекул АТФ в митохондриях",
+        "is_correct": false,
+        "explanation_ru": "АТФ важен, но это не определение рекрутирования.",
+        "hint_ru": "Ищите термин о двигательных единицах."
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Уменьшение длины актиновых нитей",
+        "is_correct": false,
+        "explanation_ru": "Нити не укорачиваются как отдельные структуры.",
+        "hint_ru": "Подумайте о нервном управлении."
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_correct_ru": "Рекрутирование увеличивает число активных волокон.",
+    "difficulty": "baseline",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "recruitment_definition"
+    ],
+    "source_id": "douglas_ap_1",
+    "source_refs": [
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-4-nervous-system-control-of-muscle-tension/"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Douglas College Human Anatomy and Physiology I (1st ed.)",
+      "editor": "Jennifer M. Barker",
+      "publisher": "Douglas College",
+      "year": 2017,
+      "source_url": "https://pressbooks.bccampus.ca/dcbiol11031109/",
+      "chapter_url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-4-nervous-system-control-of-muscle-tension/",
+      "locator": "10.4 Nervous System Control of Muscle Tension",
+      "copyright_notice": "Textbook content © 1999–2016 Rice University; changes and additions © 2017 Douglas College Biology Department, except where otherwise noted.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Download for free at https://pressbooks.bccampus.ca/dcbiol11031109",
+      "changes_ru": "Формулировка вопроса и варианты ответа созданы для проекта по механизму из источника. Иллюстрации исходного учебника не использованы.",
+      "no_endorsement_ru": "Автор и издатель исходного учебника не проверяли и не одобряли эту адаптацию."
+    }
+  },
+  {
+    "question_id": "q-mus-09-02-v1",
+    "learning_objective_id": "MUS-09",
+    "card_id": "card-mus-09-v1",
+    "prompt_ru": "Что может сделать нервная система, чтобы удержать более тяжёлый снаряд той же мышцей?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Уменьшить выход Ca²⁺",
+        "is_correct": false,
+        "explanation_ru": "Меньше кальция обычно не помогает развить большее усилие.",
+        "hint_ru": "Для большей силы нужно больше активных структур."
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Вовлечь больше двигательных единиц",
+        "is_correct": true,
+        "explanation_ru": "Большее усилие может достигаться рекрутированием.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Выключить мотонейроны",
+        "is_correct": false,
+        "explanation_ru": "Без мотонейронов скелетная мышца не получит команду.",
+        "hint_ru": "Скелетная мышца зависит от нервного сигнала."
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Заменить миозин актином",
+        "is_correct": false,
+        "explanation_ru": "Актин и миозин — разные белки; их замена не регулирует силу.",
+        "hint_ru": "Не смешивайте белки с нервной регуляцией."
+      }
+    ],
+    "correct_option_id": "b",
+    "explanation_correct_ru": "Большее усилие может достигаться рекрутированием.",
+    "difficulty": "application",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "force_gradation"
+    ],
+    "source_id": "douglas_ap_1",
+    "source_refs": [
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-4-nervous-system-control-of-muscle-tension/"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Douglas College Human Anatomy and Physiology I (1st ed.)",
+      "editor": "Jennifer M. Barker",
+      "publisher": "Douglas College",
+      "year": 2017,
+      "source_url": "https://pressbooks.bccampus.ca/dcbiol11031109/",
+      "chapter_url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-4-nervous-system-control-of-muscle-tension/",
+      "locator": "10.4 Nervous System Control of Muscle Tension",
+      "copyright_notice": "Textbook content © 1999–2016 Rice University; changes and additions © 2017 Douglas College Biology Department, except where otherwise noted.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Download for free at https://pressbooks.bccampus.ca/dcbiol11031109",
+      "changes_ru": "Формулировка вопроса и варианты ответа созданы для проекта по механизму из источника. Иллюстрации исходного учебника не использованы.",
+      "no_endorsement_ru": "Автор и издатель исходного учебника не проверяли и не одобряли эту адаптацию."
+    }
+  },
+  {
+    "question_id": "q-mus-09-03-v1",
+    "learning_objective_id": "MUS-09",
+    "card_id": "card-mus-09-v1",
+    "prompt_ru": "Почему рекрутирование не равно гипертрофии?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Рекрутирование всегда увеличивает размер волокна",
+        "is_correct": false,
+        "explanation_ru": "Рекрутирование не означает мгновенного роста размера.",
+        "hint_ru": "Разделите текущую регуляцию и долговременную адаптацию."
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Рекрутирование — это только утомление",
+        "is_correct": false,
+        "explanation_ru": "Утомление может сопровождать работу, но не определяет рекрутирование.",
+        "hint_ru": "Что именно меняется при рекрутировании?"
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Рекрутирование меняет число активных волокон сейчас, а гипертрофия — размер волокон позже",
+        "is_correct": true,
+        "explanation_ru": "Это разные механизмы и разные временные масштабы.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Гипертрофия не требует мышечных волокон",
+        "is_correct": false,
+        "explanation_ru": "Гипертрофия касается именно мышечных волокон.",
+        "hint_ru": "Оба процесса связаны с мышцей, но по-разному."
+      }
+    ],
+    "correct_option_id": "c",
+    "explanation_correct_ru": "Это разные механизмы и разные временные масштабы.",
+    "difficulty": "transfer",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "recruitment_vs_hypertrophy"
+    ],
+    "source_id": "douglas_ap_1",
+    "source_refs": [
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-4-nervous-system-control-of-muscle-tension/"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Douglas College Human Anatomy and Physiology I (1st ed.)",
+      "editor": "Jennifer M. Barker",
+      "publisher": "Douglas College",
+      "year": 2017,
+      "source_url": "https://pressbooks.bccampus.ca/dcbiol11031109/",
+      "chapter_url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-4-nervous-system-control-of-muscle-tension/",
+      "locator": "10.4 Nervous System Control of Muscle Tension",
+      "copyright_notice": "Textbook content © 1999–2016 Rice University; changes and additions © 2017 Douglas College Biology Department, except where otherwise noted.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Download for free at https://pressbooks.bccampus.ca/dcbiol11031109",
+      "changes_ru": "Формулировка вопроса и варианты ответа созданы для проекта по механизму из источника. Иллюстрации исходного учебника не использованы.",
+      "no_endorsement_ru": "Автор и издатель исходного учебника не проверяли и не одобряли эту адаптацию."
+    }
+  },
+  {
+    "question_id": "q-mus-10-01-v1",
+    "learning_objective_id": "MUS-10",
+    "card_id": "card-mus-10-v1",
+    "prompt_ru": "От чего напрямую зависит возможное число поперечных мостиков в саркомере?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "От цвета мышечной ткани",
+        "is_correct": false,
+        "explanation_ru": "Цвет связан с миоглобином и кровоснабжением, но не задаёт число мостиков напрямую.",
+        "hint_ru": "Подумайте о расположении нитей."
+      },
+      {
+        "option_id": "b",
+        "text_ru": "От перекрытия тонких и толстых нитей",
+        "is_correct": true,
+        "explanation_ru": "Мостики возможны там, где нити перекрываются.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "c",
+        "text_ru": "От количества костей в конечности",
+        "is_correct": false,
+        "explanation_ru": "Кости не определяют перекрытие нитей в саркомере.",
+        "hint_ru": "Смотрите на уровень саркомера."
+      },
+      {
+        "option_id": "d",
+        "text_ru": "От длины сухожилия",
+        "is_correct": false,
+        "explanation_ru": "Сухожилие передаёт усилие, но не задаёт число мостиков.",
+        "hint_ru": "Ищите фактор внутри саркомера."
+      }
+    ],
+    "correct_option_id": "b",
+    "explanation_correct_ru": "Мостики возможны там, где нити перекрываются.",
+    "difficulty": "baseline",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "length_tension_overlap"
+    ],
+    "source_id": "douglas_ap_1",
+    "source_refs": [
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-4-nervous-system-control-of-muscle-tension/"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Douglas College Human Anatomy and Physiology I (1st ed.)",
+      "editor": "Jennifer M. Barker",
+      "publisher": "Douglas College",
+      "year": 2017,
+      "source_url": "https://pressbooks.bccampus.ca/dcbiol11031109/",
+      "chapter_url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-4-nervous-system-control-of-muscle-tension/",
+      "locator": "10.4 Nervous System Control of Muscle Tension",
+      "copyright_notice": "Textbook content © 1999–2016 Rice University; changes and additions © 2017 Douglas College Biology Department, except where otherwise noted.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Download for free at https://pressbooks.bccampus.ca/dcbiol11031109",
+      "changes_ru": "Формулировка вопроса и варианты ответа созданы для проекта по механизму из источника. Иллюстрации исходного учебника не использованы.",
+      "no_endorsement_ru": "Автор и издатель исходного учебника не проверяли и не одобряли эту адаптацию."
+    }
+  },
+  {
+    "question_id": "q-mus-10-02-v1",
+    "learning_objective_id": "MUS-10",
+    "card_id": "card-mus-10-v1",
+    "prompt_ru": "Почему при чрезмерном растяжении саркомера сила может снижаться?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Уменьшается перекрытие нитей и число возможных мостиков",
+        "is_correct": true,
+        "explanation_ru": "При недостаточном перекрытии меньше участков для связывания.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Увеличивается выброс ацетилхолина",
+        "is_correct": false,
+        "explanation_ru": "Ацетилхолин не объясняет механическое снижение силы при растяжении.",
+        "hint_ru": "Подумайте о геометрии нитей."
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Исчезают Z-диски",
+        "is_correct": false,
+        "explanation_ru": "Z-диски не исчезают при обычном растяжении.",
+        "hint_ru": "Границы саркомера сохраняются."
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Синтезируется больше митохондрий",
+        "is_correct": false,
+        "explanation_ru": "Митохондрии не объясняют мгновенную зависимость силы от длины.",
+        "hint_ru": "Это вопрос перекрытия нитей."
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_correct_ru": "При недостаточном перекрытии меньше участков для связывания.",
+    "difficulty": "application",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "overstretch_force"
+    ],
+    "source_id": "douglas_ap_1",
+    "source_refs": [
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-4-nervous-system-control-of-muscle-tension/"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Douglas College Human Anatomy and Physiology I (1st ed.)",
+      "editor": "Jennifer M. Barker",
+      "publisher": "Douglas College",
+      "year": 2017,
+      "source_url": "https://pressbooks.bccampus.ca/dcbiol11031109/",
+      "chapter_url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-4-nervous-system-control-of-muscle-tension/",
+      "locator": "10.4 Nervous System Control of Muscle Tension",
+      "copyright_notice": "Textbook content © 1999–2016 Rice University; changes and additions © 2017 Douglas College Biology Department, except where otherwise noted.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Download for free at https://pressbooks.bccampus.ca/dcbiol11031109",
+      "changes_ru": "Формулировка вопроса и варианты ответа созданы для проекта по механизму из источника. Иллюстрации исходного учебника не использованы.",
+      "no_endorsement_ru": "Автор и издатель исходного учебника не проверяли и не одобряли эту адаптацию."
+    }
+  },
+  {
+    "question_id": "q-mus-10-03-v1",
+    "learning_objective_id": "MUS-10",
+    "card_id": "card-mus-10-v1",
+    "prompt_ru": "Почему положение сустава может менять доступное усилие мышцы?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Оно меняет группу крови",
+        "is_correct": false,
+        "explanation_ru": "Группа крови не меняется от положения сустава.",
+        "hint_ru": "Ищите механическую связь."
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Оно отменяет потребность в АТФ",
+        "is_correct": false,
+        "explanation_ru": "АТФ нужен при любом режиме.",
+        "hint_ru": "Энергия не отменяется положением сустава."
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Оно меняет исходную длину саркомеров и перекрытие нитей",
+        "is_correct": true,
+        "explanation_ru": "Положение сустава может менять длину мышцы и доступное число мостиков.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Оно заменяет актин миозином",
+        "is_correct": false,
+        "explanation_ru": "Такой замены не происходит.",
+        "hint_ru": "Подумайте о длине и перекрытии."
+      }
+    ],
+    "correct_option_id": "c",
+    "explanation_correct_ru": "Положение сустава может менять длину мышцы и доступное число мостиков.",
+    "difficulty": "transfer",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "joint_angle_force"
+    ],
+    "source_id": "douglas_ap_1",
+    "source_refs": [
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-4-nervous-system-control-of-muscle-tension/"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Douglas College Human Anatomy and Physiology I (1st ed.)",
+      "editor": "Jennifer M. Barker",
+      "publisher": "Douglas College",
+      "year": 2017,
+      "source_url": "https://pressbooks.bccampus.ca/dcbiol11031109/",
+      "chapter_url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-4-nervous-system-control-of-muscle-tension/",
+      "locator": "10.4 Nervous System Control of Muscle Tension",
+      "copyright_notice": "Textbook content © 1999–2016 Rice University; changes and additions © 2017 Douglas College Biology Department, except where otherwise noted.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Download for free at https://pressbooks.bccampus.ca/dcbiol11031109",
+      "changes_ru": "Формулировка вопроса и варианты ответа созданы для проекта по механизму из источника. Иллюстрации исходного учебника не использованы.",
+      "no_endorsement_ru": "Автор и издатель исходного учебника не проверяли и не одобряли эту адаптацию."
+    }
+  },
+  {
+    "question_id": "q-mus-11-01-v1",
+    "learning_objective_id": "MUS-11",
+    "card_id": "card-mus-11-v1",
+    "prompt_ru": "Что характеризует концентрический режим работы мышцы?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Мышца развивает силу и укорачивается",
+        "is_correct": true,
+        "explanation_ru": "Концентрический режим связан с укорочением под нагрузкой.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Мышца удлиняется без развития силы",
+        "is_correct": false,
+        "explanation_ru": "Это не концентрический режим и не пассивное движение.",
+        "hint_ru": "Вспомните подъём гантели."
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Мышца не развивает силу",
+        "is_correct": false,
+        "explanation_ru": "В концентрическом режиме сила развивается.",
+        "hint_ru": "Без силы нагрузка не двигалась бы."
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Мышца только расслабляется",
+        "is_correct": false,
+        "explanation_ru": "Расслабление не описывает активный подъём нагрузки.",
+        "hint_ru": "Ищите активное укорочение."
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_correct_ru": "Концентрический режим связан с укорочением под нагрузкой.",
+    "difficulty": "baseline",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "concentric_definition"
+    ],
+    "source_id": "douglas_ap_1",
+    "source_refs": [
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-4-nervous-system-control-of-muscle-tension/"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Douglas College Human Anatomy and Physiology I (1st ed.)",
+      "editor": "Jennifer M. Barker",
+      "publisher": "Douglas College",
+      "year": 2017,
+      "source_url": "https://pressbooks.bccampus.ca/dcbiol11031109/",
+      "chapter_url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-4-nervous-system-control-of-muscle-tension/",
+      "locator": "10.4 Nervous System Control of Muscle Tension",
+      "copyright_notice": "Textbook content © 1999–2016 Rice University; changes and additions © 2017 Douglas College Biology Department, except where otherwise noted.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Download for free at https://pressbooks.bccampus.ca/dcbiol11031109",
+      "changes_ru": "Формулировка вопроса и варианты ответа созданы для проекта по механизму из источника. Иллюстрации исходного учебника не использованы.",
+      "no_endorsement_ru": "Автор и издатель исходного учебника не проверяли и не одобряли эту адаптацию."
+    }
+  },
+  {
+    "question_id": "q-mus-11-02-v1",
+    "learning_objective_id": "MUS-11",
+    "card_id": "card-mus-11-v1",
+    "prompt_ru": "Контролируемое опускание гантели — пример какого режима?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Концентрического",
+        "is_correct": false,
+        "explanation_ru": "При подъёме мышца укорачивается, а при опускании удлиняется.",
+        "hint_ru": "Смотрите на изменение длины мышцы."
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Изометрического",
+        "is_correct": false,
+        "explanation_ru": "При изометрии нет видимого движения, а гантель опускается.",
+        "hint_ru": "Движение есть, значит режим не изометрический."
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Эксцентрического",
+        "is_correct": true,
+        "explanation_ru": "Мышца развивает силу и удлиняется, контролируя опускание.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Пассивного без участия мышцы",
+        "is_correct": false,
+        "explanation_ru": "Контролируемое опускание требует активности мышцы.",
+        "hint_ru": "Если движение контролируется, мышца работает."
+      }
+    ],
+    "correct_option_id": "c",
+    "explanation_correct_ru": "Мышца развивает силу и удлиняется, контролируя опускание.",
+    "difficulty": "application",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "eccentric_example"
+    ],
+    "source_id": "douglas_ap_1",
+    "source_refs": [
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-4-nervous-system-control-of-muscle-tension/"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Douglas College Human Anatomy and Physiology I (1st ed.)",
+      "editor": "Jennifer M. Barker",
+      "publisher": "Douglas College",
+      "year": 2017,
+      "source_url": "https://pressbooks.bccampus.ca/dcbiol11031109/",
+      "chapter_url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-4-nervous-system-control-of-muscle-tension/",
+      "locator": "10.4 Nervous System Control of Muscle Tension",
+      "copyright_notice": "Textbook content © 1999–2016 Rice University; changes and additions © 2017 Douglas College Biology Department, except where otherwise noted.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Download for free at https://pressbooks.bccampus.ca/dcbiol11031109",
+      "changes_ru": "Формулировка вопроса и варианты ответа созданы для проекта по механизму из источника. Иллюстрации исходного учебника не использованы.",
+      "no_endorsement_ru": "Автор и издатель исходного учебника не проверяли и не одобряли эту адаптацию."
+    }
+  },
+  {
+    "question_id": "q-mus-11-03-v1",
+    "learning_objective_id": "MUS-11",
+    "card_id": "card-mus-11-v1",
+    "prompt_ru": "К какому режиму ближе всего удержание позы без видимого движения в суставе?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Эксцентрическому",
+        "is_correct": false,
+        "explanation_ru": "Эксцентрический режим предполагает удлинение под нагрузкой.",
+        "hint_ru": "Поза удерживается без заметного движения."
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Изометрическому",
+        "is_correct": true,
+        "explanation_ru": "Сила развивается без видимого движения в суставе.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Концентрическому",
+        "is_correct": false,
+        "explanation_ru": "Концентрический режим предполагает укорочение и движение.",
+        "hint_ru": "При удержании позы движение минимально."
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Отсутствию мышечной активности",
+        "is_correct": false,
+        "explanation_ru": "Удержание позы требует мышечного напряжения.",
+        "hint_ru": "Поза не держится сама по себе."
+      }
+    ],
+    "correct_option_id": "b",
+    "explanation_correct_ru": "Сила развивается без видимого движения в суставе.",
+    "difficulty": "transfer",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "isometric_example"
+    ],
+    "source_id": "douglas_ap_1",
+    "source_refs": [
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-4-nervous-system-control-of-muscle-tension/"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Douglas College Human Anatomy and Physiology I (1st ed.)",
+      "editor": "Jennifer M. Barker",
+      "publisher": "Douglas College",
+      "year": 2017,
+      "source_url": "https://pressbooks.bccampus.ca/dcbiol11031109/",
+      "chapter_url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-4-nervous-system-control-of-muscle-tension/",
+      "locator": "10.4 Nervous System Control of Muscle Tension",
+      "copyright_notice": "Textbook content © 1999–2016 Rice University; changes and additions © 2017 Douglas College Biology Department, except where otherwise noted.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Download for free at https://pressbooks.bccampus.ca/dcbiol11031109",
+      "changes_ru": "Формулировка вопроса и варианты ответа созданы для проекта по механизму из источника. Иллюстрации исходного учебника не использованы.",
+      "no_endorsement_ru": "Автор и издатель исходного учебника не проверяли и не одобряли эту адаптацию."
+    }
+  },
+  {
+    "question_id": "q-mus-12-01-v1",
+    "learning_objective_id": "MUS-12",
+    "card_id": "card-mus-12-v1",
+    "prompt_ru": "Для какой работы лучше подходят медленные окислительные волокна?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Только для максимального рывка",
+        "is_correct": false,
+        "explanation_ru": "Максимальные рывки больше связаны с быстрыми волокнами.",
+        "hint_ru": "Окислительные волокна используют аэробный обмен."
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Для длительной аэробной работы",
+        "is_correct": true,
+        "explanation_ru": "Они устойчивее к утомлению при длительной работе.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Для работы без кислорода",
+        "is_correct": false,
+        "explanation_ru": "Окислительные волокна опираются на кислород.",
+        "hint_ru": "Название «окислительные» подсказывает обмен."
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Для мгновенного расслабления",
+        "is_correct": false,
+        "explanation_ru": "Тип волокна не определяет мгновенное расслабление.",
+        "hint_ru": "Подумайте о продолжительности работы."
+      }
+    ],
+    "correct_option_id": "b",
+    "explanation_correct_ru": "Они устойчивее к утомлению при длительной работе.",
+    "difficulty": "baseline",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "slow_oxidative_function"
+    ],
+    "source_id": "douglas_ap_1",
+    "source_refs": [
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-6-exercise-and-muscle-performance/"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Douglas College Human Anatomy and Physiology I (1st ed.)",
+      "editor": "Jennifer M. Barker",
+      "publisher": "Douglas College",
+      "year": 2017,
+      "source_url": "https://pressbooks.bccampus.ca/dcbiol11031109/",
+      "chapter_url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-6-exercise-and-muscle-performance/",
+      "locator": "10.6 Exercise and Muscle Performance",
+      "copyright_notice": "Textbook content © 1999–2016 Rice University; changes and additions © 2017 Douglas College Biology Department, except where otherwise noted.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Download for free at https://pressbooks.bccampus.ca/dcbiol11031109",
+      "changes_ru": "Формулировка вопроса и варианты ответа созданы для проекта по механизму из источника. Иллюстрации исходного учебника не использованы.",
+      "no_endorsement_ru": "Автор и издатель исходного учебника не проверяли и не одобряли эту адаптацию."
+    }
+  },
+  {
+    "question_id": "q-mus-12-02-v1",
+    "learning_objective_id": "MUS-12",
+    "card_id": "card-mus-12-v1",
+    "prompt_ru": "Для чего особенно важны быстрые гликолитические волокна?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Для марафона без утомления",
+        "is_correct": false,
+        "explanation_ru": "Они быстрее утомляются и не подходят для очень длительной работы.",
+        "hint_ru": "Гликолитические волокна дают мощность, но не выносливость."
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Для поддержания позы сутками",
+        "is_correct": false,
+        "explanation_ru": "Позу лучше поддерживают устойчивые к утомлению волокна.",
+        "hint_ru": "Ищите короткие мощные усилия."
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Для коротких мощных сокращений",
+        "is_correct": true,
+        "explanation_ru": "Быстрые гликолитические волокна дают мощные, но короткие сокращения.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Для синтеза гормонов",
+        "is_correct": false,
+        "explanation_ru": "Синтез гормонов не относится к работе быстрых гликолитических волокон.",
+        "hint_ru": "Подумайте о движении."
+      }
+    ],
+    "correct_option_id": "c",
+    "explanation_correct_ru": "Быстрые гликолитические волокна дают мощные, но короткие сокращения.",
+    "difficulty": "application",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "fast_glycolytic_function"
+    ],
+    "source_id": "douglas_ap_1",
+    "source_refs": [
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-6-exercise-and-muscle-performance/"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Douglas College Human Anatomy and Physiology I (1st ed.)",
+      "editor": "Jennifer M. Barker",
+      "publisher": "Douglas College",
+      "year": 2017,
+      "source_url": "https://pressbooks.bccampus.ca/dcbiol11031109/",
+      "chapter_url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-6-exercise-and-muscle-performance/",
+      "locator": "10.6 Exercise and Muscle Performance",
+      "copyright_notice": "Textbook content © 1999–2016 Rice University; changes and additions © 2017 Douglas College Biology Department, except where otherwise noted.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Download for free at https://pressbooks.bccampus.ca/dcbiol11031109",
+      "changes_ru": "Формулировка вопроса и варианты ответа созданы для проекта по механизму из источника. Иллюстрации исходного учебника не использованы.",
+      "no_endorsement_ru": "Автор и издатель исходного учебника не проверяли и не одобряли эту адаптацию."
+    }
+  },
+  {
+    "question_id": "q-mus-12-03-v1",
+    "learning_objective_id": "MUS-12",
+    "card_id": "card-mus-12-v1",
+    "prompt_ru": "Почему нельзя описывать мышцу только одним типом волокон?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Все волокна в мышце одинаковы",
+        "is_correct": false,
+        "explanation_ru": "В мышцах обычно есть разные типы волокон.",
+        "hint_ru": "Состав мышцы смешанный."
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Тип волокна меняется каждую секунду",
+        "is_correct": false,
+        "explanation_ru": "Тип волокна не переключается мгновенно как режим работы.",
+        "hint_ru": "Разделите состав и текущую активность."
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Волокна не участвуют в развитии силы",
+        "is_correct": false,
+        "explanation_ru": "Именно волокна развивают силу.",
+        "hint_ru": "Типы волокон как раз важны для силы."
+      },
+      {
+        "option_id": "d",
+        "text_ru": "В большинстве мышц разные типы волокон представлены в разных пропорциях",
+        "is_correct": true,
+        "explanation_ru": "Смешанный состав позволяет выполнять разные задачи.",
+        "hint_ru": null
+      }
+    ],
+    "correct_option_id": "d",
+    "explanation_correct_ru": "Смешанный состав позволяет выполнять разные задачи.",
+    "difficulty": "transfer",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "mixed_fiber_types"
+    ],
+    "source_id": "douglas_ap_1",
+    "source_refs": [
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-6-exercise-and-muscle-performance/"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Douglas College Human Anatomy and Physiology I (1st ed.)",
+      "editor": "Jennifer M. Barker",
+      "publisher": "Douglas College",
+      "year": 2017,
+      "source_url": "https://pressbooks.bccampus.ca/dcbiol11031109/",
+      "chapter_url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-6-exercise-and-muscle-performance/",
+      "locator": "10.6 Exercise and Muscle Performance",
+      "copyright_notice": "Textbook content © 1999–2016 Rice University; changes and additions © 2017 Douglas College Biology Department, except where otherwise noted.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Download for free at https://pressbooks.bccampus.ca/dcbiol11031109",
+      "changes_ru": "Формулировка вопроса и варианты ответа созданы для проекта по механизму из источника. Иллюстрации исходного учебника не использованы.",
+      "no_endorsement_ru": "Автор и издатель исходного учебника не проверяли и не одобряли эту адаптацию."
+    }
+  },
+  {
+    "question_id": "q-mus-13-01-v1",
+    "learning_objective_id": "MUS-13",
+    "card_id": "card-mus-13-v1",
+    "prompt_ru": "Что помогает быстро восстанавливать АТФ в первые секунды интенсивной работы?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Креатинфосфат",
+        "is_correct": true,
+        "explanation_ru": "Креатинфосфат быстро отдаёт фосфат для ресинтеза АТФ.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Только синтез белка",
+        "is_correct": false,
+        "explanation_ru": "Синтез белка не обеспечивает мгновенный ресинтез АТФ.",
+        "hint_ru": "Ищите быстрый энергетический резерв."
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Пассивная диффузия глюкозы",
+        "is_correct": false,
+        "explanation_ru": "Диффузия глюкозы не даёт быстрого ресинтеза АТФ.",
+        "hint_ru": "Подумайте о фосфагенной системе."
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Образование новых саркомеров",
+        "is_correct": false,
+        "explanation_ru": "Это долговременная адаптация, а не секундный ответ.",
+        "hint_ru": "Саркомеры не создают АТФ мгновенно."
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_correct_ru": "Креатинфосфат быстро отдаёт фосфат для ресинтеза АТФ.",
+    "difficulty": "baseline",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "phosphagen_system"
+    ],
+    "source_id": "douglas_ap_1",
+    "source_refs": [
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-3-muscle-fiber-contraction-and-relaxation/"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Douglas College Human Anatomy and Physiology I (1st ed.)",
+      "editor": "Jennifer M. Barker",
+      "publisher": "Douglas College",
+      "year": 2017,
+      "source_url": "https://pressbooks.bccampus.ca/dcbiol11031109/",
+      "chapter_url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-3-muscle-fiber-contraction-and-relaxation/",
+      "locator": "10.3 Muscle Fiber Contraction and Relaxation",
+      "copyright_notice": "Textbook content © 1999–2016 Rice University; changes and additions © 2017 Douglas College Biology Department, except where otherwise noted.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Download for free at https://pressbooks.bccampus.ca/dcbiol11031109",
+      "changes_ru": "Формулировка вопроса и варианты ответа созданы для проекта по механизму из источника. Иллюстрации исходного учебника не использованы.",
+      "no_endorsement_ru": "Автор и издатель исходного учебника не проверяли и не одобряли эту адаптацию."
+    }
+  },
+  {
+    "question_id": "q-mus-13-02-v1",
+    "learning_objective_id": "MUS-13",
+    "card_id": "card-mus-13-v1",
+    "prompt_ru": "На какой путь прежде всего опирается длительный бег низкой интенсивности?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Только на креатинфосфат",
+        "is_correct": false,
+        "explanation_ru": "Креатинфосфат важен в начале, но не поддерживает длительную работу.",
+        "hint_ru": "Длительная работа требует устойчивого источника АТФ."
+      },
+      {
+        "option_id": "b",
+        "text_ru": "На аэробное дыхание",
+        "is_correct": true,
+        "explanation_ru": "При кислороде аэробный путь эффективен для длительной работы.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "c",
+        "text_ru": "На отсутствие потребности в АТФ",
+        "is_correct": false,
+        "explanation_ru": "АТФ нужен всегда.",
+        "hint_ru": "Любая мышечная работа требует энергии."
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Только на гликолиз без кислорода",
+        "is_correct": false,
+        "explanation_ru": "При длительной умеренной работе основной вклад даёт аэробное дыхание, а не гликолиз.",
+        "hint_ru": "Подумайте о кислороде и митохондриях."
+      }
+    ],
+    "correct_option_id": "b",
+    "explanation_correct_ru": "При кислороде аэробный путь эффективен для длительной работы.",
+    "difficulty": "application",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "aerobic_endurance"
+    ],
+    "source_id": "douglas_ap_1",
+    "source_refs": [
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-3-muscle-fiber-contraction-and-relaxation/"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Douglas College Human Anatomy and Physiology I (1st ed.)",
+      "editor": "Jennifer M. Barker",
+      "publisher": "Douglas College",
+      "year": 2017,
+      "source_url": "https://pressbooks.bccampus.ca/dcbiol11031109/",
+      "chapter_url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-3-muscle-fiber-contraction-and-relaxation/",
+      "locator": "10.3 Muscle Fiber Contraction and Relaxation",
+      "copyright_notice": "Textbook content © 1999–2016 Rice University; changes and additions © 2017 Douglas College Biology Department, except where otherwise noted.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Download for free at https://pressbooks.bccampus.ca/dcbiol11031109",
+      "changes_ru": "Формулировка вопроса и варианты ответа созданы для проекта по механизму из источника. Иллюстрации исходного учебника не использованы.",
+      "no_endorsement_ru": "Автор и издатель исходного учебника не проверяли и не одобряли эту адаптацию."
+    }
+  },
+  {
+    "question_id": "q-mus-13-03-v1",
+    "learning_objective_id": "MUS-13",
+    "card_id": "card-mus-13-v1",
+    "prompt_ru": "Почему пути энергообеспечения нельзя описывать как строгую очередь «сначала один, потом другой»?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Они работают одновременно, а их вклад меняется",
+        "is_correct": true,
+        "explanation_ru": "Вклад путей зависит от интенсивности и длительности нагрузки.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Всегда работает только один путь",
+        "is_correct": false,
+        "explanation_ru": "В реальности пути перекрываются.",
+        "hint_ru": "Организм не ждёт полного истощения одного пути."
+      },
+      {
+        "option_id": "c",
+        "text_ru": "АТФ не нужен при аэробной работе",
+        "is_correct": false,
+        "explanation_ru": "АТФ нужен при любой мышечной работе.",
+        "hint_ru": "Энергия всегда требуется."
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Кислород полностью отменяет гликолиз",
+        "is_correct": false,
+        "explanation_ru": "Гликолиз может продолжаться и при кислороде.",
+        "hint_ru": "Пути не исключают друг друга полностью."
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_correct_ru": "Вклад путей зависит от интенсивности и длительности нагрузки.",
+    "difficulty": "transfer",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "energy_system_overlap"
+    ],
+    "source_id": "douglas_ap_1",
+    "source_refs": [
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-3-muscle-fiber-contraction-and-relaxation/"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Douglas College Human Anatomy and Physiology I (1st ed.)",
+      "editor": "Jennifer M. Barker",
+      "publisher": "Douglas College",
+      "year": 2017,
+      "source_url": "https://pressbooks.bccampus.ca/dcbiol11031109/",
+      "chapter_url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-3-muscle-fiber-contraction-and-relaxation/",
+      "locator": "10.3 Muscle Fiber Contraction and Relaxation",
+      "copyright_notice": "Textbook content © 1999–2016 Rice University; changes and additions © 2017 Douglas College Biology Department, except where otherwise noted.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Download for free at https://pressbooks.bccampus.ca/dcbiol11031109",
+      "changes_ru": "Формулировка вопроса и варианты ответа созданы для проекта по механизму из источника. Иллюстрации исходного учебника не использованы.",
+      "no_endorsement_ru": "Автор и издатель исходного учебника не проверяли и не одобряли эту адаптацию."
+    }
+  },
+  {
+    "question_id": "q-mus-14-01-v1",
+    "learning_objective_id": "MUS-14",
+    "card_id": "card-mus-14-v1",
+    "prompt_ru": "Как корректнее описывать мышечное утомление?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Как всегда только накопление лактата",
+        "is_correct": false,
+        "explanation_ru": "Утомление нельзя объяснить только лактатом.",
+        "hint_ru": "Утомление имеет несколько возможных механизмов."
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Как многофакторное снижение работоспособности",
+        "is_correct": true,
+        "explanation_ru": "Утомление может включать несколько механизмов.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Как отсутствие потребности в АТФ",
+        "is_correct": false,
+        "explanation_ru": "АТФ нужен для работы и восстановления.",
+        "hint_ru": "Энергетика остаётся важной."
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Как обязательную гипертрофию",
+        "is_correct": false,
+        "explanation_ru": "Гипертрофия — адаптация, а не определение утомления.",
+        "hint_ru": "Разделите утомление и рост."
+      }
+    ],
+    "correct_option_id": "b",
+    "explanation_correct_ru": "Утомление может включать несколько механизмов.",
+    "difficulty": "baseline",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "fatigue_multifactorial"
+    ],
+    "source_id": "douglas_ap_1",
+    "source_refs": [
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-3-muscle-fiber-contraction-and-relaxation/"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Douglas College Human Anatomy and Physiology I (1st ed.)",
+      "editor": "Jennifer M. Barker",
+      "publisher": "Douglas College",
+      "year": 2017,
+      "source_url": "https://pressbooks.bccampus.ca/dcbiol11031109/",
+      "chapter_url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-3-muscle-fiber-contraction-and-relaxation/",
+      "locator": "10.3 Muscle Fiber Contraction and Relaxation",
+      "copyright_notice": "Textbook content © 1999–2016 Rice University; changes and additions © 2017 Douglas College Biology Department, except where otherwise noted.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Download for free at https://pressbooks.bccampus.ca/dcbiol11031109",
+      "changes_ru": "Формулировка вопроса и варианты ответа созданы для проекта по механизму из источника. Иллюстрации исходного учебника не использованы.",
+      "no_endorsement_ru": "Автор и издатель исходного учебника не проверяли и не одобряли эту адаптацию."
+    }
+  },
+  {
+    "question_id": "q-mus-14-02-v1",
+    "learning_objective_id": "MUS-14",
+    "card_id": "card-mus-14-v1",
+    "prompt_ru": "Доказывает ли падение силы после серии сокращений одну-единственную причину?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Да, всегда виноват лактат",
+        "is_correct": false,
+        "explanation_ru": "Это слишком категоричный вывод.",
+        "hint_ru": "Причин может быть несколько."
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Да, всегда виновато отсутствие АТФ",
+        "is_correct": false,
+        "explanation_ru": "АТФ важен, но не объясняет все случаи одинаково.",
+        "hint_ru": "Смотрите на контекст нагрузки."
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Нет, нужно учитывать несколько возможных механизмов",
+        "is_correct": true,
+        "explanation_ru": "Утомление многофакторно.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Нет, потому что сила никогда не меняется",
+        "is_correct": false,
+        "explanation_ru": "Сила может снижаться при утомлении.",
+        "hint_ru": "Утомление реально, но причины разные."
+      }
+    ],
+    "correct_option_id": "c",
+    "explanation_correct_ru": "Утомление многофакторно.",
+    "difficulty": "application",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "fatigue_inference"
+    ],
+    "source_id": "douglas_ap_1",
+    "source_refs": [
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-3-muscle-fiber-contraction-and-relaxation/"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Douglas College Human Anatomy and Physiology I (1st ed.)",
+      "editor": "Jennifer M. Barker",
+      "publisher": "Douglas College",
+      "year": 2017,
+      "source_url": "https://pressbooks.bccampus.ca/dcbiol11031109/",
+      "chapter_url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-3-muscle-fiber-contraction-and-relaxation/",
+      "locator": "10.3 Muscle Fiber Contraction and Relaxation",
+      "copyright_notice": "Textbook content © 1999–2016 Rice University; changes and additions © 2017 Douglas College Biology Department, except where otherwise noted.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Download for free at https://pressbooks.bccampus.ca/dcbiol11031109",
+      "changes_ru": "Формулировка вопроса и варианты ответа созданы для проекта по механизму из источника. Иллюстрации исходного учебника не использованы.",
+      "no_endorsement_ru": "Автор и издатель исходного учебника не проверяли и не одобряли эту адаптацию."
+    }
+  },
+  {
+    "question_id": "q-mus-14-03-v1",
+    "learning_objective_id": "MUS-14",
+    "card_id": "card-mus-14-v1",
+    "prompt_ru": "Какой вывод о лактате корректнее?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Лактат всегда главная и единственная причина утомления",
+        "is_correct": false,
+        "explanation_ru": "Это устаревшее и слишком узкое объяснение.",
+        "hint_ru": "Не сводите всё к одному веществу."
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Лактат не имеет отношения к обмену веществ",
+        "is_correct": false,
+        "explanation_ru": "Лактат связан с обменом, но не объясняет всё.",
+        "hint_ru": "Он участник обмена, а не универсальная причина."
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Лактат гарантирует рост силы",
+        "is_correct": false,
+        "explanation_ru": "Лактат не гарантирует рост силы.",
+        "hint_ru": "Не делайте тренировочных выводов из одного метаболита."
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Утомление нельзя объяснить только лактатом",
+        "is_correct": true,
+        "explanation_ru": "Утомление многофакторно, и роль лактата нельзя абсолютизировать.",
+        "hint_ru": null
+      }
+    ],
+    "correct_option_id": "d",
+    "explanation_correct_ru": "Утомление многофакторно, и роль лактата нельзя абсолютизировать.",
+    "difficulty": "transfer",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "lactate_misconception"
+    ],
+    "source_id": "douglas_ap_1",
+    "source_refs": [
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-3-muscle-fiber-contraction-and-relaxation/"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Douglas College Human Anatomy and Physiology I (1st ed.)",
+      "editor": "Jennifer M. Barker",
+      "publisher": "Douglas College",
+      "year": 2017,
+      "source_url": "https://pressbooks.bccampus.ca/dcbiol11031109/",
+      "chapter_url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-3-muscle-fiber-contraction-and-relaxation/",
+      "locator": "10.3 Muscle Fiber Contraction and Relaxation",
+      "copyright_notice": "Textbook content © 1999–2016 Rice University; changes and additions © 2017 Douglas College Biology Department, except where otherwise noted.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Download for free at https://pressbooks.bccampus.ca/dcbiol11031109",
+      "changes_ru": "Формулировка вопроса и варианты ответа созданы для проекта по механизму из источника. Иллюстрации исходного учебника не использованы.",
+      "no_endorsement_ru": "Автор и издатель исходного учебника не проверяли и не одобряли эту адаптацию."
+    }
+  },
+  {
+    "question_id": "q-mus-15-01-v1",
+    "learning_objective_id": "MUS-15",
+    "card_id": "card-mus-15-v1",
+    "prompt_ru": "Какая адаптация типична для работы на выносливость?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Увеличение митохондриального аппарата и капиллярной сети",
+        "is_correct": true,
+        "explanation_ru": "Это помогает дольше поддерживать аэробную работу.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Только гипертрофия быстрых гликолитических волокон",
+        "is_correct": false,
+        "explanation_ru": "Это больше связано с силовой и скоростно-силовой работой.",
+        "hint_ru": "Выносливость требует аэробной поддержки."
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Полное отсутствие клеточных изменений",
+        "is_correct": false,
+        "explanation_ru": "Тренировка вызывает адаптации.",
+        "hint_ru": "Организм меняется под нагрузкой."
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Уменьшение всех мышечных белков",
+        "is_correct": false,
+        "explanation_ru": "Это не типичная адаптация к выносливости.",
+        "hint_ru": "Подумайте об устойчивости к длительной работе."
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_correct_ru": "Это помогает дольше поддерживать аэробную работу.",
+    "difficulty": "baseline",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "endurance_adaptation"
+    ],
+    "source_id": "douglas_ap_1",
+    "source_refs": [
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-6-exercise-and-muscle-performance/"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Douglas College Human Anatomy and Physiology I (1st ed.)",
+      "editor": "Jennifer M. Barker",
+      "publisher": "Douglas College",
+      "year": 2017,
+      "source_url": "https://pressbooks.bccampus.ca/dcbiol11031109/",
+      "chapter_url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-6-exercise-and-muscle-performance/",
+      "locator": "10.6 Exercise and Muscle Performance",
+      "copyright_notice": "Textbook content © 1999–2016 Rice University; changes and additions © 2017 Douglas College Biology Department, except where otherwise noted.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Download for free at https://pressbooks.bccampus.ca/dcbiol11031109",
+      "changes_ru": "Формулировка вопроса и варианты ответа созданы для проекта по механизму из источника. Иллюстрации исходного учебника не использованы.",
+      "no_endorsement_ru": "Автор и издатель исходного учебника не проверяли и не одобряли эту адаптацию."
+    }
+  },
+  {
+    "question_id": "q-mus-15-02-v1",
+    "learning_objective_id": "MUS-15",
+    "card_id": "card-mus-15-v1",
+    "prompt_ru": "С каким изменением чаще связана силовая работа?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Только с увеличением миоглобина",
+        "is_correct": false,
+        "explanation_ru": "Миоглобин важен для аэробной работы, но для силовой адаптации он не главный.",
+        "hint_ru": "Силовая работа требует сократительных структур."
+      },
+      {
+        "option_id": "b",
+        "text_ru": "С увеличением сократительных структур",
+        "is_correct": true,
+        "explanation_ru": "Это повышает способность развивать силу.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "c",
+        "text_ru": "С уменьшением всех соединительнотканных элементов",
+        "is_correct": false,
+        "explanation_ru": "Силовая нагрузка может укреплять соединительные структуры.",
+        "hint_ru": "Не ждите уменьшения опорных структур."
+      },
+      {
+        "option_id": "d",
+        "text_ru": "С заменой мышц на жировую ткань",
+        "is_correct": false,
+        "explanation_ru": "Это не адаптация к силовой работе.",
+        "hint_ru": "Речь о мышечных структурах."
+      }
+    ],
+    "correct_option_id": "b",
+    "explanation_correct_ru": "Это повышает способность развивать силу.",
+    "difficulty": "application",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "resistance_adaptation"
+    ],
+    "source_id": "douglas_ap_1",
+    "source_refs": [
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-6-exercise-and-muscle-performance/"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Douglas College Human Anatomy and Physiology I (1st ed.)",
+      "editor": "Jennifer M. Barker",
+      "publisher": "Douglas College",
+      "year": 2017,
+      "source_url": "https://pressbooks.bccampus.ca/dcbiol11031109/",
+      "chapter_url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-6-exercise-and-muscle-performance/",
+      "locator": "10.6 Exercise and Muscle Performance",
+      "copyright_notice": "Textbook content © 1999–2016 Rice University; changes and additions © 2017 Douglas College Biology Department, except where otherwise noted.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Download for free at https://pressbooks.bccampus.ca/dcbiol11031109",
+      "changes_ru": "Формулировка вопроса и варианты ответа созданы для проекта по механизму из источника. Иллюстрации исходного учебника не использованы.",
+      "no_endorsement_ru": "Автор и издатель исходного учебника не проверяли и не одобряли эту адаптацию."
+    }
+  },
+  {
+    "question_id": "q-mus-15-03-v1",
+    "learning_objective_id": "MUS-15",
+    "card_id": "card-mus-15-v1",
+    "prompt_ru": "Почему адаптации к выносливости и силе нельзя считать одинаковыми?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Они всегда одинаковы",
+        "is_correct": false,
+        "explanation_ru": "Адаптации специфичны режиму нагрузки.",
+        "hint_ru": "Разные задачи вызывают разные изменения."
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Они не зависят от нагрузки",
+        "is_correct": false,
+        "explanation_ru": "Адаптация зависит от характера нагрузки.",
+        "hint_ru": "Без стимула нет специфической адаптации."
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Они зависят от характера нагрузки и восстановления",
+        "is_correct": true,
+        "explanation_ru": "Режим стимула и восстановление определяют результат.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Они определяются только возрастом",
+        "is_correct": false,
+        "explanation_ru": "Возраст влияет, но не отменяет роль нагрузки.",
+        "hint_ru": "Тренировочный стимул важен."
+      }
+    ],
+    "correct_option_id": "c",
+    "explanation_correct_ru": "Режим стимула и восстановление определяют результат.",
+    "difficulty": "transfer",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "specificity_adaptation"
+    ],
+    "source_id": "douglas_ap_1",
+    "source_refs": [
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-6-exercise-and-muscle-performance/"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Douglas College Human Anatomy and Physiology I (1st ed.)",
+      "editor": "Jennifer M. Barker",
+      "publisher": "Douglas College",
+      "year": 2017,
+      "source_url": "https://pressbooks.bccampus.ca/dcbiol11031109/",
+      "chapter_url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-6-exercise-and-muscle-performance/",
+      "locator": "10.6 Exercise and Muscle Performance",
+      "copyright_notice": "Textbook content © 1999–2016 Rice University; changes and additions © 2017 Douglas College Biology Department, except where otherwise noted.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Download for free at https://pressbooks.bccampus.ca/dcbiol11031109",
+      "changes_ru": "Формулировка вопроса и варианты ответа созданы для проекта по механизму из источника. Иллюстрации исходного учебника не использованы.",
+      "no_endorsement_ru": "Автор и издатель исходного учебника не проверяли и не одобряли эту адаптацию."
+    }
+  },
+  {
+    "question_id": "q-mus-16-01-v1",
+    "learning_objective_id": "MUS-16",
+    "card_id": "card-mus-16-v1",
+    "prompt_ru": "Что такое гипертрофия скелетной мышцы?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Увеличение размера мышечных волокон",
+        "is_correct": true,
+        "explanation_ru": "Гипертрофия связана с добавлением структурных белков и ростом волокон.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Увеличение числа костей",
+        "is_correct": false,
+        "explanation_ru": "Кости не увеличиваются в числе при гипертрофии мышцы.",
+        "hint_ru": "Речь о мышечных волокнах."
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Уменьшение мышечной массы",
+        "is_correct": false,
+        "explanation_ru": "Это атрофия, а не гипертрофия.",
+        "hint_ru": "Гипертрофия — рост, атрофия — уменьшение."
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Замена мышцы сухожилием",
+        "is_correct": false,
+        "explanation_ru": "Это не нормальная гипертрофия.",
+        "hint_ru": "Сухожилие и мышца — разные структуры."
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_correct_ru": "Гипертрофия связана с добавлением структурных белков и ростом волокон.",
+    "difficulty": "baseline",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "hypertrophy_definition"
+    ],
+    "source_id": "douglas_ap_1",
+    "source_refs": [
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-3-muscle-fiber-contraction-and-relaxation/"
+      },
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-6-exercise-and-muscle-performance/"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Douglas College Human Anatomy and Physiology I (1st ed.)",
+      "editor": "Jennifer M. Barker",
+      "publisher": "Douglas College",
+      "year": 2017,
+      "source_url": "https://pressbooks.bccampus.ca/dcbiol11031109/",
+      "chapter_url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-3-muscle-fiber-contraction-and-relaxation/",
+      "locator": "10.3 Muscle Fiber Contraction and Relaxation; 10.6 Exercise and Muscle Performance",
+      "copyright_notice": "Textbook content © 1999–2016 Rice University; changes and additions © 2017 Douglas College Biology Department, except where otherwise noted.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Download for free at https://pressbooks.bccampus.ca/dcbiol11031109",
+      "changes_ru": "Формулировка вопроса и варианты ответа созданы для проекта по механизму из источника. Иллюстрации исходного учебника не использованы.",
+      "no_endorsement_ru": "Автор и издатель исходного учебника не проверяли и не одобряли эту адаптацию."
+    }
+  },
+  {
+    "question_id": "q-mus-16-02-v1",
+    "learning_objective_id": "MUS-16",
+    "card_id": "card-mus-16-v1",
+    "prompt_ru": "Что обычно происходит при атрофии от снижения нагрузки?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Увеличение силы и размера волокон",
+        "is_correct": false,
+        "explanation_ru": "Это противоположно атрофии.",
+        "hint_ru": "Атрофия связана с потерей структур."
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Уменьшение мышечной массы и сократительных структур",
+        "is_correct": true,
+        "explanation_ru": "При снижении нагрузки мышца может терять массу и силу.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Обязательный рост митохондрий",
+        "is_correct": false,
+        "explanation_ru": "Это не определение атрофии.",
+        "hint_ru": "Подумайте о потере массы."
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Увеличение числа саркомеров как главная цель",
+        "is_correct": false,
+        "explanation_ru": "Атрофия — уменьшение сократительных структур, а не рост саркомеров.",
+        "hint_ru": "Снижение нагрузки ведёт к потере, а не росту."
+      }
+    ],
+    "correct_option_id": "b",
+    "explanation_correct_ru": "При снижении нагрузки мышца может терять массу и силу.",
+    "difficulty": "application",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "atrophy_disuse"
+    ],
+    "source_id": "douglas_ap_1",
+    "source_refs": [
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-3-muscle-fiber-contraction-and-relaxation/"
+      },
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-6-exercise-and-muscle-performance/"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Douglas College Human Anatomy and Physiology I (1st ed.)",
+      "editor": "Jennifer M. Barker",
+      "publisher": "Douglas College",
+      "year": 2017,
+      "source_url": "https://pressbooks.bccampus.ca/dcbiol11031109/",
+      "chapter_url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-3-muscle-fiber-contraction-and-relaxation/",
+      "locator": "10.3 Muscle Fiber Contraction and Relaxation; 10.6 Exercise and Muscle Performance",
+      "copyright_notice": "Textbook content © 1999–2016 Rice University; changes and additions © 2017 Douglas College Biology Department, except where otherwise noted.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Download for free at https://pressbooks.bccampus.ca/dcbiol11031109",
+      "changes_ru": "Формулировка вопроса и варианты ответа созданы для проекта по механизму из источника. Иллюстрации исходного учебника не использованы.",
+      "no_endorsement_ru": "Автор и издатель исходного учебника не проверяли и не одобряли эту адаптацию."
+    }
+  },
+  {
+    "question_id": "q-mus-16-03-v1",
+    "learning_objective_id": "MUS-16",
+    "card_id": "card-mus-16-v1",
+    "prompt_ru": "Обязательно ли повреждение мышцы на каждой тренировке?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Да, без боли роста не бывает",
+        "is_correct": false,
+        "explanation_ru": "Боль и повреждение не нужны для роста мышцы.",
+        "hint_ru": "Адаптация не требует намеренного повреждения."
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Да, восстановление не нужно",
+        "is_correct": false,
+        "explanation_ru": "Восстановление важно для адаптации.",
+        "hint_ru": "Перегрузка без отдыха повышает риск."
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Нет, важны стимул и восстановление, а повреждение не цель",
+        "is_correct": true,
+        "explanation_ru": "Полезная адаптация не требует намеренного повреждения мышцы.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Нет, потому что мышца никогда не адаптируется",
+        "is_correct": false,
+        "explanation_ru": "Мышца адаптируется, но не через обязательное повреждение.",
+        "hint_ru": "Адаптация есть, но цель другая."
+      }
+    ],
+    "correct_option_id": "c",
+    "explanation_correct_ru": "Полезная адаптация не требует намеренного повреждения мышцы.",
+    "difficulty": "transfer",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "damage_not_goal"
+    ],
+    "source_id": "douglas_ap_1",
+    "source_refs": [
+      {
+        "source_id": "douglas_ap_1",
+        "url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-6-exercise-and-muscle-performance/"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Douglas College Human Anatomy and Physiology I (1st ed.)",
+      "editor": "Jennifer M. Barker",
+      "publisher": "Douglas College",
+      "year": 2017,
+      "source_url": "https://pressbooks.bccampus.ca/dcbiol11031109/",
+      "chapter_url": "https://pressbooks.bccampus.ca/dcbiol11031109/chapter/10-6-exercise-and-muscle-performance/",
+      "locator": "10.6 Exercise and Muscle Performance",
+      "copyright_notice": "Textbook content © 1999–2016 Rice University; changes and additions © 2017 Douglas College Biology Department, except where otherwise noted.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Download for free at https://pressbooks.bccampus.ca/dcbiol11031109",
+      "changes_ru": "Формулировка вопроса и варианты ответа созданы для проекта по механизму из источника. Иллюстрации исходного учебника не использованы.",
+      "no_endorsement_ru": "Автор и издатель исходного учебника не проверяли и не одобряли эту адаптацию."
+    }
+  }
+]

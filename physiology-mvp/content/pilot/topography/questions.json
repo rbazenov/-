@@ -1,0 +1,890 @@
+[
+  {
+    "question_id": "q-topo-01-01-v1",
+    "learning_objective_id": "TOPO-01",
+    "card_id": "card-topo-01-v1",
+    "prompt_ru": "Что означает масштаб 1:25 000?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "1 см на карте равен 250 м на местности",
+        "is_correct": true,
+        "explanation_ru": "25 000 см = 250 м.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "b",
+        "text_ru": "1 см на карте равен 25 м на местности",
+        "is_correct": false,
+        "explanation_ru": "Это соответствовало бы масштабу 1:2 500.",
+        "hint_ru": "Переведите сантиметры в метры."
+      },
+      {
+        "option_id": "c",
+        "text_ru": "1 см на карте равен 2,5 км на местности",
+        "is_correct": false,
+        "explanation_ru": "Это соответствовало бы масштабу 1:250 000.",
+        "hint_ru": "Сколько метров в 25 000 см?"
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Карта увеличена в 25 000 раз",
+        "is_correct": false,
+        "explanation_ru": "Масштаб показывает уменьшение, а не увеличение.",
+        "hint_ru": "Что делает карта с размерами местности?"
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_correct_ru": "25 000 см = 250 м.",
+    "difficulty": "baseline",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "scale_conversion"
+    ],
+    "source_id": "usgs_finding_way",
+    "source_refs": [
+      {
+        "source_id": "usgs_finding_way",
+        "url": "https://pubs.usgs.gov/fs/2001/0035/report.pdf",
+        "title": "Finding Your Way With Map and Compass",
+        "locator": "map scale"
+      }
+    ],
+    "license": "Public domain",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Finding Your Way With Map and Compass",
+      "editor": null,
+      "publisher": "U.S. Geological Survey",
+      "year": 2001,
+      "source_url": "https://www.usgs.gov/educational-resources/finding-your-way-map-and-compass",
+      "chapter_url": "https://pubs.usgs.gov/fs/2001/0035/report.pdf",
+      "locator": "Map scale, cardinal points, bearing; проверено 01.11.2026",
+      "copyright_notice": "Материалы, подготовленные USGS, обычно находятся в общественном достоянии США; сторонние изображения могут иметь отдельные права.",
+      "license": "Public domain",
+      "license_url": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+      "required_notice": "Credit: U.S. Geological Survey, U.S. Department of the Interior.",
+      "changes_ru": "Оригинальный вопрос о пересчёте масштаба.",
+      "no_endorsement_ru": "Источник не проверял и не одобрял эту учебную адаптацию. Материал остаётся черновиком до предметной редактуры."
+    }
+  },
+  {
+    "question_id": "q-topo-01-02-v1",
+    "learning_objective_id": "TOPO-01",
+    "card_id": "card-topo-01-v1",
+    "prompt_ru": "Какая карта крупнее по масштабу?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "1:100 000",
+        "is_correct": false,
+        "explanation_ru": "Больший знаменатель означает более мелкий масштаб.",
+        "hint_ru": "Сравните знаменатели."
+      },
+      {
+        "option_id": "b",
+        "text_ru": "1:25 000",
+        "is_correct": true,
+        "explanation_ru": "Меньший знаменатель даёт более крупный масштаб.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "c",
+        "text_ru": "1:200 000",
+        "is_correct": false,
+        "explanation_ru": "Это более мелкий масштаб.",
+        "hint_ru": "Где знаменатель меньше?"
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Масштаб не влияет на детальность",
+        "is_correct": false,
+        "explanation_ru": "Масштаб связан со степенью уменьшения и детальностью.",
+        "hint_ru": "Что показывает масштаб?"
+      }
+    ],
+    "correct_option_id": "b",
+    "explanation_correct_ru": "Меньший знаменатель даёт более крупный масштаб.",
+    "difficulty": "baseline",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "scale_comparison"
+    ],
+    "source_id": "usgs_finding_way",
+    "source_refs": [
+      {
+        "source_id": "usgs_finding_way",
+        "url": "https://pubs.usgs.gov/fs/2001/0035/report.pdf",
+        "title": "Finding Your Way With Map and Compass",
+        "locator": "map scale"
+      }
+    ],
+    "license": "Public domain",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Finding Your Way With Map and Compass",
+      "editor": null,
+      "publisher": "U.S. Geological Survey",
+      "year": 2001,
+      "source_url": "https://www.usgs.gov/educational-resources/finding-your-way-map-and-compass",
+      "chapter_url": "https://pubs.usgs.gov/fs/2001/0035/report.pdf",
+      "locator": "Map scale, cardinal points, bearing; проверено 01.11.2026",
+      "copyright_notice": "Материалы, подготовленные USGS, обычно находятся в общественном достоянии США; сторонние изображения могут иметь отдельные права.",
+      "license": "Public domain",
+      "license_url": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+      "required_notice": "Credit: U.S. Geological Survey, U.S. Department of the Interior.",
+      "changes_ru": "Оригинальный вопрос о сравнении масштабов.",
+      "no_endorsement_ru": "Источник не проверял и не одобрял эту учебную адаптацию. Материал остаётся черновиком до предметной редактуры."
+    }
+  },
+  {
+    "question_id": "q-topo-01-03-v1",
+    "learning_objective_id": "TOPO-01",
+    "card_id": "card-topo-01-v1",
+    "prompt_ru": "Почему перед выходом смотрят легенду конкретной карты?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Все карты используют одинаковые цвета",
+        "is_correct": false,
+        "explanation_ru": "Цвета и символы могут отличаться у разных серий.",
+        "hint_ru": "Можно ли переносить знаки без проверки?"
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Условные знаки могут отличаться, и их смысл задан легендой",
+        "is_correct": true,
+        "explanation_ru": "Легенда объясняет символы именно этой карты.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Легенда заменяет компас",
+        "is_correct": false,
+        "explanation_ru": "Легенда объясняет знаки, но не определяет направление.",
+        "hint_ru": "Разделите функции легенды и компаса."
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Легенда нужна только для соревнований",
+        "is_correct": false,
+        "explanation_ru": "Легенда нужна при чтении любой тематической карты.",
+        "hint_ru": "Где ещё читают знаки?"
+      }
+    ],
+    "correct_option_id": "b",
+    "explanation_correct_ru": "Легенда объясняет символы именно этой карты.",
+    "difficulty": "application",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "legend_use"
+    ],
+    "source_id": "usgs_topo_symbols",
+    "source_refs": [
+      {
+        "source_id": "usgs_topo_symbols",
+        "url": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/atoms/files/Topographic%20Map%20Symbols.pdf",
+        "title": "Topographic Map Symbols",
+        "locator": "symbols may differ"
+      }
+    ],
+    "license": "Public domain",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Topographic Map Symbols",
+      "editor": null,
+      "publisher": "U.S. Geological Survey",
+      "year": 2026,
+      "source_url": "https://www.usgs.gov/media/files/topographic-map-symbols",
+      "chapter_url": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/atoms/files/Topographic%20Map%20Symbols.pdf",
+      "locator": "What is a Topographic Map? Reading Topographic Maps; проверено 01.11.2026",
+      "copyright_notice": "Материалы, подготовленные USGS, обычно находятся в общественном достоянии США; сторонние изображения могут иметь отдельные права.",
+      "license": "Public domain",
+      "license_url": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+      "required_notice": "Credit: U.S. Geological Survey, U.S. Department of the Interior.",
+      "changes_ru": "Оригинальный вопрос о необходимости легенды.",
+      "no_endorsement_ru": "Источник не проверял и не одобрял эту учебную адаптацию. Материал остаётся черновиком до предметной редактуры."
+    }
+  },
+  {
+    "question_id": "q-topo-02-01-v1",
+    "learning_objective_id": "TOPO-02",
+    "card_id": "card-topo-02-v1",
+    "prompt_ru": "Что показывают горизонтали на топографической карте?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Точки с одинаковой высотой",
+        "is_correct": true,
+        "explanation_ru": "Горизонталь соединяет точки равной высоты.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Только дороги",
+        "is_correct": false,
+        "explanation_ru": "Дороги обозначают другими знаками.",
+        "hint_ru": "Что означает слово горизонталь?"
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Границы государств",
+        "is_correct": false,
+        "explanation_ru": "Границы имеют отдельные условные знаки.",
+        "hint_ru": "Связаны ли горизонтали с высотой?"
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Направление ветра",
+        "is_correct": false,
+        "explanation_ru": "Ветер не показывают горизонталями рельефа.",
+        "hint_ru": "Что показывает рельеф?"
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_correct_ru": "Горизонталь соединяет точки равной высоты.",
+    "difficulty": "baseline",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "contour_definition"
+    ],
+    "source_id": "usgs_topo_symbols",
+    "source_refs": [
+      {
+        "source_id": "usgs_topo_symbols",
+        "url": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/atoms/files/Topographic%20Map%20Symbols.pdf",
+        "title": "Topographic Map Symbols",
+        "locator": "contours"
+      }
+    ],
+    "license": "Public domain",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Topographic Map Symbols",
+      "editor": null,
+      "publisher": "U.S. Geological Survey",
+      "year": 2026,
+      "source_url": "https://www.usgs.gov/media/files/topographic-map-symbols",
+      "chapter_url": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/atoms/files/Topographic%20Map%20Symbols.pdf",
+      "locator": "What is a Topographic Map? Reading Topographic Maps; проверено 01.11.2026",
+      "copyright_notice": "Материалы, подготовленные USGS, обычно находятся в общественном достоянии США; сторонние изображения могут иметь отдельные права.",
+      "license": "Public domain",
+      "license_url": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+      "required_notice": "Credit: U.S. Geological Survey, U.S. Department of the Interior.",
+      "changes_ru": "Оригинальный вопрос об определении горизонталей.",
+      "no_endorsement_ru": "Источник не проверял и не одобрял эту учебную адаптацию. Материал остаётся черновиком до предметной редактуры."
+    }
+  },
+  {
+    "question_id": "q-topo-02-02-v1",
+    "learning_objective_id": "TOPO-02",
+    "card_id": "card-topo-02-v1",
+    "prompt_ru": "На карте горизонтали расположены очень близко. Что это обычно означает?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Пологий склон",
+        "is_correct": false,
+        "explanation_ru": "Пологий склон обычно даёт более редкие горизонтали.",
+        "hint_ru": "Как меняется высота на коротком расстоянии?"
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Крутой склон",
+        "is_correct": true,
+        "explanation_ru": "Близкие горизонтали означают быстрое изменение высоты.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Обязательно болото",
+        "is_correct": false,
+        "explanation_ru": "Болото обозначают отдельными знаками.",
+        "hint_ru": "Что именно показывает плотность горизонталей?"
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Отсутствие рельефа",
+        "is_correct": false,
+        "explanation_ru": "Отсутствие рельефа не даёт плотных горизонталей.",
+        "hint_ru": "Есть ли изменение высоты?"
+      }
+    ],
+    "correct_option_id": "b",
+    "explanation_correct_ru": "Близкие горизонтали означают быстрое изменение высоты.",
+    "difficulty": "application",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "contour_density"
+    ],
+    "source_id": "usgs_topo_symbols",
+    "source_refs": [
+      {
+        "source_id": "usgs_topo_symbols",
+        "url": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/atoms/files/Topographic%20Map%20Symbols.pdf",
+        "title": "Topographic Map Symbols",
+        "locator": "steep slopes"
+      }
+    ],
+    "license": "Public domain",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Topographic Map Symbols",
+      "editor": null,
+      "publisher": "U.S. Geological Survey",
+      "year": 2026,
+      "source_url": "https://www.usgs.gov/media/files/topographic-map-symbols",
+      "chapter_url": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/atoms/files/Topographic%20Map%20Symbols.pdf",
+      "locator": "What is a Topographic Map? Reading Topographic Maps; проверено 01.11.2026",
+      "copyright_notice": "Материалы, подготовленные USGS, обычно находятся в общественном достоянии США; сторонние изображения могут иметь отдельные права.",
+      "license": "Public domain",
+      "license_url": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+      "required_notice": "Credit: U.S. Geological Survey, U.S. Department of the Interior.",
+      "changes_ru": "Оригинальный вопрос о крутизне по плотности горизонталей.",
+      "no_endorsement_ru": "Источник не проверял и не одобрял эту учебную адаптацию. Материал остаётся черновиком до предметной редактуры."
+    }
+  },
+  {
+    "question_id": "q-topo-02-03-v1",
+    "learning_objective_id": "TOPO-02",
+    "card_id": "card-topo-02-v1",
+    "prompt_ru": "Что такое сечение рельефа?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Расстояние между соседними горизонталями по высоте",
+        "is_correct": true,
+        "explanation_ru": "Это разность высот между соседними горизонталями.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Длина маршрута в километрах",
+        "is_correct": false,
+        "explanation_ru": "Это расстояние, а не высотный интервал.",
+        "hint_ru": "Сечение связано с высотой или длиной?"
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Цвет карты",
+        "is_correct": false,
+        "explanation_ru": "Цвет не определяет высотный интервал.",
+        "hint_ru": "Что измеряют в метрах по высоте?"
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Количество дорог на карте",
+        "is_correct": false,
+        "explanation_ru": "Дороги не задают сечение рельефа.",
+        "hint_ru": "Что сравнивают между горизонталями?"
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_correct_ru": "Это разность высот между соседними горизонталями.",
+    "difficulty": "baseline",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "contour_interval"
+    ],
+    "source_id": "usgs_topo_symbols",
+    "source_refs": [
+      {
+        "source_id": "usgs_topo_symbols",
+        "url": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/atoms/files/Topographic%20Map%20Symbols.pdf",
+        "title": "Topographic Map Symbols",
+        "locator": "contour interval"
+      }
+    ],
+    "license": "Public domain",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Topographic Map Symbols",
+      "editor": null,
+      "publisher": "U.S. Geological Survey",
+      "year": 2026,
+      "source_url": "https://www.usgs.gov/media/files/topographic-map-symbols",
+      "chapter_url": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/atoms/files/Topographic%20Map%20Symbols.pdf",
+      "locator": "What is a Topographic Map? Reading Topographic Maps; проверено 01.11.2026",
+      "copyright_notice": "Материалы, подготовленные USGS, обычно находятся в общественном достоянии США; сторонние изображения могут иметь отдельные права.",
+      "license": "Public domain",
+      "license_url": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+      "required_notice": "Credit: U.S. Geological Survey, U.S. Department of the Interior.",
+      "changes_ru": "Оригинальный вопрос о сечении рельефа.",
+      "no_endorsement_ru": "Источник не проверял и не одобрял эту учебную адаптацию. Материал остаётся черновиком до предметной редактуры."
+    }
+  },
+  {
+    "question_id": "q-topo-03-01-v1",
+    "learning_objective_id": "TOPO-03",
+    "card_id": "card-topo-03-v1",
+    "prompt_ru": "Что такое азимут?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Угол от северного направления по часовой стрелке до направления на объект",
+        "is_correct": true,
+        "explanation_ru": "Азимут отсчитывают от севера по часовой стрелке.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Расстояние до объекта в метрах",
+        "is_correct": false,
+        "explanation_ru": "Расстояние и направление — разные величины.",
+        "hint_ru": "Азимут измеряют в метрах или градусах?"
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Высота объекта над уровнем моря",
+        "is_correct": false,
+        "explanation_ru": "Высота показывает положение по вертикали, а не направление.",
+        "hint_ru": "Что показывает компас?"
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Скорость движения группы",
+        "is_correct": false,
+        "explanation_ru": "Скорость не связана с определением азимута.",
+        "hint_ru": "Что измеряют в градусах?"
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_correct_ru": "Азимут отсчитывают от севера по часовой стрелке.",
+    "difficulty": "baseline",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "azimuth_definition"
+    ],
+    "source_id": "nps_compass_course",
+    "source_refs": [
+      {
+        "source_id": "nps_compass_course",
+        "url": "https://www.nps.gov/buff/learn/education/classrooms/upload/Compass_Course_508.pdf",
+        "title": "Compass Course — Using a Compass",
+        "locator": "azimuth/bearing"
+      },
+      {
+        "source_id": "usgs_finding_way",
+        "url": "https://pubs.usgs.gov/fs/2001/0035/report.pdf",
+        "title": "Finding Your Way With Map and Compass",
+        "locator": "bearing"
+      }
+    ],
+    "license": "Public domain (U.S. government work)",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Compass Course — Using a Compass",
+      "editor": null,
+      "publisher": "U.S. National Park Service",
+      "year": 2024,
+      "source_url": "https://www.nps.gov/teachers/classrooms/compass-course.htm",
+      "chapter_url": "https://www.nps.gov/buff/learn/education/classrooms/upload/Compass_Course_508.pdf",
+      "locator": "Compass Course: azimuth/bearing, compass parts, GPS backup; проверено 01.11.2026",
+      "copyright_notice": "Служебные материалы NPS обычно находятся в общественном достоянии США, если не указано иное; сторонние материалы и логотипы исключены.",
+      "license": "Public domain (U.S. government work)",
+      "license_url": "https://www.nps.gov/aboutus/disclaimer.htm",
+      "required_notice": "Источник: U.S. National Park Service. Материал подготовлен сотрудниками NPS и находится в общественном достоянии США; логотипы и сторонние изображения не использованы.",
+      "changes_ru": "Оригинальный вопрос об определении азимута.",
+      "no_endorsement_ru": "Источник не проверял и не одобрял эту учебную адаптацию. Материал остаётся черновиком до предметной редактуры."
+    }
+  },
+  {
+    "question_id": "q-topo-03-02-v1",
+    "learning_objective_id": "TOPO-03",
+    "card_id": "card-topo-03-v1",
+    "prompt_ru": "Какое направление соответствует азимуту 90 градусов?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Север",
+        "is_correct": false,
+        "explanation_ru": "Север соответствует 0 или 360 градусам.",
+        "hint_ru": "Откуда начинают отсчёт?"
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Восток",
+        "is_correct": true,
+        "explanation_ru": "Восток находится на 90 градусах по часовой стрелке от севера.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Юг",
+        "is_correct": false,
+        "explanation_ru": "Юг соответствует 180 градусам.",
+        "hint_ru": "Сколько градусов до юга?"
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Запад",
+        "is_correct": false,
+        "explanation_ru": "Запад соответствует 270 градусам.",
+        "hint_ru": "Пройдите круг по часовой стрелке."
+      }
+    ],
+    "correct_option_id": "b",
+    "explanation_correct_ru": "Восток находится на 90 градусах по часовой стрелке от севера.",
+    "difficulty": "baseline",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "cardinal_azimuth"
+    ],
+    "source_id": "usgs_finding_way",
+    "source_refs": [
+      {
+        "source_id": "usgs_finding_way",
+        "url": "https://pubs.usgs.gov/fs/2001/0035/report.pdf",
+        "title": "Finding Your Way With Map and Compass",
+        "locator": "north 0, east 90, south 180, west 270"
+      }
+    ],
+    "license": "Public domain",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Finding Your Way With Map and Compass",
+      "editor": null,
+      "publisher": "U.S. Geological Survey",
+      "year": 2001,
+      "source_url": "https://www.usgs.gov/educational-resources/finding-your-way-map-and-compass",
+      "chapter_url": "https://pubs.usgs.gov/fs/2001/0035/report.pdf",
+      "locator": "Map scale, cardinal points, bearing; проверено 01.11.2026",
+      "copyright_notice": "Материалы, подготовленные USGS, обычно находятся в общественном достоянии США; сторонние изображения могут иметь отдельные права.",
+      "license": "Public domain",
+      "license_url": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+      "required_notice": "Credit: U.S. Geological Survey, U.S. Department of the Interior.",
+      "changes_ru": "Оригинальный вопрос о сторонах горизонта и азимуте.",
+      "no_endorsement_ru": "Источник не проверял и не одобрял эту учебную адаптацию. Материал остаётся черновиком до предметной редактуры."
+    }
+  },
+  {
+    "question_id": "q-topo-03-03-v1",
+    "learning_objective_id": "TOPO-03",
+    "card_id": "card-topo-03-v1",
+    "prompt_ru": "Почему компас держат вдали от металла и электроники?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Чтобы стрелка не отклонялась от магнитного направления",
+        "is_correct": true,
+        "explanation_ru": "Металл и устройства могут искажать показания стрелки.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Чтобы компас стал тяжелее",
+        "is_correct": false,
+        "explanation_ru": "Вес компаса не влияет на определение направления.",
+        "hint_ru": "Что влияет на стрелку?"
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Чтобы карта стала крупнее",
+        "is_correct": false,
+        "explanation_ru": "Масштаб карты не меняется от положения компаса.",
+        "hint_ru": "Что именно искажается?"
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Чтобы не тратить батареи компаса",
+        "is_correct": false,
+        "explanation_ru": "Обычный магнитный компас не требует батарей.",
+        "hint_ru": "Как работает магнитная стрелка?"
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_correct_ru": "Металл и устройства могут искажать показания стрелки.",
+    "difficulty": "application",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "compass_interference"
+    ],
+    "source_id": "nps_compass_course",
+    "source_refs": [
+      {
+        "source_id": "nps_compass_course",
+        "url": "https://www.nps.gov/buff/learn/education/classrooms/upload/Compass_Course_508.pdf",
+        "title": "Compass Course — Using a Compass",
+        "locator": "compass reading"
+      },
+      {
+        "source_id": "nps_navigating_time",
+        "url": "https://www.nps.gov/common/uploads/teachers/lessonplans/Navigating_Through_Time_ver20160526_508.pdf",
+        "title": "Navigating Through Time: From Wayfinding to Satellite",
+        "locator": "compass needle"
+      }
+    ],
+    "license": "Public domain (U.S. government work)",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Compass Course — Using a Compass",
+      "editor": null,
+      "publisher": "U.S. National Park Service",
+      "year": 2024,
+      "source_url": "https://www.nps.gov/teachers/classrooms/compass-course.htm",
+      "chapter_url": "https://www.nps.gov/buff/learn/education/classrooms/upload/Compass_Course_508.pdf",
+      "locator": "Compass Course: azimuth/bearing, compass parts, GPS backup; проверено 01.11.2026",
+      "copyright_notice": "Служебные материалы NPS обычно находятся в общественном достоянии США, если не указано иное; сторонние материалы и логотипы исключены.",
+      "license": "Public domain (U.S. government work)",
+      "license_url": "https://www.nps.gov/aboutus/disclaimer.htm",
+      "required_notice": "Источник: U.S. National Park Service. Материал подготовлен сотрудниками NPS и находится в общественном достоянии США; логотипы и сторонние изображения не использованы.",
+      "changes_ru": "Оригинальный вопрос о помехах компасу.",
+      "no_endorsement_ru": "Источник не проверял и не одобрял эту учебную адаптацию. Материал остаётся черновиком до предметной редактуры."
+    }
+  },
+  {
+    "question_id": "q-topo-04-01-v1",
+    "learning_objective_id": "TOPO-04",
+    "card_id": "card-topo-04-v1",
+    "prompt_ru": "Что значит ориентировать карту?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Совместить направления карты с направлениями местности",
+        "is_correct": true,
+        "explanation_ru": "Направления на карте должны совпадать с направлениями на местности.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Сложить карту пополам",
+        "is_correct": false,
+        "explanation_ru": "Складывание не связано с направлением.",
+        "hint_ru": "Что сравнивают с местностью?"
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Запомнить все названия",
+        "is_correct": false,
+        "explanation_ru": "Память полезна, но не заменяет ориентирование.",
+        "hint_ru": "Что делают с направлением карты?"
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Увеличить масштаб карты",
+        "is_correct": false,
+        "explanation_ru": "Масштаб уже задан картой.",
+        "hint_ru": "Меняется ли масштаб при повороте?"
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_correct_ru": "Направления на карте должны совпадать с направлениями на местности.",
+    "difficulty": "baseline",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "map_orientation"
+    ],
+    "source_id": "nps_wilderness_safety",
+    "source_refs": [
+      {
+        "source_id": "nps_wilderness_safety",
+        "url": "https://www.nps.gov/olym/planyourvisit/wilderness-safety.htm",
+        "title": "Wilderness Safety — Olympic National Park",
+        "locator": "track location"
+      },
+      {
+        "source_id": "usgs_finding_way",
+        "url": "https://pubs.usgs.gov/fs/2001/0035/report.pdf",
+        "title": "Finding Your Way With Map and Compass",
+        "locator": "direction"
+      }
+    ],
+    "license": "Public domain (U.S. government work)",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Wilderness Safety — Olympic National Park",
+      "editor": null,
+      "publisher": "U.S. National Park Service",
+      "year": 2026,
+      "source_url": "https://www.nps.gov/olym/planyourvisit/wilderness-safety.htm",
+      "chapter_url": "https://www.nps.gov/olym/planyourvisit/wilderness-safety.htm",
+      "locator": "Wilderness Safety: itinerary, weakest member, turn back, bad weather; проверено 01.11.2026",
+      "copyright_notice": "Служебные материалы NPS обычно находятся в общественном достоянии США, если не указано иное; сторонние материалы и логотипы исключены. Парковые рекомендации не выдаются за нормы РФ.",
+      "license": "Public domain (U.S. government work)",
+      "license_url": "https://www.nps.gov/aboutus/disclaimer.htm",
+      "required_notice": "Источник: U.S. National Park Service. Материал подготовлен сотрудниками NPS и находится в общественном достоянии США; логотипы и сторонние изображения не использованы.",
+      "changes_ru": "Оригинальный вопрос об ориентировании карты.",
+      "no_endorsement_ru": "Источник не проверял и не одобрял эту учебную адаптацию. Материал остаётся черновиком до предметной редактуры."
+    }
+  },
+  {
+    "question_id": "q-topo-04-02-v1",
+    "learning_objective_id": "TOPO-04",
+    "card_id": "card-topo-04-v1",
+    "prompt_ru": "Группа перестала узнавать местность. Какой шаг наиболее разумен?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Идти быстрее в случайном направлении",
+        "is_correct": false,
+        "explanation_ru": "Случайное движение уводит от последней известной точки.",
+        "hint_ru": "Что нужно восстановить сначала?"
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Остановиться и восстановить последнюю известную точку",
+        "is_correct": true,
+        "explanation_ru": "Остановка и анализ снижают риск уйти дальше от маршрута.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Разделиться для поиска дороги",
+        "is_correct": false,
+        "explanation_ru": "Разделение повышает риск потери участников.",
+        "hint_ru": "Что важнее скорости поиска?"
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Выбросить карту",
+        "is_correct": false,
+        "explanation_ru": "Карта остаётся основным средством восстановления маршрута.",
+        "hint_ru": "Какой инструмент помогает?"
+      }
+    ],
+    "correct_option_id": "b",
+    "explanation_correct_ru": "Остановка и анализ снижают риск уйти дальше от маршрута.",
+    "difficulty": "application",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "lost_stop"
+    ],
+    "source_id": "nps_wilderness_safety",
+    "source_refs": [
+      {
+        "source_id": "nps_wilderness_safety",
+        "url": "https://www.nps.gov/olym/planyourvisit/wilderness-safety.htm",
+        "title": "Wilderness Safety — Olympic National Park",
+        "locator": "lost, stay put"
+      }
+    ],
+    "license": "Public domain (U.S. government work)",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Wilderness Safety — Olympic National Park",
+      "editor": null,
+      "publisher": "U.S. National Park Service",
+      "year": 2026,
+      "source_url": "https://www.nps.gov/olym/planyourvisit/wilderness-safety.htm",
+      "chapter_url": "https://www.nps.gov/olym/planyourvisit/wilderness-safety.htm",
+      "locator": "Wilderness Safety: itinerary, weakest member, turn back, bad weather; проверено 01.11.2026",
+      "copyright_notice": "Служебные материалы NPS обычно находятся в общественном достоянии США, если не указано иное; сторонние материалы и логотипы исключены. Парковые рекомендации не выдаются за нормы РФ.",
+      "license": "Public domain (U.S. government work)",
+      "license_url": "https://www.nps.gov/aboutus/disclaimer.htm",
+      "required_notice": "Источник: U.S. National Park Service. Материал подготовлен сотрудниками NPS и находится в общественном достоянии США; логотипы и сторонние изображения не использованы.",
+      "changes_ru": "Оригинальный вопрос о действиях при потере ориентировки.",
+      "no_endorsement_ru": "Источник не проверял и не одобрял эту учебную адаптацию. Материал остаётся черновиком до предметной редактуры."
+    }
+  },
+  {
+    "question_id": "q-topo-04-03-v1",
+    "learning_objective_id": "TOPO-04",
+    "card_id": "card-topo-04-v1",
+    "prompt_ru": "Какой набор лучше поддерживает контроль пути?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Только телефон без резерва",
+        "is_correct": false,
+        "explanation_ru": "Телефон зависит от заряда и связи.",
+        "hint_ru": "Что будет при отказе устройства?"
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Карта, компас, ориентиры, расстояние и время",
+        "is_correct": true,
+        "explanation_ru": "Сочетание инструментов и наблюдений помогает контролировать путь.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Только скорость шага",
+        "is_correct": false,
+        "explanation_ru": "Скорость без направления не даёт контроля маршрута.",
+        "hint_ru": "Что ещё нужно, кроме скорости?"
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Только название конечного пункта",
+        "is_correct": false,
+        "explanation_ru": "Название не показывает текущее положение.",
+        "hint_ru": "Как понять, где вы сейчас?"
+      }
+    ],
+    "correct_option_id": "b",
+    "explanation_correct_ru": "Сочетание инструментов и наблюдений помогает контролировать путь.",
+    "difficulty": "application",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "route_control"
+    ],
+    "source_id": "usgs_finding_way",
+    "source_refs": [
+      {
+        "source_id": "usgs_finding_way",
+        "url": "https://pubs.usgs.gov/fs/2001/0035/report.pdf",
+        "title": "Finding Your Way With Map and Compass",
+        "locator": "map and compass"
+      },
+      {
+        "source_id": "nps_wilderness_safety",
+        "url": "https://www.nps.gov/olym/planyourvisit/wilderness-safety.htm",
+        "title": "Wilderness Safety — Olympic National Park",
+        "locator": "track location"
+      }
+    ],
+    "license": "Public domain",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Finding Your Way With Map and Compass",
+      "editor": null,
+      "publisher": "U.S. Geological Survey",
+      "year": 2001,
+      "source_url": "https://www.usgs.gov/educational-resources/finding-your-way-map-and-compass",
+      "chapter_url": "https://pubs.usgs.gov/fs/2001/0035/report.pdf",
+      "locator": "Map scale, cardinal points, bearing; проверено 01.11.2026",
+      "copyright_notice": "Материалы, подготовленные USGS, обычно находятся в общественном достоянии США; сторонние изображения могут иметь отдельные права.",
+      "license": "Public domain",
+      "license_url": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+      "required_notice": "Credit: U.S. Geological Survey, U.S. Department of the Interior.",
+      "changes_ru": "Оригинальный вопрос о контроле пути.",
+      "no_endorsement_ru": "Источник не проверял и не одобрял эту учебную адаптацию. Материал остаётся черновиком до предметной редактуры."
+    }
+  }
+]

@@ -1,0 +1,884 @@
+[
+  {
+    "question_id": "q-tour-01-01-v1",
+    "learning_objective_id": "TOUR-01",
+    "card_id": "card-tour-01-v1",
+    "prompt_ru": "Что соответствует спортивно-оздоровительному подходу к учебному походу?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Пройти максимум километров, даже если группа устала",
+        "is_correct": false,
+        "explanation_ru": "Это ставит дистанцию выше безопасности и посильности.",
+        "hint_ru": "Ищите критерий, связанный с возможностями участников."
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Выбрать маршрут по подготовке группы и условиям",
+        "is_correct": true,
+        "explanation_ru": "Посильность и безопасность важнее спортивного результата.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Ориентироваться только на самого сильного участника",
+        "is_correct": false,
+        "explanation_ru": "Темп и сложность должны учитывать всю группу.",
+        "hint_ru": "Кто задаёт безопасный темп?"
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Считать любой поход автоматически полезным",
+        "is_correct": false,
+        "explanation_ru": "Польза зависит от нагрузки, условий и подготовки.",
+        "hint_ru": "Есть ли условия, при которых поход вредит?"
+      }
+    ],
+    "correct_option_id": "b",
+    "explanation_correct_ru": "Посильность и безопасность важнее спортивного результата.",
+    "difficulty": "baseline",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "goal_over_distance"
+    ],
+    "source_id": "nps_wilderness_safety",
+    "source_refs": [
+      {
+        "source_id": "nps_wilderness_safety",
+        "url": "https://www.nps.gov/olym/planyourvisit/wilderness-safety.htm",
+        "title": "Wilderness Safety — Olympic National Park",
+        "locator": "weakest member"
+      }
+    ],
+    "license": "Public domain (U.S. government work)",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Wilderness Safety — Olympic National Park",
+      "editor": null,
+      "publisher": "U.S. National Park Service",
+      "year": 2026,
+      "source_url": "https://www.nps.gov/olym/planyourvisit/wilderness-safety.htm",
+      "chapter_url": "https://www.nps.gov/olym/planyourvisit/wilderness-safety.htm",
+      "locator": "Wilderness Safety: itinerary, weakest member, turn back, bad weather; проверено 01.11.2026",
+      "copyright_notice": "Служебные материалы NPS обычно находятся в общественном достоянии США, если не указано иное; сторонние материалы и логотипы исключены. Парковые рекомендации не выдаются за нормы РФ.",
+      "license": "Public domain (U.S. government work)",
+      "license_url": "https://www.nps.gov/aboutus/disclaimer.htm",
+      "required_notice": "Источник: U.S. National Park Service. Материал подготовлен сотрудниками NPS и находится в общественном достоянии США; логотипы и сторонние изображения не использованы.",
+      "changes_ru": "Оригинальный вопрос по принципу посильности маршрута.",
+      "no_endorsement_ru": "Источник не проверял и не одобрял эту учебную адаптацию. Материал остаётся черновиком до предметной редактуры."
+    }
+  },
+  {
+    "question_id": "q-tour-01-02-v1",
+    "learning_objective_id": "TOUR-01",
+    "card_id": "card-tour-01-v1",
+    "prompt_ru": "Группа планирует поход выходного дня. Какой план наиболее безопасен?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Маршрут с запасом времени и безопасным выходом",
+        "is_correct": true,
+        "explanation_ru": "Запас времени и аварийный выход снижают риск срыва плана.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Самый длинный маршрут без остановок",
+        "is_correct": false,
+        "explanation_ru": "Длина без учёта отдыха и выходов повышает риск.",
+        "hint_ru": "Что будет при усталости или плохой погоде?"
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Маршрут, который прошёл один сильный студент",
+        "is_correct": false,
+        "explanation_ru": "Индивидуальный результат не равен возможностям группы.",
+        "hint_ru": "Чьи возможности нужно учитывать?"
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Маршрут без карты, потому что есть телефон",
+        "is_correct": false,
+        "explanation_ru": "Телефон может разрядиться или потерять связь.",
+        "hint_ru": "Нужен ли резерв навигации?"
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_correct_ru": "Запас времени и аварийный выход снижают риск срыва плана.",
+    "difficulty": "application",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "route_selection"
+    ],
+    "source_id": "mchs_51_recommendations",
+    "source_refs": [
+      {
+        "source_id": "mchs_51_recommendations",
+        "url": "https://51.mchs.gov.ru/deyatelnost/poleznaya-informaciya/registraciya-turistskih-grupp/rekomendacii-turistskim-i-alpinistskim-gruppam",
+        "title": "Рекомендации туристским и альпинистским группам",
+        "locator": "пункты 1–2"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Рекомендации туристским и альпинистским группам",
+      "editor": null,
+      "publisher": "ГУ МЧС России по Мурманской области",
+      "year": 2026,
+      "source_url": "https://51.mchs.gov.ru/deyatelnost/poleznaya-informaciya/registraciya-turistskih-grupp/rekomendacii-turistskim-i-alpinistskim-gruppam",
+      "chapter_url": "https://51.mchs.gov.ru/deyatelnost/poleznaya-informaciya/registraciya-turistskih-grupp/rekomendacii-turistskim-i-alpinistskim-gruppam",
+      "locator": "Пункты 1–13: безопасный маршрут, темп по слабейшему, видимость, усталость, регистрация; проверено 01.11.2026",
+      "copyright_notice": "В футере сайта МЧС России указано: все материалы сайта доступны по лицензии Creative Commons Attribution 4.0.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Источник: ГУ МЧС России по Мурманской области. Адаптация: учебный проект, 2026. Материалы сайта МЧС России доступны по CC BY 4.0 (указано в футере сайта).",
+      "changes_ru": "Оригинальный вопрос по выбору безопасного маршрута.",
+      "no_endorsement_ru": "Источник не проверял и не одобрял эту учебную адаптацию. Материал остаётся черновиком до предметной редактуры."
+    }
+  },
+  {
+    "question_id": "q-tour-01-03-v1",
+    "learning_objective_id": "TOUR-01",
+    "card_id": "card-tour-01-v1",
+    "prompt_ru": "Почему оздоровительный эффект похода нельзя считать гарантированным?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Потому что туризм не связан с физической нагрузкой",
+        "is_correct": false,
+        "explanation_ru": "Поход обычно включает физическую нагрузку.",
+        "hint_ru": "Есть ли нагрузка в походе?"
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Потому что погода не влияет на организм",
+        "is_correct": false,
+        "explanation_ru": "Погода и условия напрямую влияют на риск.",
+        "hint_ru": "Что происходит при переохлаждении или жаре?"
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Потому что перегрузка и ошибки подготовки могут навредить",
+        "is_correct": true,
+        "explanation_ru": "Эффект зависит от посильности, снаряжения и условий.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Потому что важна только скорость прохождения",
+        "is_correct": false,
+        "explanation_ru": "В оздоровительном походе скорость не главный критерий.",
+        "hint_ru": "Что важнее скорости?"
+      }
+    ],
+    "correct_option_id": "c",
+    "explanation_correct_ru": "Эффект зависит от посильности, снаряжения и условий.",
+    "difficulty": "application",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "health_not_automatic"
+    ],
+    "source_id": "nps_wilderness_safety",
+    "source_refs": [
+      {
+        "source_id": "nps_wilderness_safety",
+        "url": "https://www.nps.gov/olym/planyourvisit/wilderness-safety.htm",
+        "title": "Wilderness Safety — Olympic National Park",
+        "locator": "limitations, weather"
+      }
+    ],
+    "license": "Public domain (U.S. government work)",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Wilderness Safety — Olympic National Park",
+      "editor": null,
+      "publisher": "U.S. National Park Service",
+      "year": 2026,
+      "source_url": "https://www.nps.gov/olym/planyourvisit/wilderness-safety.htm",
+      "chapter_url": "https://www.nps.gov/olym/planyourvisit/wilderness-safety.htm",
+      "locator": "Wilderness Safety: itinerary, weakest member, turn back, bad weather; проверено 01.11.2026",
+      "copyright_notice": "Служебные материалы NPS обычно находятся в общественном достоянии США, если не указано иное; сторонние материалы и логотипы исключены. Парковые рекомендации не выдаются за нормы РФ.",
+      "license": "Public domain (U.S. government work)",
+      "license_url": "https://www.nps.gov/aboutus/disclaimer.htm",
+      "required_notice": "Источник: U.S. National Park Service. Материал подготовлен сотрудниками NPS и находится в общественном достоянии США; логотипы и сторонние изображения не использованы.",
+      "changes_ru": "Оригинальный вопрос о условиях оздоровительного эффекта.",
+      "no_endorsement_ru": "Источник не проверял и не одобрял эту учебную адаптацию. Материал остаётся черновиком до предметной редактуры."
+    }
+  },
+  {
+    "question_id": "q-tour-02-01-v1",
+    "learning_objective_id": "TOUR-02",
+    "card_id": "card-tour-02-v1",
+    "prompt_ru": "Что нужно сделать до выхода на маршрут повышенного риска в России?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Сообщить маршрут только после возвращения",
+        "is_correct": false,
+        "explanation_ru": "Уведомление нужно до начала, чтобы спасатели знали план.",
+        "hint_ru": "Когда информация полезна для поиска?"
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Подать уведомление в МЧС в установленный срок",
+        "is_correct": true,
+        "explanation_ru": "Для таких маршрутов действует порядок информирования МЧС.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Оставить план только в телефоне руководителя",
+        "is_correct": false,
+        "explanation_ru": "План должен быть доступен доверенному контакту и службам.",
+        "hint_ru": "Кто увидит план, если телефон недоступен?"
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Не фиксировать аварийные выходы",
+        "is_correct": false,
+        "explanation_ru": "Аварийные выходы — важная часть заявки и плана.",
+        "hint_ru": "Что делать при срыве основного маршрута?"
+      }
+    ],
+    "correct_option_id": "b",
+    "explanation_correct_ru": "Для таких маршрутов действует порядок информирования МЧС.",
+    "difficulty": "baseline",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "registration_required"
+    ],
+    "source_id": "mchs_33_registration",
+    "source_refs": [
+      {
+        "source_id": "mchs_33_registration",
+        "url": "https://33.mchs.gov.ru/deyatelnost/press-centr/novosti/5540927",
+        "title": "МЧС России напоминает о необходимости регистрации туристов и туристических групп",
+        "locator": "10 рабочих дней"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "МЧС России напоминает о необходимости регистрации туристов и туристических групп",
+      "editor": null,
+      "publisher": "ГУ МЧС России по Владимирской области",
+      "year": 2025,
+      "source_url": "https://33.mchs.gov.ru/deyatelnost/press-centr/novosti/5540927",
+      "chapter_url": "https://33.mchs.gov.ru/deyatelnost/press-centr/novosti/5540927",
+      "locator": "19.06.2025: 10 рабочих дней, состав заявки, подтверждение регистрации, уведомление о возвращении; проверено 01.11.2026",
+      "copyright_notice": "В футере сайта МЧС России указано: все материалы сайта доступны по лицензии Creative Commons Attribution 4.0. Срок и форму подачи нужно сверять с актуальным порядком МЧС.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Источник: ГУ МЧС России по Владимирской области, 19.06.2025. Адаптация: учебный проект, 2026. Материалы сайта МЧС России доступны по CC BY 4.0 (указано в футере сайта).",
+      "changes_ru": "Оригинальный вопрос о необходимости уведомления МЧС.",
+      "no_endorsement_ru": "Источник не проверял и не одобрял эту учебную адаптацию. Материал остаётся черновиком до предметной редактуры."
+    }
+  },
+  {
+    "question_id": "q-tour-02-02-v1",
+    "learning_objective_id": "TOUR-02",
+    "card_id": "card-tour-02-v1",
+    "prompt_ru": "Какой срок указывают региональные памятки МЧС 2025 года для уведомления о маршруте повышенного риска?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Не позднее чем за 10 рабочих дней до начала",
+        "is_correct": true,
+        "explanation_ru": "Такой срок указан в памятке; актуальность нужно проверять перед подачей.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "b",
+        "text_ru": "За 10 минут до старта",
+        "is_correct": false,
+        "explanation_ru": "Это не соответствует памятке о заблаговременном уведомлении.",
+        "hint_ru": "Срок измеряется минутами или днями?"
+      },
+      {
+        "option_id": "c",
+        "text_ru": "В течение суток после возвращения",
+        "is_correct": false,
+        "explanation_ru": "После возвращения сообщают о завершении, а не подают первичное уведомление.",
+        "hint_ru": "Разделите уведомление до и сообщение после."
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Только если погода уже ухудшилась",
+        "is_correct": false,
+        "explanation_ru": "Срок уведомления связан с началом маршрута, а не с погодой.",
+        "hint_ru": "Когда подают заявку?"
+      }
+    ],
+    "correct_option_id": "a",
+    "explanation_correct_ru": "Такой срок указан в памятке; актуальность нужно проверять перед подачей.",
+    "difficulty": "baseline",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "deadline_confusion"
+    ],
+    "source_id": "mchs_33_registration",
+    "source_refs": [
+      {
+        "source_id": "mchs_33_registration",
+        "url": "https://33.mchs.gov.ru/deyatelnost/press-centr/novosti/5540927",
+        "title": "МЧС России напоминает о необходимости регистрации туристов и туристических групп",
+        "locator": "10 рабочих дней"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "МЧС России напоминает о необходимости регистрации туристов и туристических групп",
+      "editor": null,
+      "publisher": "ГУ МЧС России по Владимирской области",
+      "year": 2025,
+      "source_url": "https://33.mchs.gov.ru/deyatelnost/press-centr/novosti/5540927",
+      "chapter_url": "https://33.mchs.gov.ru/deyatelnost/press-centr/novosti/5540927",
+      "locator": "19.06.2025: 10 рабочих дней, состав заявки, подтверждение регистрации, уведомление о возвращении; проверено 01.11.2026",
+      "copyright_notice": "В футере сайта МЧС России указано: все материалы сайта доступны по лицензии Creative Commons Attribution 4.0. Срок и форму подачи нужно сверять с актуальным порядком МЧС.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Источник: ГУ МЧС России по Владимирской области, 19.06.2025. Адаптация: учебный проект, 2026. Материалы сайта МЧС России доступны по CC BY 4.0 (указано в футере сайта).",
+      "changes_ru": "Оригинальный вопрос о сроке из памятки МЧС 2025 года с оговоркой об актуальности.",
+      "no_endorsement_ru": "Источник не проверял и не одобрял эту учебную адаптацию. Материал остаётся черновиком до предметной редактуры."
+    }
+  },
+  {
+    "question_id": "q-tour-02-03-v1",
+    "learning_objective_id": "TOUR-02",
+    "card_id": "card-tour-02-v1",
+    "prompt_ru": "Что должно быть в плане похода для доверенного контакта и МЧС?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Только название региона",
+        "is_correct": false,
+        "explanation_ru": "Нужны маршрут, сроки, состав и связь.",
+        "hint_ru": "Что поможет найти группу?"
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Только список еды",
+        "is_correct": false,
+        "explanation_ru": "Снаряжение важно, но не заменяет маршрут и контакты.",
+        "hint_ru": "Какие данные нужны для поиска?"
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Маршрут, сроки, состав, контакты и аварийные выходы",
+        "is_correct": true,
+        "explanation_ru": "Эти данные позволяют контролировать выход и искать группу при задержке.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Только фото участников",
+        "is_correct": false,
+        "explanation_ru": "Фото не заменяют маршрут и контрольные сроки.",
+        "hint_ru": "Что важнее для поиска?"
+      }
+    ],
+    "correct_option_id": "c",
+    "explanation_correct_ru": "Эти данные позволяют контролировать выход и искать группу при задержке.",
+    "difficulty": "application",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "plan_contents"
+    ],
+    "source_id": "mchs_33_registration",
+    "source_refs": [
+      {
+        "source_id": "mchs_33_registration",
+        "url": "https://33.mchs.gov.ru/deyatelnost/press-centr/novosti/5540927",
+        "title": "МЧС России напоминает о необходимости регистрации туристов и туристических групп",
+        "locator": "состав заявки"
+      },
+      {
+        "source_id": "nps_trip_planning",
+        "url": "https://www.nps.gov/subjects/healthandsafety/upload/Trip-Planning-Guide-Package-508c.pdf",
+        "title": "NPS Trip Planning Guide",
+        "locator": "trip plan"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "МЧС России напоминает о необходимости регистрации туристов и туристических групп",
+      "editor": null,
+      "publisher": "ГУ МЧС России по Владимирской области",
+      "year": 2025,
+      "source_url": "https://33.mchs.gov.ru/deyatelnost/press-centr/novosti/5540927",
+      "chapter_url": "https://33.mchs.gov.ru/deyatelnost/press-centr/novosti/5540927",
+      "locator": "19.06.2025: 10 рабочих дней, состав заявки, подтверждение регистрации, уведомление о возвращении; проверено 01.11.2026",
+      "copyright_notice": "В футере сайта МЧС России указано: все материалы сайта доступны по лицензии Creative Commons Attribution 4.0. Срок и форму подачи нужно сверять с актуальным порядком МЧС.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Источник: ГУ МЧС России по Владимирской области, 19.06.2025. Адаптация: учебный проект, 2026. Материалы сайта МЧС России доступны по CC BY 4.0 (указано в футере сайта).",
+      "changes_ru": "Оригинальный вопрос о составе плана и заявки.",
+      "no_endorsement_ru": "Источник не проверял и не одобрял эту учебную адаптацию. Материал остаётся черновиком до предметной редактуры."
+    }
+  },
+  {
+    "question_id": "q-tour-03-01-v1",
+    "learning_objective_id": "TOUR-03",
+    "card_id": "card-tour-03-v1",
+    "prompt_ru": "Что означает подход «снаряжение как системы»?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Купить самые дорогие вещи",
+        "is_correct": false,
+        "explanation_ru": "Дорогая вещь не гарантирует нужную функцию.",
+        "hint_ru": "Что должна обеспечивать вещь?"
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Проверить функции: навигация, тепло, свет, вода, аптечка и укрытие",
+        "is_correct": true,
+        "explanation_ru": "Эти системы отвечают за базовые потребности и безопасность на маршруте.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Взять только то, что помещается в карманы",
+        "is_correct": false,
+        "explanation_ru": "Экономия объёма не должна убирать снаряжение, нужное для безопасности.",
+        "hint_ru": "Что будет при ночёвке или травме?"
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Одинаковый список для любого сезона",
+        "is_correct": false,
+        "explanation_ru": "Состав зависит от сезона, маршрута и длительности.",
+        "hint_ru": "Меняются ли условия?"
+      }
+    ],
+    "correct_option_id": "b",
+    "explanation_correct_ru": "Эти системы отвечают за базовые потребности и безопасность на маршруте.",
+    "difficulty": "baseline",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "gear_systems"
+    ],
+    "source_id": "nps_ten_essentials",
+    "source_refs": [
+      {
+        "source_id": "nps_ten_essentials",
+        "url": "https://www.nps.gov/articles/10essentials.htm",
+        "title": "Ten Essentials",
+        "locator": "ten categories"
+      }
+    ],
+    "license": "Public domain (U.S. government work)",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Ten Essentials",
+      "editor": null,
+      "publisher": "U.S. National Park Service",
+      "year": 2026,
+      "source_url": "https://www.nps.gov/articles/10essentials.htm",
+      "chapter_url": "https://www.nps.gov/articles/10essentials.htm",
+      "locator": "Ten Essentials: ten categories/systems; проверено 01.11.2026",
+      "copyright_notice": "Служебные материалы NPS обычно находятся в общественном достоянии США, если не указано иное; сторонние материалы и логотипы исключены.",
+      "license": "Public domain (U.S. government work)",
+      "license_url": "https://www.nps.gov/aboutus/disclaimer.htm",
+      "required_notice": "Источник: U.S. National Park Service. Материал подготовлен сотрудниками NPS и находится в общественном достоянии США; логотипы и сторонние изображения не использованы.",
+      "changes_ru": "Оригинальный вопрос о функциональном подходе к снаряжению.",
+      "no_endorsement_ru": "Источник не проверял и не одобрял эту учебную адаптацию. Материал остаётся черновиком до предметной редактуры."
+    }
+  },
+  {
+    "question_id": "q-tour-03-02-v1",
+    "learning_objective_id": "TOUR-03",
+    "card_id": "card-tour-03-v1",
+    "prompt_ru": "Перед выходом группа проверяет снаряжение. Что важнее всего?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Цвет рюкзаков",
+        "is_correct": false,
+        "explanation_ru": "Цвет вторичен по сравнению с исправностью и функциями.",
+        "hint_ru": "Что влияет на безопасность?"
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Наличие модных брендов",
+        "is_correct": false,
+        "explanation_ru": "Бренд не гарантирует, что вещь подойдёт для маршрута.",
+        "hint_ru": "Что нужно проверить практически?"
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Исправность, запас батарей, аптечка и умение пользоваться картой",
+        "is_correct": true,
+        "explanation_ru": "Снаряжение должно быть исправным, а группа должна уметь им пользоваться.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Вес только самого лёгкого участника",
+        "is_correct": false,
+        "explanation_ru": "Нагрузку распределяют по возможностям участников.",
+        "hint_ru": "Кто несёт групповое снаряжение?"
+      }
+    ],
+    "correct_option_id": "c",
+    "explanation_correct_ru": "Снаряжение должно быть исправным, а группа должна уметь им пользоваться.",
+    "difficulty": "application",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "gear_check"
+    ],
+    "source_id": "nps_ten_essentials",
+    "source_refs": [
+      {
+        "source_id": "nps_ten_essentials",
+        "url": "https://www.nps.gov/articles/10essentials.htm",
+        "title": "Ten Essentials",
+        "locator": "check gear"
+      },
+      {
+        "source_id": "nps_trip_planning",
+        "url": "https://www.nps.gov/subjects/healthandsafety/upload/Trip-Planning-Guide-Package-508c.pdf",
+        "title": "NPS Trip Planning Guide",
+        "locator": "battery"
+      }
+    ],
+    "license": "Public domain (U.S. government work)",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Ten Essentials",
+      "editor": null,
+      "publisher": "U.S. National Park Service",
+      "year": 2026,
+      "source_url": "https://www.nps.gov/articles/10essentials.htm",
+      "chapter_url": "https://www.nps.gov/articles/10essentials.htm",
+      "locator": "Ten Essentials: ten categories/systems; проверено 01.11.2026",
+      "copyright_notice": "Служебные материалы NPS обычно находятся в общественном достоянии США, если не указано иное; сторонние материалы и логотипы исключены.",
+      "license": "Public domain (U.S. government work)",
+      "license_url": "https://www.nps.gov/aboutus/disclaimer.htm",
+      "required_notice": "Источник: U.S. National Park Service. Материал подготовлен сотрудниками NPS и находится в общественном достоянии США; логотипы и сторонние изображения не использованы.",
+      "changes_ru": "Оригинальный вопрос о проверке снаряжения.",
+      "no_endorsement_ru": "Источник не проверял и не одобрял эту учебную адаптацию. Материал остаётся черновиком до предметной редактуры."
+    }
+  },
+  {
+    "question_id": "q-tour-03-03-v1",
+    "learning_objective_id": "TOUR-03",
+    "card_id": "card-tour-03-v1",
+    "prompt_ru": "Почему бумажная карта остаётся полезной при наличии GPS?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "GPS всегда ошибается",
+        "is_correct": false,
+        "explanation_ru": "GPS может работать точно, но зависит от питания и условий.",
+        "hint_ru": "Есть ли внешние зависимости?"
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Бумажная карта не требует батарей и служит резервом",
+        "is_correct": true,
+        "explanation_ru": "Резерв навигации важен при отказе электроники.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Карта заменяет аптечку",
+        "is_correct": false,
+        "explanation_ru": "Навигация и медицина — разные системы.",
+        "hint_ru": "Разделите функции снаряжения."
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Карта нужна только для соревнований",
+        "is_correct": false,
+        "explanation_ru": "Карта полезна в учебных и туристских походах.",
+        "hint_ru": "Где ещё нужна навигация?"
+      }
+    ],
+    "correct_option_id": "b",
+    "explanation_correct_ru": "Резерв навигации важен при отказе электроники.",
+    "difficulty": "application",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "navigation_backup"
+    ],
+    "source_id": "nps_ten_essentials",
+    "source_refs": [
+      {
+        "source_id": "nps_ten_essentials",
+        "url": "https://www.nps.gov/articles/10essentials.htm",
+        "title": "Ten Essentials",
+        "locator": "navigation, physical map"
+      }
+    ],
+    "license": "Public domain (U.S. government work)",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Ten Essentials",
+      "editor": null,
+      "publisher": "U.S. National Park Service",
+      "year": 2026,
+      "source_url": "https://www.nps.gov/articles/10essentials.htm",
+      "chapter_url": "https://www.nps.gov/articles/10essentials.htm",
+      "locator": "Ten Essentials: ten categories/systems; проверено 01.11.2026",
+      "copyright_notice": "Служебные материалы NPS обычно находятся в общественном достоянии США, если не указано иное; сторонние материалы и логотипы исключены.",
+      "license": "Public domain (U.S. government work)",
+      "license_url": "https://www.nps.gov/aboutus/disclaimer.htm",
+      "required_notice": "Источник: U.S. National Park Service. Материал подготовлен сотрудниками NPS и находится в общественном достоянии США; логотипы и сторонние изображения не использованы.",
+      "changes_ru": "Оригинальный вопрос о резерве навигации.",
+      "no_endorsement_ru": "Источник не проверял и не одобрял эту учебную адаптацию. Материал остаётся черновиком до предметной редактуры."
+    }
+  },
+  {
+    "question_id": "q-tour-04-01-v1",
+    "learning_objective_id": "TOUR-04",
+    "card_id": "card-tour-04-v1",
+    "prompt_ru": "Кто задаёт безопасный темп движения группы?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Самый быстрый участник",
+        "is_correct": false,
+        "explanation_ru": "При быстром темпе менее подготовленные участники отстают.",
+        "hint_ru": "Кто рискует отстать?"
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Самый уставший или менее подготовленный участник",
+        "is_correct": true,
+        "explanation_ru": "Темп по самому слабому участнику позволяет группе идти вместе.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Тот, у кого больше снаряжения",
+        "is_correct": false,
+        "explanation_ru": "Вес не определяет безопасный темп для всех.",
+        "hint_ru": "Что важнее веса?"
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Случайный прохожий",
+        "is_correct": false,
+        "explanation_ru": "Темп определяется возможностями группы.",
+        "hint_ru": "Кто входит в группу?"
+      }
+    ],
+    "correct_option_id": "b",
+    "explanation_correct_ru": "Темп по самому слабому участнику позволяет группе идти вместе.",
+    "difficulty": "baseline",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "pace_weakest"
+    ],
+    "source_id": "mchs_51_recommendations",
+    "source_refs": [
+      {
+        "source_id": "mchs_51_recommendations",
+        "url": "https://51.mchs.gov.ru/deyatelnost/poleznaya-informaciya/registraciya-turistskih-grupp/rekomendacii-turistskim-i-alpinistskim-gruppam",
+        "title": "Рекомендации туристским и альпинистским группам",
+        "locator": "пункт 5"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Рекомендации туристским и альпинистским группам",
+      "editor": null,
+      "publisher": "ГУ МЧС России по Мурманской области",
+      "year": 2026,
+      "source_url": "https://51.mchs.gov.ru/deyatelnost/poleznaya-informaciya/registraciya-turistskih-grupp/rekomendacii-turistskim-i-alpinistskim-gruppam",
+      "chapter_url": "https://51.mchs.gov.ru/deyatelnost/poleznaya-informaciya/registraciya-turistskih-grupp/rekomendacii-turistskim-i-alpinistskim-gruppam",
+      "locator": "Пункты 1–13: безопасный маршрут, темп по слабейшему, видимость, усталость, регистрация; проверено 01.11.2026",
+      "copyright_notice": "В футере сайта МЧС России указано: все материалы сайта доступны по лицензии Creative Commons Attribution 4.0.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Источник: ГУ МЧС России по Мурманской области. Адаптация: учебный проект, 2026. Материалы сайта МЧС России доступны по CC BY 4.0 (указано в футере сайта).",
+      "changes_ru": "Оригинальный вопрос о темпе по слабейшему участнику.",
+      "no_endorsement_ru": "Источник не проверял и не одобрял эту учебную адаптацию. Материал остаётся черновиком до предметной редактуры."
+    }
+  },
+  {
+    "question_id": "q-tour-04-02-v1",
+    "learning_objective_id": "TOUR-04",
+    "card_id": "card-tour-04-v1",
+    "prompt_ru": "Туман усиливается, видимость падает. Какое решение лучше соответствует безопасности?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Ускориться и разделиться",
+        "is_correct": false,
+        "explanation_ru": "Разделение и спешка повышают риск потерять участников.",
+        "hint_ru": "Что делает группу уязвимее?"
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Оценить условия, замедлиться, переждать или повернуть",
+        "is_correct": true,
+        "explanation_ru": "При плохой видимости движение может быть опаснее остановки.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Идти по памяти без карты",
+        "is_correct": false,
+        "explanation_ru": "Память не заменяет контроль местоположения.",
+        "hint_ru": "Как проверить маршрут?"
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Продолжать любой ценой",
+        "is_correct": false,
+        "explanation_ru": "План должен допускать разворот или укрытие.",
+        "hint_ru": "Есть ли запасной вариант?"
+      }
+    ],
+    "correct_option_id": "b",
+    "explanation_correct_ru": "При плохой видимости движение может быть опаснее остановки.",
+    "difficulty": "application",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "visibility_turnback"
+    ],
+    "source_id": "mchs_51_recommendations",
+    "source_refs": [
+      {
+        "source_id": "mchs_51_recommendations",
+        "url": "https://51.mchs.gov.ru/deyatelnost/poleznaya-informaciya/registraciya-turistskih-grupp/rekomendacii-turistskim-i-alpinistskim-gruppam",
+        "title": "Рекомендации туристским и альпинистским группам",
+        "locator": "пункты 9, 11"
+      },
+      {
+        "source_id": "nps_wilderness_safety",
+        "url": "https://www.nps.gov/olym/planyourvisit/wilderness-safety.htm",
+        "title": "Wilderness Safety — Olympic National Park",
+        "locator": "bad weather"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Рекомендации туристским и альпинистским группам",
+      "editor": null,
+      "publisher": "ГУ МЧС России по Мурманской области",
+      "year": 2026,
+      "source_url": "https://51.mchs.gov.ru/deyatelnost/poleznaya-informaciya/registraciya-turistskih-grupp/rekomendacii-turistskim-i-alpinistskim-gruppam",
+      "chapter_url": "https://51.mchs.gov.ru/deyatelnost/poleznaya-informaciya/registraciya-turistskih-grupp/rekomendacii-turistskim-i-alpinistskim-gruppam",
+      "locator": "Пункты 1–13: безопасный маршрут, темп по слабейшему, видимость, усталость, регистрация; проверено 01.11.2026",
+      "copyright_notice": "В футере сайта МЧС России указано: все материалы сайта доступны по лицензии Creative Commons Attribution 4.0.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Источник: ГУ МЧС России по Мурманской области. Адаптация: учебный проект, 2026. Материалы сайта МЧС России доступны по CC BY 4.0 (указано в футере сайта).",
+      "changes_ru": "Оригинальный вопрос о решении при ухудшении видимости.",
+      "no_endorsement_ru": "Источник не проверял и не одобрял эту учебную адаптацию. Материал остаётся черновиком до предметной редактуры."
+    }
+  },
+  {
+    "question_id": "q-tour-04-03-v1",
+    "learning_objective_id": "TOUR-04",
+    "card_id": "card-tour-04-v1",
+    "prompt_ru": "Участник показывает признаки сильной усталости на холоде. Что сделать в первую очередь?",
+    "options": [
+      {
+        "option_id": "a",
+        "text_ru": "Оставить его одного ждать группу",
+        "is_correct": false,
+        "explanation_ru": "Оставлять уставшего участника одного опасно.",
+        "hint_ru": "Что важнее сохранения темпа?"
+      },
+      {
+        "option_id": "b",
+        "text_ru": "Прекратить опасное движение, укрыться и оценить состояние",
+        "is_correct": true,
+        "explanation_ru": "Усталость на холоде требует остановки, укрытия и помощи.",
+        "hint_ru": null
+      },
+      {
+        "option_id": "c",
+        "text_ru": "Увеличить темп, чтобы быстрее финишировать",
+        "is_correct": false,
+        "explanation_ru": "Увеличение нагрузки может ухудшить состояние.",
+        "hint_ru": "Что происходит при перегрузке?"
+      },
+      {
+        "option_id": "d",
+        "text_ru": "Спрятать аптечку, чтобы не тратить время",
+        "is_correct": false,
+        "explanation_ru": "Аптечка и оценка состояния важны.",
+        "hint_ru": "Что нужно при ухудшении состояния?"
+      }
+    ],
+    "correct_option_id": "b",
+    "explanation_correct_ru": "Усталость на холоде требует остановки, укрытия и помощи.",
+    "difficulty": "application",
+    "assessment_role": "practice",
+    "misconception_tags": [
+      "fatigue_cold"
+    ],
+    "source_id": "mchs_51_recommendations",
+    "source_refs": [
+      {
+        "source_id": "mchs_51_recommendations",
+        "url": "https://51.mchs.gov.ru/deyatelnost/poleznaya-informaciya/registraciya-turistskih-grupp/rekomendacii-turistskim-i-alpinistskim-gruppam",
+        "title": "Рекомендации туристским и альпинистским группам",
+        "locator": "пункт 11"
+      }
+    ],
+    "license": "CC BY 4.0",
+    "adaptation_type": "original_question_based_on_source",
+    "review_status": "draft",
+    "reviewer": null,
+    "version": 1,
+    "attribution": {
+      "source_title": "Рекомендации туристским и альпинистским группам",
+      "editor": null,
+      "publisher": "ГУ МЧС России по Мурманской области",
+      "year": 2026,
+      "source_url": "https://51.mchs.gov.ru/deyatelnost/poleznaya-informaciya/registraciya-turistskih-grupp/rekomendacii-turistskim-i-alpinistskim-gruppam",
+      "chapter_url": "https://51.mchs.gov.ru/deyatelnost/poleznaya-informaciya/registraciya-turistskih-grupp/rekomendacii-turistskim-i-alpinistskim-gruppam",
+      "locator": "Пункты 1–13: безопасный маршрут, темп по слабейшему, видимость, усталость, регистрация; проверено 01.11.2026",
+      "copyright_notice": "В футере сайта МЧС России указано: все материалы сайта доступны по лицензии Creative Commons Attribution 4.0.",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "required_notice": "Источник: ГУ МЧС России по Мурманской области. Адаптация: учебный проект, 2026. Материалы сайта МЧС России доступны по CC BY 4.0 (указано в футере сайта).",
+      "changes_ru": "Оригинальный вопрос о действиях при усталости и холоде.",
+      "no_endorsement_ru": "Источник не проверял и не одобрял эту учебную адаптацию. Материал остаётся черновиком до предметной редактуры."
+    }
+  }
+]
