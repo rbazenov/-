@@ -209,6 +209,18 @@ export default function App() {
   const delayedCorrectCount = Object.values(state.delayedResults).filter(Boolean).length;
   const startDelayed = () => dispatch({ type: 'START_DELAYED', questionIds: delayedQuestions.map((q) => q.question_id) });
 
+  // Блок источников один на страницу и стоит у нижней границы экрана.
+  const activeAttribution =
+    state.screen === 'home' && cards[0]
+      ? { attribution: cards[0].attribution, sourceRefs: cards[0].source_refs }
+      : state.screen === 'theory' && card
+        ? { attribution: card.attribution, sourceRefs: card.source_refs }
+        : state.screen === 'question' && question
+          ? { attribution: question.attribution, sourceRefs: question.source_refs }
+          : state.screen === 'delayed_question' && delayedQuestion
+            ? { attribution: delayedQuestion.attribution, sourceRefs: delayedQuestion.source_refs }
+            : null;
+
   const onSwipeStart = (e: React.TouchEvent) => { touchX.current = e.touches[0]?.clientX ?? null; };
   const onSwipeEnd = (e: React.TouchEvent) => {
     if (touchX.current == null) return;
@@ -319,7 +331,6 @@ export default function App() {
           <button className="primary" onClick={startOrResume}>
             {state.started ? 'Продолжить обучение' : 'Начать'}
           </button>
-          <AttributionBlock attribution={cards[0].attribution} sourceRefs={cards[0].source_refs} />
           </main>
         </>
       )}
@@ -333,7 +344,6 @@ export default function App() {
           <KeyChain items={card.key_chain_ru} />
           <p className="hint">Проведите пальцем влево или нажмите кнопку, чтобы перейти к вопросу.</p>
           <button className="primary" onClick={() => dispatch({ type: 'TO_QUESTION' })}>К вопросу</button>
-          <AttributionBlock attribution={card.attribution} sourceRefs={card.source_refs} />
         </main>
       )}
 
@@ -360,7 +370,6 @@ export default function App() {
               </button>
             ))}
           </div>
-          <AttributionBlock attribution={question.attribution} sourceRefs={question.source_refs} />
         </main>
       )}
 
@@ -464,7 +473,6 @@ export default function App() {
               </button>
             ))}
           </div>
-          <AttributionBlock attribution={delayedQuestion.attribution} sourceRefs={delayedQuestion.source_refs} />
         </main>
       )}
 
@@ -542,6 +550,12 @@ export default function App() {
           </div>
         </div>
       )}
+
+      <div className="attribution-slot">
+        {activeAttribution && (
+          <AttributionBlock attribution={activeAttribution.attribution} sourceRefs={activeAttribution.sourceRefs} />
+        )}
+      </div>
 
       <footer className="foot">
         {embeddedPreview
