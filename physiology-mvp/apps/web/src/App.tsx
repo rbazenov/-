@@ -18,8 +18,32 @@ import type { Attribution, Card, Question, SessionState, SourceRef } from './typ
 
 const STORAGE_KEY = 'study-mvp-session-v3';
 const LEGACY_STORAGE_KEY = 'physiology-mvp-session-v2';
+const SWIPE_HINT_KEY = 'study-mvp-swipe-hint-v1';
+/* Подсказка-жест: две итерации по 2,6 с плюс затухание. */
+const SWIPE_HINT_DURATION_MS = 5400;
 const embeddedPreview = import.meta.env.VITE_PREVIEW_MODE === 'standalone';
 const defaultSubject = subjects[0];
+
+/* Подсказку о свайпе показываем только новому посетителю: отметка живёт в localStorage. */
+function hasSeenSwipeHint(): boolean {
+  try {
+    return window.localStorage.getItem(SWIPE_HINT_KEY) === '1';
+  } catch {
+    return false;
+  }
+}
+
+function markSwipeHintSeen() {
+  try {
+    window.localStorage.setItem(SWIPE_HINT_KEY, '1');
+  } catch {
+    // Приватный режим или запрещённое хранилище: подсказка просто покажется ещё раз.
+  }
+}
+
+function prefersReducedMotion(): boolean {
+  return typeof window.matchMedia === 'function' && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+}
 
 function AttributionBlock({ attribution, sourceRefs }: { attribution: Attribution; sourceRefs?: SourceRef[] }) {
   const extraRefs = (sourceRefs ?? []).filter((ref) => ref.url !== attribution.chapter_url);
@@ -51,6 +75,15 @@ function AttributionBlock({ attribution, sourceRefs }: { attribution: Attributio
         </p>
       )}
     </details>
+  );
+}
+
+function SwipeHint() {
+  return (
+    <div className="swipe-hint" aria-hidden="true" data-testid="swipe-hint">
+      <span className="swipe-hint-trail" />
+      <span className="swipe-hint-dot" />
+    </div>
   );
 }
 
@@ -125,6 +158,8 @@ export default function App() {
   const [hydrated, setHydrated] = useState(false);
   const [now, setNow] = useState(() => Date.now());
   const [resumePromptOpen, setResumePromptOpen] = useState(false);
+  const [swipeHintVisible, setSwipeHintVisible] = useState(false);
+  const swipeHintShown = useRef(false);
   const touchX = useRef<number | null>(null);
 
   useEffect(() => {
@@ -157,6 +192,20 @@ export default function App() {
   useEffect(() => {
     if (hydrated && !embeddedPreview) void set(STORAGE_KEY, state).catch(() => undefined);
   }, [state, hydrated]);
+
+  // Первый показ теории: один раз на браузер объясняем свайп жестом пальца.
+  useEffect(() => {
+    if (state.screen !== 'theory') {
+      setSwipeHintVisible(false);
+      return;
+    }
+    if (swipeHintShown.current || hasSeenSwipeHint() || prefersReducedMotion()) return;
+    swipeHintShown.current = true;
+    markSwipeHintSeen();
+    setSwipeHintVisible(true);
+    const id = window.setTimeout(() => setSwipeHintVisible(false), SWIPE_HINT_DURATION_MS);
+    return () => window.clearTimeout(id);
+  }, [state.screen]);
 
   const dispatch = (action: SessionAction) => setState((s) => sessionReducer(s, action));
   const subject = getSubject(state.subjectId);
@@ -212,7 +261,10 @@ export default function App() {
             ? { attribution: delayedQuestion.attribution, sourceRefs: delayedQuestion.source_refs }
             : null;
 
-  const onSwipeStart = (e: React.TouchEvent) => { touchX.current = e.touches[0]?.clientX ?? null; };
+  const onSwipeStart = (e: React.TouchEvent) => {
+    touchX.current = e.touches[0]?.clientX ?? null;
+    setSwipeHintVisible(false);
+  };
   const onSwipeEnd = (e: React.TouchEvent) => {
     if (touchX.current == null) return;
     const end = e.changedTouches[0]?.clientX ?? touchX.current;
@@ -332,7 +384,10 @@ export default function App() {
           <h2>{card.title}</h2>
           <p className="body">{card.body_ru}</p>
           <KeyChain items={card.key_chain_ru} />
-          <p className="hint">Проведите пальцем влево или нажмите кнопку, чтобы перейти к вопросу.</p>
+          <div className="hint-row">
+            {swipeHintVisible && <SwipeHint />}
+            <p className="hint">Проведите пальцем влево или нажмите кнопку, чтобы перейти к вопросу.</p>
+          </div>
           <button className="primary" onClick={() => dispatch({ type: 'TO_QUESTION' })}>К вопросу</button>
         </main>
       )}
