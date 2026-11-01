@@ -19,7 +19,16 @@ body {
   color: var(--text);
   min-height: 100vh;
 }
-.app { max-width: 560px; margin: 0 auto; padding: 16px 16px 40px; }
+.app {
+  max-width: 560px;
+  margin: 0 auto;
+  padding: 16px 16px 20px;
+  /* Колонка на всю высоту экрана: подвал прижимается к нижней границе. */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-height: 100dvh;
+}
 .top { display: flex; justify-content: space-between; gap: 12px; align-items: flex-start; margin-bottom: 12px; }
 .eyebrow { margin: 0 0 4px; color: var(--accent); font-size: 12px; letter-spacing: .04em; text-transform: uppercase; }
 h1 { margin: 0; font-size: 22px; line-height: 1.2; }
@@ -31,6 +40,9 @@ h2 { margin: 0 0 12px; font-size: 21px; line-height: 1.3; }
 .banner { background: rgba(245,158,11,.12); border: 1px solid rgba(245,158,11,.45); color: #fde68a; padding: 10px 12px; border-radius: 12px; font-size: 13px; margin-bottom: 12px; }
 /* Учебные экраны вынуты из контейнера: блоки лежат прямо на фоне страницы. */
 .screen { min-width: 0; background: none; border: 0; border-radius: 0; padding: 0; box-shadow: none; }
+/* Экран теперь флекс-элемент: отступы детей не «схлопываются» с ним, возвращаем прежнюю отбивку. */
+.screen > :first-child { margin-top: 0; }
+.screen > :last-child { margin-bottom: 0; }
 /* Подложка осталась только у всплывающего окна возврата. */
 .panel { background: linear-gradient(180deg, var(--panel) 0%, #0f1a30 100%); border: 1px solid var(--line); border-radius: 18px; padding: 18px; box-shadow: 0 10px 30px rgba(0,0,0,.25); }
 .step { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .05em; margin: 0 0 8px; }
@@ -60,11 +72,13 @@ button { font: inherit; cursor: pointer; border: none; border-radius: 12px; }
 .list { list-style: none; padding: 0; margin: 12px 0; display: grid; gap: 14px; }
 /* Списки без подложки: текст лежит прямо на фоне страницы. */
 .list li { display: flex; flex-direction: column; gap: 4px; background: none; border: 0; border-radius: 0; padding: 0; }
+/* Блок источников прижат к нижней границе экрана: автоотступ забирает свободную высоту. */
+.attribution-slot { margin-top: auto; }
 .attribution { margin-top: 14px; border-top: 1px solid var(--line); padding-top: 10px; color: var(--muted); font-size: 12px; line-height: 1.5; }
 .attribution summary { cursor: pointer; color: var(--accent); }
 .attribution a { color: var(--accent); }
 .notice { color: #cbd5e1; }
-.foot { margin-top: 16px; color: var(--muted); font-size: 12px; line-height: 1.5; }
+.foot { margin-top: 14px; color: var(--muted); font-size: 12px; line-height: 1.5; }
 a { color: var(--accent); }
 button:disabled { opacity: .5; cursor: not-allowed; }
 .list.scroll { max-height: 340px; overflow-y: auto; padding-right: 4px; }
