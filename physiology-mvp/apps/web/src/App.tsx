@@ -107,6 +107,7 @@ function OptionResult({ question, feedback }: { question: Question; feedback: No
           const selected = option.option_id === feedback.optionId;
           const showCorrect = feedback.reveal && option.is_correct;
           const cls = ['option', 'static'];
+          if (selected) cls.push('chosen');
           if (selected && feedback.correct) cls.push('correct');
           if (selected && !feedback.correct) cls.push('wrong');
           if (showCorrect && !selected) cls.push('correct');
