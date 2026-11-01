@@ -222,7 +222,7 @@ export default function App() {
       <header className="top">
         <div>
           <p className="eyebrow">{state.screen === 'landing' ? 'Учебный проект' : subject.title}</p>
-          <h1>{state.screen === 'landing' ? 'Главная' : 'Карточки и вопросы'}</h1>
+          {state.screen !== 'landing' && <h1>Карточки и вопросы</h1>}
         </div>
         <div className="top-actions">
           <span className="xp" aria-label="Баллы активности">{state.xp} баллов</span>
@@ -232,8 +232,7 @@ export default function App() {
 
       {state.screen === 'landing' && (
         <main className="screen landing">
-          <p className="step">Главная</p>
-          <h2>О проекте</h2>
+          <h1>О проекте</h1>
           <p>
             Прототип для студентов физфака ЧГИФК. Студент читает короткую карточку, отвечает на вопрос, разбирает ошибку и возвращается к теме позже.
           </p>

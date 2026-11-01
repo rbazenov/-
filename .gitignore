@@ -1,0 +1,12 @@
+# Зависимости и артефакты сборки
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Локальные инструменты проверки: словарь hunspell, Playwright, скриншоты
+.cache/
+preview-tools/
+
+# Системный мусор
+.DS_Store
+*.log
