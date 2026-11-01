@@ -42,7 +42,7 @@
 - `python tools/check_bundle_text.py` — совпадение строк сборки с банками.
 - `cd apps/web && npm ci` — зависимости приложения.
 - `cd apps/web && npm run typecheck && npm test -- --run && npm run build:standalone && npm run build`
-- Браузерные сценарии в `tools/` (запускать из `.cache/preview-tools`, где установлен Playwright с браузерами): `test-mobile-grid.mjs` (сетка 2×2 на 320/360/390 px), `test-no-mixed-banner.mjs`, `test-subject-header.mjs`, `test-flat-screens.mjs` (учебные экраны без контейнера, окно возврата с подложкой). Сценарии ждут проект по пути `/home/user/physiology-mvp`; при другом расположении поправьте `root` в скриптах.
+- Браузерные сценарии в `tools/` (запускать из `.cache/preview-tools`, где установлен Playwright с браузерами): `test-mobile-grid.mjs` (сетка 2×2 на 320/360/390 px), `test-no-mixed-banner.mjs` (нет плашки о черновике, в шапке только «← Главная»), `test-subject-header.mjs` (описание на всю ширину, кнопка в шапке под баллами), `test-flat-screens.mjs` (учебные экраны без контейнера, окно возврата с подложкой). Сценарии ждут проект по пути `/home/user/physiology-mvp`; при другом расположении поправьте `root` в скриптах.
 
 Словарь и зависимости проверки живут в `.cache` и не входят в снимок рабочей области. После восстановления рабочей области выполните `bash tools/setup_spellcheck.sh`.
 

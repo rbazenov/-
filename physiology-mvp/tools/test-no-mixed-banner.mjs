@@ -5,34 +5,41 @@ const browser = await chromium.launch();
 const page = await browser.newPage({ viewport: { width: 390, height: 844 } });
 const errors = [];
 page.on('pageerror', (e) => errors.push(String(e)));
-await page.route('http://**/*', (r) => r.abort());
-await page.route('https://**/*', (r) => r.abort());
-await page.goto(`file://${root}/prototype.html`);
 
-// Physiology: no mixed-status banner on home, theory, question or summary.
-await page.locator('[data-subject-id="physiology"] button').click();
-await page.getByRole('button', { name: 'Начать', exact: true }).waitFor();
-if (await page.locator('.banner').count()) throw new Error('physiology home still shows a banner');
-if (await page.locator('.top-actions button').count()) throw new Error('header still shows a reset button');
-await page.screenshot({ path: '/home/user/.cache/preview-tools/physiology-home-no-banner.png', fullPage: true });
+async function open(subjectId) {
+  await page.goto(`file://${root}/prototype.html`);
+  await page.locator(`[data-subject-id="${subjectId}"] button`).click();
+  await page.getByRole('button', { name: 'Начать', exact: true }).waitFor();
+}
+
+// Ни на одном предмете нет плашки-предупреждения о черновике: статус виден меткой на главной.
+for (const id of ['physiology', 'tourism', 'topography']) {
+  await open(id);
+  if (await page.locator('.banner').count()) throw new Error(`${id}: draft banner is back on the subject screen`);
+  const body = await page.locator('body').innerText();
+  if (body.includes('редакторский черновик')) throw new Error(`${id}: draft warning text is still rendered`);
+  if (await page.locator('.top-actions button').count() !== 1) throw new Error(`${id}: header must have exactly one button`);
+  const backText = await page.locator('.top-actions button').innerText();
+  if (backText.trim() !== '← Главная') throw new Error(`${id}: header button is «${backText}»`);
+  if (await page.locator('.screen button:has-text("Сброс")').count()) throw new Error(`${id}: reset button is back`);
+}
+console.log('PASS: no draft banner on any subject; header holds only «← Главная».');
+
+// Баннер не появляется и на учебных экранах.
+await open('tourism');
 await page.getByRole('button', { name: 'Начать', exact: true }).click();
 await page.getByRole('button', { name: 'К вопросу' }).waitFor();
-if (await page.locator('.banner').count()) throw new Error('physiology theory still shows a banner');
-if (await page.locator('.top-actions button').count()) throw new Error('header still shows a reset button on theory');
-await page.screenshot({ path: '/home/user/.cache/preview-tools/physiology-theory-no-banner.png', fullPage: true });
+if (await page.locator('.banner').count()) throw new Error('theory still shows a banner');
 await page.getByRole('button', { name: 'К вопросу' }).click();
-if (await page.locator('.banner').count()) throw new Error('physiology question still shows a banner');
-const bodyText = await page.locator('body').innerText();
-if (bodyText.includes('Эталонные карточки')) throw new Error('mixed-status wording still present');
-console.log('PASS: physiology screens have no mixed-status banner and no header reset button.');
+await page.locator('.option').first().waitFor();
+if (await page.locator('.banner').count()) throw new Error('question still shows a banner');
+console.log('PASS: theory and question screens have no banner.');
 
-// Draft subjects keep their warning.
+// Статус черновика по-прежнему доступен на главной странице.
 await page.goto(`file://${root}/prototype.html`);
-await page.locator('[data-subject-id="tourism"] button').click();
-await page.locator('.banner').waitFor();
-const draftText = await page.locator('.banner').innerText();
-if (!draftText.includes('черновик')) throw new Error('tourism draft warning missing');
-console.log('PASS: draft subjects keep the draft warning.');
+const draftBadges = await page.locator('.badge-draft').count();
+if (draftBadges < 2) throw new Error(`landing lost draft badges: ${draftBadges}`);
+console.log('PASS: draft status stays visible on the landing page badges.');
 
 if (errors.length) throw new Error(`Runtime errors: ${errors.join('; ')}`);
 await browser.close();

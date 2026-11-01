@@ -37,7 +37,8 @@ h2 { margin: 0 0 12px; font-size: 21px; line-height: 1.3; }
 .screen.landing h1 { margin: 0 0 12px; }
 .top-actions { display: flex; flex-direction: column; align-items: flex-end; gap: 8px; }
 .xp { background: var(--panel-2); border: 1px solid var(--line); padding: 6px 10px; border-radius: 999px; font-size: 13px; white-space: nowrap; }
-.banner { background: rgba(245,158,11,.12); border: 1px solid rgba(245,158,11,.45); color: #fde68a; padding: 10px 12px; border-radius: 12px; font-size: 13px; margin-bottom: 12px; }
+/* Кнопка возврата стоит в правой колонке шапки, под плашкой баллов. */
+.header-back { white-space: nowrap; }
 /* Учебные экраны вынуты из контейнера: блоки лежат прямо на фоне страницы. */
 .screen { min-width: 0; background: none; border: 0; border-radius: 0; padding: 0; box-shadow: none; }
 /* Экран теперь флекс-элемент: отступы детей не «схлопываются» с ним, возвращаем прежнюю отбивку. */
@@ -104,10 +105,10 @@ button:disabled { opacity: .5; cursor: not-allowed; }
 .badge-mixed { color: #bae6fd; border-color: rgba(56,189,248,.45); background: rgba(56,189,248,.12); }
 .ghost.back { margin-bottom: 10px; }
 /* Заголовок модуля, описание и кнопка «Главная» вынесены над контейнером: две колонки. */
-.subject-intro { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 12px; align-items: start; margin: 0 0 12px; }
-.subject-intro-text h2 { margin: 0 0 8px; }
-.subject-intro-text p { margin: 0; color: var(--muted); font-size: 14px; line-height: 1.55; }
-.subject-intro-back { margin: 0; white-space: nowrap; }
+/* Описание модуля на всю ширину: кнопка «Главная» переехала в шапку. */
+.subject-intro { margin: 0 0 12px; }
+.subject-intro h2 { margin: 0 0 8px; }
+.subject-intro p { margin: 0; color: var(--muted); font-size: 14px; line-height: 1.55; }
 /* Экран предмета: список тем тянется до края кнопки «Начать» и прокручивается внутри. */
 .app-home { min-height: 100vh; min-height: 100dvh; }
 .screen-home { display: flex; flex-direction: column; flex: 1 1 auto; min-height: 0; }
@@ -146,10 +147,8 @@ button:disabled { opacity: .5; cursor: not-allowed; }
     overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; border: 0;
   }
   .subject-action { margin-top: auto; padding: 10px 8px; font-size: 13px; line-height: 1.25; }
-  .subject-intro { gap: 10px; }
-  .subject-intro-text h2 { font-size: 18px; }
-  .subject-intro-text p { font-size: 13px; }
-  .subject-intro-back { padding: 8px 10px; }
+  .subject-intro h2 { font-size: 18px; }
+  .subject-intro p { font-size: 13px; }
   .topic-grid { gap: 8px; }
   .topic-grid li { padding: 0 0 8px; }
   .topic-grid li strong { font-size: 13px; }
@@ -163,7 +162,7 @@ button:disabled { opacity: .5; cursor: not-allowed; }
   .subject-card strong { font-size: 13px; }
   .subject-desc { font-size: 11px; }
   .subject-action { font-size: 12px; padding: 9px 6px; }
-  .subject-intro-text h2 { font-size: 17px; }
-  .subject-intro-text p { font-size: 12px; }
+  .subject-intro h2 { font-size: 17px; }
+  .subject-intro p { font-size: 12px; }
   .topic-grid li strong { font-size: 12px; }
 }

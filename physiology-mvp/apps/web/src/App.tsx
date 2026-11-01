@@ -64,15 +64,6 @@ function KeyChain({ items }: { items: string[] }) {
   );
 }
 
-function DraftBanner({ subject }: { subject: Subject }) {
-  if (subject.status !== 'draft') return null;
-  return (
-    <div className="banner" role="note">
-      Новый предмет. Все материалы — редакторский черновик; они не утверждены преподавателем и не предназначены для студенческого пилота.
-    </div>
-  );
-}
-
 function OptionResult({ question, feedback }: { question: Question; feedback: NonNullable<SessionState['feedback']> }) {
   const selectedOption = question.options.find((o) => o.option_id === feedback.optionId);
   const correctOption = question.options.find((o) => o.is_correct);
@@ -238,9 +229,11 @@ export default function App() {
         </div>
         <div className="top-actions">
           <span className="xp" aria-label="Баллы активности">{state.xp} баллов</span>
+          {state.screen === 'home' && (
+            <button className="ghost header-back" onClick={() => dispatch({ type: 'GO_LANDING' })}>← Главная</button>
+          )}
         </div>
       </header>
-      {state.screen !== 'landing' && <DraftBanner subject={subject} />}
 
       {state.screen === 'landing' && (
         <main className="screen landing">
@@ -290,13 +283,10 @@ export default function App() {
       {state.screen === 'home' && (
         <>
           <section className="subject-intro" aria-label="Описание модуля">
-            <div className="subject-intro-text">
-              <h2>{subject.moduleTitle}</h2>
-              <p>
-                {subject.description} После теории — вопрос, затем обратная связь.
-              </p>
-            </div>
-            <button className="ghost subject-intro-back" onClick={() => dispatch({ type: 'GO_LANDING' })}>← Главная</button>
+            <h2>{subject.moduleTitle}</h2>
+            <p>
+              {subject.description} После теории — вопрос, затем обратная связь.
+            </p>
           </section>
           <main className="screen screen-home">
           <ul className="list scroll topic-grid">
