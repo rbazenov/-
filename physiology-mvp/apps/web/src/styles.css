@@ -50,6 +50,64 @@ h2 { margin: 0 0 12px; font-size: 21px; line-height: 1.3; }
 .body { font-size: 16px; line-height: 1.6; margin: 0 0 14px; }
 .hint { color: var(--muted); font-size: 13px; }
 .muted { color: var(--muted); font-size: 13px; }
+/* Подсказка-жест: «палец» проводит влево по строке с текстом о свайпе.
+   Показывается один раз на браузер, не перехватывает нажатия и скрыта от скринридера. */
+.hint-row { position: relative; }
+.swipe-hint {
+  position: absolute;
+  inset: -8px 0;
+  overflow: hidden;
+  pointer-events: none;
+  border-radius: 10px;
+  animation: swipe-hint-fade 5.4s ease forwards;
+}
+.swipe-hint-trail {
+  position: absolute;
+  top: 50%;
+  right: 12%;
+  left: 12%;
+  height: 2px;
+  margin-top: -1px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, rgba(56,189,248,0), rgba(56,189,248,.5) 35%, rgba(255,255,255,.8) 100%);
+  transform: scaleX(0);
+  transform-origin: right center;
+  animation: swipe-hint-trail 2.6s ease-in-out 2;
+}
+.swipe-hint-dot {
+  position: absolute;
+  top: 50%;
+  left: 88%;
+  width: 28px;
+  height: 28px;
+  margin: -14px 0 0 -14px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 50% 50%, rgba(255,255,255,.9) 0 18%, rgba(56,189,248,.45) 46%, rgba(56,189,248,0) 72%);
+  box-shadow: 0 0 0 1px rgba(255,255,255,.35), 0 0 12px rgba(56,189,248,.45);
+  animation: swipe-hint-dot 2.6s cubic-bezier(.45,0,.55,1) 2;
+}
+@keyframes swipe-hint-dot {
+  0%   { left: 88%; opacity: 0; transform: scale(.8); }
+  14%  { opacity: 1; transform: scale(1); }
+  72%  { left: 12%; opacity: 1; transform: scale(1); }
+  88%  { left: 12%; opacity: .7; transform: scale(.9); }
+  100% { left: 12%; opacity: 0; transform: scale(.8); }
+}
+@keyframes swipe-hint-trail {
+  0%   { opacity: 0; transform: scaleX(0); }
+  14%  { opacity: 1; }
+  72%  { opacity: .85; transform: scaleX(1); }
+  88%  { opacity: .25; transform: scaleX(1); }
+  100% { opacity: 0; transform: scaleX(1); }
+}
+@keyframes swipe-hint-fade {
+  0%, 92% { opacity: 1; }
+  100%    { opacity: 0; }
+}
+/* Пользователь просил не анимировать — жест не показываем вовсе. */
+@media (prefers-reduced-motion: reduce) {
+  .swipe-hint { display: none; }
+}
 /* Причинная цепочка в рамке: стрелки только в разметке, CSS их не дублирует. */
 .chain {
   display: flex;
