@@ -36,12 +36,13 @@
 - `python tools/style_pass.py` — правки стиля и орфографии в банках, идемпотентно.
 - `python tools/validate_content.py` — структура, лицензии, статусы, длина текстов.
 - `python tools/sync_review_matrices.py` — формулировки в редакторских матрицах.
-- `bash tools/setup_spellcheck.sh` — словарь `ru_RU` для проверки орфографии.
+- `bash tools/setup_spellcheck.sh` — модуль `spylls` и словарь `ru_RU` для проверки орфографии. Словарь берётся из Debian-пакета `hunspell-ru` (LGPL-2.1+), при недоступных apt-зеркалах — из npm-пакета `dictionary-ru` (BSD-3-Clause, тот же hunspell-словарь).
 - `python tools/spellcheck.py` — орфография банков, интерфейса, документации и CSV.
 - `python tools/check_grammar.py` — согласование, пробелы, тире, кавычки, скобки.
 - `python tools/check_bundle_text.py` — совпадение строк сборки с банками.
+- `cd apps/web && npm ci` — зависимости приложения.
 - `cd apps/web && npm run typecheck && npm test -- --run && npm run build:standalone && npm run build`
-- Браузерные сценарии в `tools/` (запускать из `.cache/preview-tools`, где установлен Playwright): `test-expanded.mjs`, `test-new-subjects.mjs`, `test-mobile-grid.mjs` (сетка 2×2 на 320/360/390 px), `test-no-mixed-banner.mjs`, `test-subject-header.mjs`, `test-flat-screens.mjs` (учебные экраны без контейнера, окно возврата с подложкой).
+- Браузерные сценарии в `tools/` (запускать из `.cache/preview-tools`, где установлен Playwright с браузерами): `test-mobile-grid.mjs` (сетка 2×2 на 320/360/390 px), `test-no-mixed-banner.mjs`, `test-subject-header.mjs`, `test-flat-screens.mjs` (учебные экраны без контейнера, окно возврата с подложкой). Сценарии ждут проект по пути `/home/user/physiology-mvp`; при другом расположении поправьте `root` в скриптах.
 
 Словарь и зависимости проверки живут в `.cache` и не входят в снимок рабочей области. После восстановления рабочей области выполните `bash tools/setup_spellcheck.sh`.
 
