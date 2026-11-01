@@ -230,7 +230,7 @@ def build() -> None:
 
     # Part 2: questions without answer key.
     doc.add_heading("Часть 2. Вопросы без ключей", level=1)
-    para(doc, "Сначала оцените формулировку и варианты ответа. Ключи и обратная связь — в части 3.", color=MUTED)
+    para(doc, "Сначала оцените формулировку и варианты ответа. Ключи и объяснения — в части 3.", color=MUTED)
     difficulty_ru = {"baseline": "базовый", "application": "применение", "transfer": "перенос"}
     for index, question in enumerate(questions, start=1):
         doc.add_heading(f"Вопрос {index}/9 — {question['question_id']}", level=2)
@@ -257,7 +257,7 @@ def build() -> None:
     page_break(doc)
 
     # Part 3: answer key and feedback.
-    doc.add_heading("Часть 3. Ключи и обратная связь", level=1)
+    doc.add_heading("Часть 3. Ключи и объяснения", level=1)
     para(doc, "Только для редактора. В студенческом интерфейсе правильный ответ после первой ошибки не раскрывается.", bold=True)
     for index, question in enumerate(questions, start=1):
         doc.add_heading(f"{index}. {question['question_id']}", level=2)
