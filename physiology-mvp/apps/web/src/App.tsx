@@ -338,7 +338,7 @@ export default function App() {
           <section className="subject-intro" aria-label="Описание модуля">
             <h2>{subject.moduleTitle}</h2>
             <p>
-              {subject.description} После теории — вопрос, затем обратная связь.
+              {subject.description} После теории — вопрос, затем разбор ответа.
             </p>
           </section>
           <main className="screen screen-home">
@@ -421,7 +421,6 @@ export default function App() {
 
       {state.screen === 'feedback' && state.feedback && feedbackQuestion && card && (
         <main className="screen">
-          <p className="step">Обратная связь</p>
           <h2 className={state.feedback.correct ? 'ok-text' : 'bad-text'}>
             {state.feedback.correct ? 'Верно' : 'Пока неверно'}
           </h2>

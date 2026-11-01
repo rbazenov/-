@@ -67,7 +67,7 @@ for (const width of [390, 320, 1280]) {
 
   await page.locator('.option').first().click();
   await page.getByRole('button', { name: /Дальше|Разобраться|Продолжить/ }).first().waitFor();
-  await assertFlat(page, `обратная связь ${width}px`);
+  await assertFlat(page, `экран результата ${width}px`);
   await page.screenshot({ path: `/home/user/.cache/preview-tools/flat-feedback-${width}.png`, fullPage: true });
   await page.close();
 }
